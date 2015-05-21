@@ -1,0 +1,56 @@
+\documentclass{tufte-book}
+
+% I changed the tufte-common.def to move the chapter numbers a bit closer
+% the chapter line in the table of contents:
+%  \titlecontents{chapter}%
+%    [0em] % distance from left margin
+%    {\vspace{1.5\baselineskip}\begin{fullwidth}\LARGE\rmfamily\itshape} % %above (global formatting of entry)
+
+%%% this line I changed from 2em to 1em
+%    {\hspace*{0em}\contentslabel{1em}} % before w/label (label = ``2'')
+%%%
+
+%    {\hspace*{0em}} % before w/o label
+%    {\rmfamily\upshape\qquad\thecontentspage} % filler + page (leaders and %page num)
+%    [\end{fullwidth}] % after
+
+
+% then I run embed_fonts to put the fonts in
+
+
+\usepackage{mystyle}
+
+%\includeonly{chap-probability-applications}
+
+\begin{document}
+
+% Front matter
+\frontmatter
+
+\include{frontmatter}
+
+\mainmatter
+
+\include{chap-introduction}
+\include{chap-simple-applications}
+\include{chap-faith}
+\include{chap-miracles}
+\include{chap-resurrection}
+\include{chap-historical-methods}
+
+
+
+\backmatter
+
+\bibliography{bibdesk1}
+\bibliographystyle{plainnat}
+
+\appendix
+\setboolean{@mainmatter}{true}
+\include{appendix-test}
+
+\setboolean{@mainmatter}{false}
+
+\printindex
+
+\end{document}

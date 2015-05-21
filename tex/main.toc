@@ -1,0 +1,72 @@
+\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}
+\contentsline {section}{\numberline {1.1}Why write a book like this?}{13}{section.1.1}
+\contentsline {section}{\numberline {1.2}Who is this for?}{13}{section.1.2}
+\contentsline {section}{\numberline {1.3}Organization}{14}{section.1.3}
+\contentsline {section}{\numberline {1.4}Introduction to Probability}{14}{section.1.4}
+\contentsline {subsection}{The Basic Rules of Probability}{15}{subsection*.3}
+\contentsline {paragraph}{Rule 1 (Definition rule):}{15}{paragraph*.4}
+\contentsline {paragraph}{Rule 2 (Negation rule):}{15}{paragraph*.5}
+\contentsline {paragraph}{Rule 3 (Conjunction rule):}{16}{paragraph*.6}
+\contentsline {paragraph}{Rule 4 (Bayes' rule):}{17}{paragraph*.7}
+\contentsline {section}{\numberline {1.5}On Simplicity}{20}{section.1.5}
+\contentsline {section}{\numberline {1.6}On Knowledge, Belief, and Proof}{21}{section.1.6}
+\contentsline {section}{\numberline {1.7}Lessons from Probability}{24}{section.1.7}
+\contentsline {chapter}{\numberline {2}Simple Applications}{27}{chapter.2}
+\contentsline {section}{\numberline {2.1}Atheism and Agnosticism}{27}{section.2.1}
+\contentsline {subsection}{Different Data}{28}{subsection*.8}
+\contentsline {subsection}{More than two outcomes}{29}{subsection*.9}
+\contentsline {section}{\numberline {2.2}Avoiding the Veneer of Objectivity}{30}{section.2.2}
+\contentsline {subsection}{The Argument}{30}{subsection*.10}
+\contentsline {subsection}{The problem with the math - posteriors vs likelihoods}{31}{subsection*.11}
+\contentsline {subsection}{The problem with the premise regarding theism}{31}{subsection*.12}
+\contentsline {subsection}{The problem with the premise regarding atheism}{32}{subsection*.13}
+\contentsline {section}{\numberline {2.3}Will the Sun rise tomorrow?}{32}{section.2.3}
+\contentsline {subsection}{What does Hume say?}{33}{subsection*.14}
+\contentsline {subsection}{What does Laplace say?}{34}{subsection*.15}
+\contentsline {subsection}{Two theories}{35}{subsection*.16}
+\contentsline {section}{\numberline {2.4}Belief, Knowledge, and Scientific Literacy}{35}{section.2.4}
+\contentsline {section}{\numberline {2.5}Communicating Science}{38}{section.2.5}
+\contentsline {chapter}{\numberline {3}Faith: A Matter of Definitions}{43}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction to Faith and Probability}{43}{section.3.1}
+\contentsline {subsection}{Statements about Faith}{43}{subsection*.17}
+\contentsline {subsection}{Belief, Trust, and Faith}{44}{subsection*.18}
+\contentsline {subsection}{Utility - Probability and Action}{44}{subsection*.19}
+\contentsline {section}{\numberline {3.2}Rollercoasters: Faith in Everyday Life}{46}{section.3.2}
+\contentsline {section}{\numberline {3.3}Faith and Trust}{48}{section.3.3}
+\contentsline {subsection}{The Discussion}{48}{subsection*.20}
+\contentsline {subsection}{Addressing the Definitions}{49}{subsection*.21}
+\contentsline {subsection}{Analyzing the Responses}{50}{subsection*.22}
+\contentsline {subsection}{Priors and Faith}{51}{subsection*.23}
+\contentsline {subsection}{Without Evidence}{52}{subsection*.24}
+\contentsline {section}{\numberline {3.4}Does Science Have Faith?}{52}{section.3.4}
+\contentsline {section}{\numberline {3.5}Another Interaction - McGrath and Dawkins}{53}{section.3.5}
+\contentsline {subsection}{Inference to the Best Explanation}{54}{subsection*.25}
+\contentsline {subsection}{Shifting Sands}{55}{subsection*.26}
+\contentsline {section}{\numberline {3.6}I don't have enough faith to be an atheist}{57}{section.3.6}
+\contentsline {section}{\numberline {3.7}Pascal's Wager}{57}{section.3.7}
+\contentsline {section}{\numberline {3.8}A More Formal Exploration}{58}{section.3.8}
+\contentsline {chapter}{\numberline {4}Considering Miracles}{61}{chapter.4}
+\contentsline {section}{\numberline {4.1}How to Approach Miracles}{61}{section.4.1}
+\contentsline {subsection}{Initial Comments}{61}{subsection*.27}
+\contentsline {subsection}{Evaluating Miracle Claims - Some Lessons from UFOs}{61}{subsection*.28}
+\contentsline {subsection}{Miracles}{63}{subsection*.29}
+\contentsline {section}{\numberline {4.2}Healing Miracles}{64}{section.4.2}
+\contentsline {subsection}{Unbelievable? 17 Nov 2007 - Are miracles evidence for God? - 17 November 2007 -- Miracles and healing - is it evidence for the truth of Christianity?}{64}{subsection*.30}
+\contentsline {paragraph}{Description of Episode}{64}{paragraph*.31}
+\contentsline {paragraph}{Notes}{64}{paragraph*.32}
+\contentsline {chapter}{\numberline {5}On the Resurrection of Jesus}{69}{chapter.5}
+\contentsline {section}{\numberline {5.1}Is the resurrection 97\% likely?}{69}{section.5.1}
+\contentsline {paragraph}{The Probability of the Resurrection - Calum Miller \& Chris Hallquist - Unbelievable? - 06 July 2013 -- Is the resurrection 97\% likely as Swinburne claims?}{69}{paragraph*.33}
+\contentsline {paragraph}{Description of Episode}{69}{paragraph*.34}
+\contentsline {paragraph}{Notes}{70}{paragraph*.35}
+\contentsline {paragraph}{Afterward - a bit about priors}{73}{paragraph*.36}
+\contentsline {section}{\numberline {5.2}Resurrection and Regression}{73}{section.5.2}
+\contentsline {subsection}{Regression}{74}{subsection*.37}
+\contentsline {subsection}{Parameters and Ockham's Razor}{76}{subsection*.38}
+\contentsline {subsection}{Back to the Resurrection}{76}{subsection*.39}
+\contentsline {chapter}{\numberline {6}Historical Methods}{77}{chapter.6}
+\contentsline {chapter}{Bibliography}{79}{chapter*.40}
+\ttl@change@i {\@ne }{chapter}{0em}{\vspace {1.5\baselineskip }\begin {fullwidth}\LARGE \rmfamily \itshape }{\hspace *{0em}\appendixname ~\thecontentslabel : }{\hspace *{0em}}{\rmfamily \upshape \qquad \thecontentspage }\relax 
+\ttl@change@v {chapter}{}{}{\end {fullwidth}}\relax 
+\contentsline {chapter}{\numberline {A}Test}{81}{appendix.A}
+\contentsfinish 
