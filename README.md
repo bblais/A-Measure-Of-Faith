@@ -1,6 +1,6 @@
 ## A Measure of Faith - Probability in Religious Thought
 
-![](https://github.com/bblais/A-Measure-Of-Faith/blob/master/img/cover_draft2.png)
+![](https://github.com/bblais/A-Measure-Of-Faith/blob/master/img/cover_draft2_small.png)
 
 This book is written to address the role that the mathematics of probability can play when applied to topics in religion.  Specifically, we have found that there are two primary purposes of this approach:
 
