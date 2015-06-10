@@ -45,7 +45,7 @@ For a complete description of these rules, and their application in general stat
 
 \subsubsection{Rule 1 (Definition rule):}
 
-$P(A)$ is a number between 0 and 1, representing the strength of belief in a statement, $A$
+$P(A)$ is a number between 0 and 1, representing the strength of belief in a statement, $A$.
 
 An example is 
 \beqn
@@ -230,15 +230,26 @@ When we prefer a ``simpler'' model with Ockham's razor, simpler means fewer such
 
 
 \section{On Belief, Knowledge, and Proof}
-\TODO{break this up}
 
-Now that we have the structure and notation of probabilities, we can address a number of related terms.  We start with {\em belief}. \TODO{more on belief needed}
+Clearly the terms belief, knowledge, and proof are related but it is the framework of probability that helps us be specific about their differences.  We can summarize the situation with the following,
+\bi
+\i \emph{Belief} is measured by probability.  Higher probability is equivalent to stronger belief, and likewise, lower probability is equivalent to weaker belief.
+\i \emph{Knowledge} is a subset of belief, described more specifically below.
+\i \emph{Proof} refers specifically to the result of a \emph{deductive} process.  In this process, one starts with some (given) axioms, and can demonstrate \emph{with certainty} (i.e. prove) a number of theorems (i.e direct consequences) from those axioms.  Thus, the word proof should only be used in situations involving \emph{certainty}, or in other words, probabilities of exactly 1 or exactly 0 only.
+\ei
+
+\subsection{Belief}
+
 \begin{quote}
 We say we believe a proposition $A$ when $P(A)>0.5$.  We say we
 believe \emph{strongly} in a proposition $A$ when $P(A)>0.95$
 or some other, somewhat arbitrary, high number.  The strength of a
 belief is a \emph{scale} measured my the probability assigned to that proposition.
 \end{quote}
+
+Everything we have covered so far in this book relates to belief.
+
+\subsection{Knowledge}
 
 What is knowledge?  Plato gave the following definition of knowledge:
 
@@ -250,10 +261,8 @@ This is an unsatisfying definition because, it seems, in
 order to justifiably label anything as \emph{knowledge} with this
 definition we'd need to be able to independently determine that the
 proposition is true. This presupposes that there is some ``outside''
-knowledge, which I feel comes too close to assuming a religious
-justification at the outset.  We believe there is likely to be a truth to be known, but that we can never truly know what it is for certain -but this is not a problem. It is a red herring to bring up 100\% certainty for knowledge, because it is never achievable, and isn't what we practically call knowledge. We prefer a definition inspired by Stephen J Gould:\marginnote{In this way, knowledge is a subset of belief.}
-
-\TODO{too fast}
+knowledge, which we feel comes too close to assuming a religious
+justification at the outset.  We believe there is likely to be a truth to be known, but that we can never truly know what it is for certain - but this is not a problem. It is a red herring to bring up 100\% certainty for knowledge, because it is never achievable, and isn't what we practically call knowledge. We prefer a definition inspired by Stephen J Gould:\marginnote{In this way, knowledge is a subset of belief.}
 
 \begin{quote}
 In science, `fact' can only mean `confirmed to such a degree that it
@@ -263,12 +272,23 @@ time in physics classrooms.'\cite{gould1981evolution}
 \end{quote}
 
 Where it says ``fact'', read ``knowledge''.  Where it says ``science''
-read ``life''.  We label things as knowledge in our lives when they are
-``confirmed to such a degree that it would be perverse to withhold
-provisional assent.''  Thus, $P(A)>0.9999 \approx 1$\marginnote{$P(A)\approx 1$ means that the probability of $A$ is {\em approximately} equal to 1}.  Notice that we don't need 100\% certainty to claim knowledge, and that it is possible for the ``knowledge'' to be wrong (although, by definition, it is highly unlikely for this to be the case).  
+read ``life''.  The fact, or knowledge, that the Sun rises in the east and sets in 
+the west is not due to a formal \emph{proof} that this is always true, or will 
+continue indefinitely into the future.  It is an admission that the probability is so 
+outrageously high, given the evidence of every other sun rise and sun set observed, 
+and the further confirmation of models of the solar system, that it would be ``perverse to withhold provisional assent''.  We accept the claim as a practical matter, despite not being 100\% certain, because of the overwhelming probabilities.  This we call knowledge.  It is thus never a problem to admit lack of certainty in knowledge, and it can be seen as an obvious diversion if anyone tries to argue in a manner that suggests it's a problem.
+
+Mathematically, we might write it as $P(A)>0.9999 \approx 1$\marginnote{$P(A)\approx 1$ means that the probability of $A$ is {\em approximately} equal to 1}.  Notice that we don't need 100\% certainty to claim knowledge, and that it is possible for the ``knowledge'' to be wrong (although, by definition, it is highly unlikely for this to be the case).  
+
+We can ask the question, how did we come to this knowledge?  The answer is simply, by applying the rules of probability!  According to Bayes' rule, we update our probabilities given the evidence.  This can lead us to approach, but never equal, probability of 1.  We can approach, but never achieve, complete certainty of any claim.  Rationality only insists that we apply the rules of probability systematically. 
+
+\subsection{Proof}
 
 Do {\em proof} and {\em evidence} mean the same thing?  No, they don't. To summarize,
-\TODO{define proof first}
+proof refers specifically to the result of a \emph{deductive} process.  In this process, one starts with some (given) axioms, and can demonstrate \emph{with certainty} (i.e. prove) a number of theorems (i.e direct consequences) from those axioms.  Thus, the word proof should only be used in situations involving \emph{certainty}, or in other words, probabilities of exactly 1 or exactly 0 only.
+
+Evidence, however, factors into inference through an \emph{inductive} process, not \emph{deductive}.  Induction is just another name for the application of the rules of probability, so we have been doing that from the beginning of the book.  Deduction is just another name for formal logic, where the probabilities are restricted to values of 0 or 1 only.  As a result, we have the following maxim,
+
 
 \begin{quote}
 \emph{Proof} does not exist in science, only in math and philosophy.
@@ -287,8 +307,7 @@ Philosophy Stupid'' talk}, his
 and his
 \href{http://infidels.org/library/modern/richard_carrier/theory.html}{articles})}.
 
-The mapping {\em proof} to probability theory is quite easy: proofs involve probabilities which are either $P(A)=1$ or $P(A)=0$ without any other values coming in.  Another way of putting it is that probability theory contains deductive logic as a special case.  As it applies to science, it has the following consequence
-\TODO{too fast}
+Another way of putting it is that probability theory contains deductive logic as a special case.  As it applies to science, it has the following consequence
 
 \begin{quote}
 All of the evidence in the universe cannot bring the probability of a
@@ -333,9 +352,6 @@ For it to be {\em reasonable to believe in something}, it must rise to a level o
 \ee
 
 In each of these cases there is in fact strong evidence for the claims, and against the counter claims, to make it reasonable to believe them (at the time).  It is no longer reasonable to believe these claims - the process of reason forces one to adjust the probabilities of the hypotheses given new evidence, and to discard those hypotheses that become too improbable.
-
-For example, proper reasoning concludes that special revelation is not reliable, and thus cannot be used as strong evidence for adjusting probabilities.\TODO{explain more}
-
 
 
 \section{Lessons from Probability}

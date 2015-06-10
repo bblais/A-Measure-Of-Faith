@@ -9,10 +9,10 @@ In this chapter we explore a number of simple applications of the framework of p
 Fewer words are as loaded and lead to as much disagreement on definitions as the terms {\em atheism} and {\em agnosticism} do.  In this work, we will define these words in a particular way, which we find the most consistent amongst the many different competing usages.  
 \bi
 \i Theism and atheism refer to {\em belief}
-\i To be a {\em theist} simply means to believe in one, or more, personal gods.  This is in contrast to a {\em deist} who believes in an impersonal god.  Since deist beliefs are untestable,\TODO{explain why?} they are not addressed at all in this book.  Typically, we will be addressing the Christian or other monotheist arguments, but occasionally bring in polytheist beliefs as they apply.
+\i To be a {\em theist} simply means to believe in one, or more, personal gods.  This is in contrast to a {\em deist} who believes in an impersonal god - a god that, for example, created the universe and then stands back and doesn't interact at all with it.  As a result of this lack of interaction, deist beliefs are untestable - there can't be any consequences to measure a non-interacting god.  Because of this, deist beliefs are not addressed at all in this book.  Typically, we will be addressing the Christian or other monotheist arguments, but occasionally bring in polytheist beliefs as they apply.
 \i To be an {\em atheist} simply means that one does not {\em believe} in the existence of any gods.  It is a statement of being unconvinced.  It is not a statement of confidence that there is no God, just that the arguments for the existence of God is unconvincing.
 \i Gnosticism and agnosticism refers to {\em knowledge} (which is a subset of belief)
-\i {\em Agnostics} believe that they cannot {\em know} whether there is a God or not, whole {\em gnostics} claim that {\em knowledge} can be had for (or against) the existence of God.  Thus, one can be an agnostic theist or agnostic atheist\footnote{Sometimes an agnostic atheist is called a weak-atheist, and a gnostic atheist a strong atheist, but we find these terms a bit too pejorative to use.}.  Also note, that {\em knowledge} is being used as described earlier, not as absolute certainty, but extremely high confidence. 
+\i {\em Agnostics}\marginnote{Sometimes an agnostic atheist is called a weak-atheist, and a gnostic atheist a strong atheist, but we find these terms a bit too pejorative to use.} believe that they cannot {\em know} whether there is a God or not, whole {\em gnostics} claim that {\em knowledge} can be had for (or against) the existence of God.  Thus, one can be an agnostic theist or agnostic atheist.  Also note, that {\em knowledge} is being used as described earlier, not as absolute certainty, but extremely high confidence. 
 \ei
 
 An analogy can help sort things out.  Say we have two explanations of the number of stars, one that
@@ -187,8 +187,6 @@ or, in other words, the regularity of the universe is much more likely given fai
 
 \subsection{The problem with the premise regarding
 theism}\label{the-problem-with-the-premise-regarding-theism}
-
-\TODO{this is good, need more like this}
 
 The next problem is that it seems that Calum Miller is  trying
 to sneak in many more details into his theism than his argument would
@@ -638,3 +636,31 @@ and use plots like these. Perhaps there is a better way to display it
 that does not do violence to the truth, and we'd be open to that.  We think getting in the habit of making plots like this would be good for the
 scientist as well, forcing them to address and communicate the actual
 uncertainties in their claims.  When we explore specific religions topic like miracles, this sort of thinking and communication of data could be critical.
+
+\section{Personal Revelation as Evidence}
+
+The definition of personal revelation is the idea that God speaks directly to an individual, who then communicates their message to others.  Unfortunately, there is never any way to confirm personal revelation, so can it be used as evidence for God?  yes, but not very good evidence.  This is due to the combination of two things:
+\be
+\i The prior probability for God is low ($P(H)\ll 1$) and,
+\i The probability that someone would make the claim of divine attention even if there is no divine is substantial ($P(C|\mathbf{not}\,H)\approx 1$)
+\ee
+The second point is because there is both a vested interest for someone to distort a message or claim divine support. In addition it is also quite common for people to mistakenly attribute agency to non-agent driven events as well as to see patterns where there are none.  These common human traits give rise to the following relationships,
+
+The probability of the God hypothesis ($H$) given the claim of personal revelation ($C$) is
+\beqn
+P(H|C) &=& \frac{P(C|H)P(H)}{P(C)}
+\eeqn
+
+The various terms, as discussed above, are
+\beqn
+P(C|H) &\approx& 1 \\
+P(H) &\ll& 1 \\
+P(C) &=& \underbrace{P(C|H)P(H)}_{\rm small} + \underbrace{P(C|\mathbf{not}\, H)P(\mathbf{not}\, H)}_{\rm large}
+\eeqn
+thus
+\beqn
+P(H|C) &\approx& \frac{\rm small}{\rm large}\\
+&\ll& 1
+\eeqn
+which means that personal revelation is poor evidence for the existence of God.  
+
