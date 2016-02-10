@@ -1,0 +1,154 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset0 Cochin;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\fi360\sl288\slmult1\pardirnatural
+
+\f0\fs28 \cf0 ## <$Title>\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\fi360\sl288\slmult1\pardirnatural
+\cf0 \
+Continuing with the Miller-Croft debate, Miller eventually brings up the analogy with evidence for the sun coming up as an example of knowledge claims and models.  The analogy fails when we look at the details of how this evidence is calculated.\
+\
+Calum Miller describes philosopher David Hume on the justification for the sun rising tomorrow, and then continues with the analogy of model building in this situation,\
+\
+\\pquote\{Hume basically noted that we don't have any non-circular\
+justification for thinking that the universe will be regular, that it\
+will continue to be regular in the future. \{[\}\\ldots\{\}\{]\} He doesn't\
+just say that we have to be a bit unsure that the sun will rise\
+tomorrow, he says that we have no good reason at all for thinking the\
+sun will rise tomorrow. The most common justification that the sun will\
+rise tomorrow is that it has risen every day in the past. But then if\
+you compare two theories, one says that the sun rises everyday in the\
+past and in the future and the other theory says that the sun rises\
+everyday in the past but won't rise tomorrow. Both those theories\
+predict the observations we already have, both those theories lead us to\
+expect the observations, and so the observations we currently have don't\
+distinguish between these two theories. And yet one of those theories\
+predicts the sun will rise tomorrow and one of them predicts that the\
+sun won't rise tomorrow. So, even though we have those observations,\
+they don't really do an obviously good job of determining which of these\
+theories is true. \{[\}\\ldots\{\}\{]\} He is saying that the past observations\
+don't give us that good reason for thinking that the sun will rise\
+tomorrow. This is the Problem of Induction and has perplexed\
+philosophers for centuries.\}\
+\
+\\subsection\{What does Hume say?\}\
+\
+It is instructive to note that Hume predates the mathematics of probability, and see what Hume \{\\em actually\} says about the Sun rising\\cite\{Hume:1748aa\},\
+\\pquote\{\
+Matters of fact, which are the second objects of human reason, are not\
+ascertained in the same manner; nor is our evidence of their truth,\
+however great, of a like nature with the foregoing. The contrary of\
+every matter of fact is still possible, because it can never imply a\
+contradiction, and is conceived by the mind with the same facility and\
+distinctness, as if ever so conformable to reality. That the sun will\
+not rise tomorrow is no less intelligible a proposition, and implies no\
+more contradiction, than the affirmation, that it will rise. We should\
+in vain, therefore, attempt to demonstrate its falsehood. Were it\
+demonstratively false, it would imply a contradiction, and could never\
+be distinctly conceived by the mind.\}\
+\
+Here Hume is essentially stating that all propositions have a non-zero\
+probability (however small they might be) unless they are\
+\\emph\{logically\} impossible. This is not saying, at all, that we have no\
+good reason to believe the sun will rise tomorrow.\
+\
+\
+\\pquote\{The bread, which I formerly ate, nourished me: that is, a body of such\
+sensible qualities was, at that time, endued with such secret powers;\
+but does it follow, that other bread must also nourish me at another\
+time, and that like sensible qualities must always be attended with like\
+secret powers? The consequence seems nowise necessary.\\cite\{Hume:1748aa\}\
+\}\
+\
+Again, although Hume predates probability theory, this is essentially\
+what he is saying - the consequence is not logically \\emph\{necessary\}\
+(i.e. \\(P(\{\\rm consequence\}|\{\\rm observations\})<1\\)). We see this as a\
+direct application of probability theory, a totally uncontroversial\
+application at that.\
+\
+The so-called ``problem of induction'' to which Calum Miller refers is not really a problem. It is a direct consequence of the mathematics of probability, and thus is the result of mathematical axioms.  Hume is not claiming that there is \{\\em no\} good reason to see the\
+consequence following from the the observations, only that he is unable to find a good reason,\
+\
+\\pquote\{\
+The connection between these propositions is not intuitive. There is\
+required a medium, which may enable the mind to draw such an inference,\
+if indeed it be drawn by reasoning and argument. What that medium is, I\
+must confess, passes my comprehension, and it is incumbent on those to\
+produce it, who assert that it really exists, and is the origin of all\
+our conclusions concerning matter of fact.\
+\}\
+\
+The medium Hume refers to is simply the mathematics of probability,\
+something which post-dates Hume's writings. Hume was being honest that\
+he didn't see a way, and he did not claim that there was \{\\em no possible\} way - that would be an ``argument from ignorance'' fallacy.\
+\
+\\subsection\{What does Laplace say?\}\
+\
+Once we have probability theory, then we can actually do some simple\
+calculations concerning the probability of the sun rising tomorrow. Of\
+course these calculations are not a complete description of the problem,\
+but give the flavor of it. Laplace used the sunrise problem as an\
+example application of his Rule of Succession, which itself is derived\
+from the rules of probability. The calculation goes something like this.\
+\
+\\begin\{itemize\}\
+\\itemsep1pt\\parskip0pt\\parsep0pt\
+\\item\
+  Our model is that the sun rises with unknown probability \\(p\\)\
+\\item\
+  Given complete ignorance of \\(p\\) we assume an initial uniform\
+  probability (all values are equivalent)\
+\\item\
+  The sun has risen every day for the written record, say, 10000 years\
+\\item\
+  the probability for rising tomorrow, which is also the mean value of\
+  \\(p\\) over the posterior probability, is given by the Rule of\
+  Succession\\cite\{Wikipedia:2015ab\} (also known as the ``assume one success and one\
+  failure''\\cite\{Blais:2014aa\}):\
+\\end\{itemize\}\
+\
+\\newcommand\{\\yr\}\{\\mbox\{year\}\}\
+\\renewcommand\{\\day\}\{\\mbox\{day\}\}\
+\\beqn\
+P\\left(\\parbox\{.7in\}\{rise\\\\tomorrow\}\\middle|\\parbox\{1in\}\{rose today,\\\\rose yesterday, \\\\$\\ldots$,\\\\ on day 0\}\\right)&=&\
+\\frac\{10000 \\yr \\times 365 \\day/\\yr+1\}\{10000 \\yr \\times 365 \\day/\\yr+2\}\\\\\
+&=&0.9999997\
+\\eeqn\
+\
+It gets\
+messier when you can't even assume that both a failure and a success\
+are possible, but it can\
+still be done without any change to the qualitative result.\
+\
+Clearly we have quite good reasons to believe the that sun will rise\
+tomorrow.\
+\
+\\subsection\{Two theories\}\\label\{two-theories\}\
+\
+We go back to Calum Miller's two theories:\
+\
+\\pquote\{\
+If you compare two theories, one says that the sun rises everyday in the\
+past and in the future and the other theory says that the sun rises\
+everyday in the past but won't rise tomorrow. Both those theories\
+predict the observations we already have, both those theories lead us to\
+expect the observations, and so the observations we currently have don't\
+distinguish between these two theories.\
+\}\
+\
+The situation for arguing a high probability of tomorrow's sun rise is\
+far more compelling, however, because our information is not simply that\
+the sun has risen in the past, but includes observations of the patterns\
+of the seasons, the predictions of the phases of the moon and Venus, and\
+a whole host of other factors which significantly increase the chance\
+the sun will rise. Laplace knew this well, and was using this example\
+not as a serious calculation, but as a pedagogical example.\
+\
+As a consequence, both of Calum Miller's so-called theories do \\emph\{not\}\
+predict the observations we already have - only one of them does. Even\
+if we accept just the observations for which both theories are\
+consistent in the past, one has to view this two-theory perspective from\
+the point of prediction. Imagine it's now tomorrow, and ``Theory B'' doesn't work - so we modify it to say the sun won't rise \\emph\{tomorrow\} (the new tomorrow). That next day comes with a sunrise, and this ``Theory B 2.0'' is wrong (again) and has to be modified (again). It is clear that ``Theory B'' fails, and we should be less confident in it. That's why, in science, it isn't nearly enough to be consistent with past data - one must make predictions, not just post-dictions, and test it. It is often trivial to come up with ``explanations'' for data we already have - especially when we can be infinitely plastic in the models we propose. \
+\
+\
+}
