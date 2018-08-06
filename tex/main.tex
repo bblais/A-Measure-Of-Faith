@@ -1,4 +1,7 @@
 \documentclass{tufte-book}
+\usepackage{mystyle-tufte}
+
+
 
 % I changed the tufte-common.def to move the chapter numbers a bit closer
 % the chapter line in the table of contents:
@@ -18,7 +21,6 @@
 % then I run embed_fonts to put the fonts in
 
 
-\usepackage{mystyle}
 
 %\includeonly{chap-probability-applications}
 
@@ -42,8 +44,8 @@
 
 \backmatter
 
-\bibliography{bibdesk1}
-\bibliographystyle{plainnat}
+\bibliography{main}
+\bibliographystyle{apalike}
 
 \appendix
 \setboolean{@mainmatter}{true}

@@ -1,0 +1,542 @@
+<html>
+
+<head>
+<title>Measure Of Faith first attempt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	body {background-color: #bac0c7}
+    p.binderItem {margin: 10.0px 0.0px 0.0px 05.0px; font-family:Cochin, Times, Courier, Arial, serif; font-size:14.0px;}
+    .page {border: 1px solid #727272; background: #fff}
+    hr {
+      border-top: 1px dashed #000;
+      border-bottom: 0px solid #fff;
+      color: #fff;
+      background-color: #fff;
+      height: 0px;
+  </style>
+</head>
+
+<body>
+
+<table border="0" width="100%" cellspacing="3">
+<tr>
+<td>
+
+<table class="page" width="100%" cellspacing="10" cellpadding="2">
+<tr>
+<td valign="top">
+
+<ul>
+<li>
+<p class="binderItem"><strong>Frontmatter</strong><br/><!-- \frontmatter --><br/>
+</p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Cover</strong><br/><!--<br/>
+\newpage\thispagestyle{empty}<br/>
+\graphicspath{{/Users/bblais/Documents/img/}}<br/>
+\maketitlepagewithimage{cover_draft2}<br/>
+--></p>
+</li>
+<li>
+<p class="binderItem"><strong>Quotes</strong><br/><!--<br/>
+% or <br/>
+% \blankpage<br/>
+<br/>
+% v.2 epigraphs<br/>
+\newpage\thispagestyle{empty}<br/>
+\openepigraph{%<br/>
+Faith is taking the first step even when you don't see the whole staircase.}{Martin Luther King, Jr.}<br/>
+\vfill<br/>
+\openepigraph{%<br/>
+Life's most important questions are, for the most part, nothing but probability problems.<br/>
+}{Pierre-Simon Laplace%, {\itshape Design, Form, and Chaos}<br/>
+}<br/>
+\vfill<br/>
+\openepigraph{%<br/>
+Faith consists in believing when it is beyond the power of reason to believe.}{Voltaire}<br/>
+\vfill<br/>
+<br/>
+<br/>
+--></p>
+</li>
+<li>
+<p class="binderItem"><strong>maketitle</strong><br/><!--<br/>
+\ifx\citep\undefined<br/>
+   \let\citep\cite<br/>
+   \let\citet\cite<br/>
+\else<br/>
+   \renewcommand\citep{\cite}<br/>
+   \renewcommand\citet{\cite}<br/>
+\fi<br/>
+<br/>
+\maketitle<br/>
+--></p>
+</li>
+<li>
+<p class="binderItem"><strong>Copyright</strong><br/><!--<br/>
+<br/>
+% v.4 copyright page<br/>
+\newpage<br/>
+\begin{fullwidth}<br/>
+~\vfill<br/>
+\thispagestyle{empty}<br/>
+\setlength{\parindent}{0pt}<br/>
+\setlength{\parskip}{\baselineskip}<br/>
+Copyright \copyright\ \the\year\ \thanklessauthor<br/>
+<br/>
+\par\smallcaps{Published by \thanklesspublisher}<br/>
+<br/>
+\par\smallcaps{typeset with tufte-latex}<br/>
+<br/>
+\par     This book is licensed under the Creative Commons<br/>
+    Attribution-ShareAlike license, version 3.0, <br/>
+    \url{http://creativecommons.org/licenses/by-sa/3.0/},<br/>
+    except for those photographs and<br/>
+    dr...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Dedication</strong><br/><!--<br/>
+% r.7 dedication<br/>
+\cleardoublepage<br/>
+~\vfill<br/>
+\begin{doublespace}<br/>
+\noindent\fontsize{18}{22}\selectfont\itshape<br/>
+\nohyphenation<br/>
+Dedicated to...<br/>
+\end{doublespace}<br/>
+\thispagestyle{empty}<br/>
+\vfill<br/>
+\vfill<br/>
+<br/>
+<br/>
+--></p>
+</li>
+<li>
+<p class="binderItem"><strong>Acknowledgements</strong><br/><!--<br/>
+% r.7 <br/>
+\cleardoublepage<br/>
+% names listed in acknowledgements_list.txt<br/>
+% alphabetized with make_acknowledgements.py<br/>
+%\input acknowledgements.tex<br/>
+<br/>
+--></p>
+</li>
+<li>
+<p class="binderItem"><strong>TOC and LOF</strong><br/><br/>
+<!--<br/>
+<br/>
+% r.5 contents<br/>
+\tableofcontents<br/>
+<br/>
+\listoffigures<br/>
+<br/>
+<br/>
+\cleardoublepage<br/>
+<br/>
+<br/>
+\mainmatter<br/>
+--><br/>
+</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>Introduction</strong><br/>This is where I introduce the material</p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Quote</strong><br/>> *Life's most important questions are, for the most part, nothing but probability problems.* - Laplace</p>
+</li>
+<li>
+<p class="binderItem"><strong>Why write a book like this?</strong><br/>## <$Title><br/>
+<br/>
+This book is written to address the role that the mathematics of probability can play when applied to topics in religion.  Specifically, we have found that there are two primary purposes of this approach:<br/>
+<br/>
+1. Bring clarity to other similar treatments of these topics.  The mathematics of probability have, unfortunately, been used to give the veneer of authority and objectivity to Christian apologetic arguments that are not well supported[#swinburne2003resurrection].  This is typicall...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Who is this for?</strong><br/>## <$Title><br/>
+<br/>
+Although we intend this book to be technical, we do not want to scare away those who are less mathematical.  In fact, we would consider it a success if someone who is not particularly inclined in the mathematical arts would be able to get a new appreciation for these topics upon reading this book.  Therefore, we will try to limit the technical aspects to those that are only absolutely necessary, and will rely heavily on specific examples at all times.<br/>
+</p>
+</li>
+<li>
+<p class="binderItem"><strong>Organization</strong><br/>## <$Title><br/>
+<br/>
+In this chapter we outline the basics of probability, applied to a few simple cases.  We then explore in subsequent chapters the details of specific concepts, including *faith*, *miracles*, and *historical methods*.  Typically, these explorations center around responses to particular works, podcast discussions and debates.  </p>
+</li>
+<li>
+<p class="binderItem"><strong>Introduction to Probability</strong><br/>## <$Title><br/>
+<br/>
+When we speak about probability, we speak about a percentage chance (0%-100%) for something to happen, although we often write the percentage as a decimal number, between 0 and 1.  If the  probability of an event is 0 then it is the same as saying that you are certain that the event will never happen.  If the probability is 1 then {\em you are certain that it will happen}.  Life is full of uncertainty, so we assign a number somewhere between 0 and 1 to describe our state of knowledg...</p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>The Basic Rules of Probability</strong><br/>###  <$Title><br/>
+<br/>
+For a complete description of these rules, and their application in general statistical inference there are several books available, one of which from the present author[#Blais:2014aa].  We will need to establish a basic set of notation and mathematics in order to address the concepts.  This notation will in some cases make clear and condensed (due the terseness of mathematics) much longer expositions of the same concepts in English.  In other cases it will provide a systematic fr...</p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Rule 1 (Definition rule)</strong><br/>#### Rule 1 (Definition rule):<br/>
+<br/>
+$P(A)$ is a number between 0 and 1, representing the strength of belief in a statement, $A$.<br/>
+<br/>
+An example is  $$P(\mbox{you will get struck by lightning sometime in your life}) = 0.0002$$<br/>
+<br/>
+Although this probability is estimated by the fraction of people being struck by lightning, whenever we write probabilities we are referring to a measure of the strength of one's belief in a proposition.  Thus, this probability means that you believe it to be extremely unlikely t...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Rule 2 (Negation rule)</strong><br/>#### Rule 2 (Negation rule):<br/>
+<br/>
+$$P(A) + P({\rm\bf not}\, A) = 1$$<br/>
+In other words, either a statement is true or its negation is true.<br/>
+<!--<br/>
+\beqn<br/>
+H&\equiv&\left\{\parbox{1.5in}{“you will get struck by lightning sometime in your life”}\right. \\<br/>
+P(H)+P({\rm\bf not}\, H)&=&1<br/>
+\eeqn<br/>
+--><br/>
+means that you can be certain that either you will be struck by lightning in your life or you won't.  This seems rather obvious, and you may be wondering why we even bring it up, but it becomes a source of one of the m...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Rule 3 (Conjunction rule)</strong><br/>#### Rule 3 (Conjunction rule):<br/>
+<br/>
+$$\P{$A$ and $B$} = P(B|A)P(A)$$<br/>
+which is the probability of two statements both being true, A **and** B.  We define a new symbol, $|$, which should be read as ``given.''  When there is information given, we call this probability *conditional* on that information. <br/>
+<br/>
+<!--<br/>
+\beqn<br/>
+H&\equiv&\left\{\parbox{1.5in}{``you will get struck by lightning sometime in your life''}\right. \\<br/>
+G&\equiv&\left\{\parbox{1.5in}{``you like to play golf in the rain''}\right. \\<br/>
+\P{$H$ a...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Rule 4 (Bayes' rule)</strong><br/>#### Rule 4 (Bayes' rule):<br/>
+<br/>
+ This rule is perhaps the most obtuse to see for the first time, but is by far the most important rule of them all, so it is worth the effort.  Because of this, we will choose to write it in a somewhat more elaborated form, and rewrite it several ways.<br/>
+$$\Pg{explanation}{data} &=& \frac{\Pg{data}{explanation}\P{explanation}}{\P{data}}$$<br/>
+where each term is described more fully as <br/>
+<br/>
+1. $\P{explanation}$ - this is the probability the explanation is correct *prior* to see...</p>
+</li>
+</ul>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>On Simplicity</strong><br/>## <$Title><br/>
+<br/>
+Ockham's razor, which is the philosophical idea that simpler theories are preferred, is a consequence of Bayes' rule when comparing models of differing complexity[#jefferys1991sharpening].  We can see this by extending the card game example with a fifth possibility.  Instead of giving the specific cards in this deck, we are simply told<br/>
+<br/>
+1. $E_5:$ the deck can have anywhere from zero to three $3\spades$, and enough other cards to make a total of four cards<br/>
+<br/>
+This explanation of the ga...</p>
+</li>
+<li>
+<p class="binderItem"><strong>On Belief, Knowledge, and Proof</strong><br/>## <$Title><br/>
+<br/>
+Clearly the terms belief, knowledge, and proof are related but it is the framework of probability that helps us be specific about their differences.  We can summarize the situation with the following,<br/>
+<br/>
+* *Belief* is measured by probability.  Higher probability is equivalent to stronger belief, and likewise, lower probability is equivalent to weaker belief.<br/>
+* *Knowledge* is a subset of belief, described more specifically below.<br/>
+* *Proof* refers specifically to the result of a *deduct...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Lessons from Probability</strong><br/>## <$Title><br/>
+<br/>
+The mathematics of probability theory is the gold standard for all statistical inference.  It structures all inference in a systematic fashion.  However, it can be used without doing any calculations, as a guide to qualitative inference.  Some of the lessons that are consequences of probability theory are listed here, and will be noted throughout this text in various examples.<br/>
+<br/>
+* Confidence in a claim should scale with the evidence for that claim - the more evidence the higher confi...</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>Simple Appllications</strong><br/># <$Title><br/>
+<br/>
+In this chapter we explore a number of simple applications of the framework of probability on topics in religion.<br/>
+<br/>
+</p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Atheism and Agnosticism</strong><br/>## <$Title><br/>
+<br/>
+Fewer words are as loaded and lead to as much disagreement on definitions as the terms {\em atheism} and {\em agnosticism} do.  In this work, we will define these words in a particular way, which we find the most consistent amongst the many different competing usages.  <br/>
+\bi<br/>
+\i Theism and atheism refer to {\em belief}<br/>
+\i To be a {\em theist} simply means to believe in one, or more, personal gods.  This is in contrast to a {\em deist} who believes in an impersonal god - a god that, fo...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Avoiding the Veneer of Objectivity</strong><br/>## <$Title><br/>
+<br/>
+There is a danger of using mathematics to give the<br/>
+veneer of objectivity to an argument that is riddled with random<br/>
+guesses, ill-defined concepts, and unsupported premises. In this section, we analyze some statements made in a podcast debate between theist Calum Miller and atheist James Crofta, expressed as probability statements\cite{Brierley:2014ab}.<br/>
+<br/>
+\subsection{The Argument}\label{the-argument}<br/>
+<br/>
+\ppquote{I think one useful way of thinking about is to consider<br/>
+what evidence is in...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Will the Sun rise tomorrow?</strong><br/>## <$Title><br/>
+<br/>
+Continuing with the Miller-Croft debate, Miller eventually brings up the analogy with evidence for the sun coming up as an example of knowledge claims and models.  The analogy fails when we look at the details of how this evidence is calculated.<br/>
+<br/>
+Calum Miller describes philosopher David Hume on the justification for the sun rising tomorrow, and then continues with the analogy of model building in this situation,<br/>
+<br/>
+\pquote{Hume basically noted that we don't have any non-circular<br/>
+justi...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Belief, Knowledge, and Scientific Literacy</strong><br/>## <$Title><br/>
+<br/>
+Concepts about belief and knowledge arose in the National Science Foundation survey on scientific literacy.  The NSF had decided to change the wording of two questions in the<br/>
+survey. The original wording is <br/>
+\pquote{Human beings, as we know them today,<br/>
+developed from earlier species of animals,} and \pquote{The universe began<br/>
+with a huge explosion.}<br/>
+<br/>
+ The new wording is \pquote{\underline{According to<br/>
+evolutionary theory,} human beings, as we know them today, developed<br/>
+from earlier ...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Communicating Science</strong><br/>## <$Title><br/>
+<br/>
+Joan Roughgarden in<br/>
+\href{http://thesciencenetwork.org/programs/beyond-belief-science-religion-reason-and-survival}{Beyond<br/>
+Belief} made a very astute observation of a problem, and then proposed a<br/>
+lousy solution to it. The problem she was addressing had to do with the<br/>
+public perception of evolution as something quite uncertain<br/>
+scientifically (``theory vs fact''). She observed that the public sees<br/>
+science changing its stance on many things, especially in medicine. One<br/>
+day, you should ...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Personal Revelation as Evidence</strong><br/>## <$Title><br/>
+<br/>
+<br/>
+The definition of personal revelation is the idea that God speaks directly to an individual, who then communicates their message to others.  Unfortunately, there is never any way to confirm personal revelation, so can it be used as evidence for God?  yes, but not very good evidence.  This is due to the combination of two things:<br/>
+<br/>
+1. The prior probability for God is low ($P(H)\ll 1$) and,<br/>
+2. The probability that someone would make the claim of divine attention even if there is no di...</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>Faith: A Matter of Definitions</strong><br/># <$Title><br/>
+<br/>
+<br/>
+The word {\em faith} has many definitions, some which seem conflicting.  However, as it is commonly used, the definitions point to a single quantity.  It is easiest to see this in the exploration of faith from specific examples.<br/>
+</p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Introduction to Faith and Probability</strong><br/>## <$Title><br/>
+<br/>
+\subsection{Statements about Faith}<br/>
+<br/>
+It may be helpful to start with the dictionary definition, and then follow with a number of statements about {\em faith} to see where the common usages fall.<br/>
+<br/>
+\bi<br/>
+\i faith (noun)\cite{MerriamWebster2009}<br/>
+    \bi<br/>
+    \i strong belief or trust in someone or something<br/>
+    \i belief in the existence of God<br/>
+    \i strong religious feelings or beliefs<br/>
+    \i a system of religious beliefs<br/>
+    \ei<br/>
+\i Now faith is confidence in what we hope for and assura...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Rollercoasters: Faith in Everyday Life</strong><br/>## <$Title><br/>
+<br/>
+Words have meaning, and if we are going to communicate with each other<br/>
+we need to make sure to use words as carefully as we can.  Otherwise,<br/>
+misunderstandings abound.  It seems very common that a word like<br/>
+``faith'' is used by different people for different ends, and the<br/>
+definition shifts even within an argument.  Take for example, the video by Rich Spear\cite{Spear:2013aa}.  In it, Spear presents a distinction drawn between ``faith'' and ``belief'', using an analogy of a roller-coa...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Faith and Trust</strong><br/>## <$Title><br/>
+<br/>
+We see the same structure occurring in an ``{\em Unbelievable}'' podcast\cite{Brierley:2014aa} between theist Tim McGrew and  Peter Boghossian.  Because they were not thinking in terms of the framework presented here, they talked past each other through most of the episode.  In this discussion, Boghossian insists that faith is ``belief without evidence'' or ``pretending<br/>
+to know things you do not know'', and Tim McGrew insists that faith is more like trust.  The discussion then devol...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Does Science Have Faith</strong><br/>## <$Title><br/>
+<br/>
+In his talk, ``Life: Creation or Evolution''\cite{Miller:2009aa}, Ken Miller makes the point that science should inform<br/>
+faith and faith should inform science. He cites Paul Davies, a physicist<br/>
+who has an interest in theism, and whose article<br/>
+``Taking<br/>
+Science on Faith''\cite{davies2007taking} takes the position that science itself is a<br/>
+faith-based activity. Ken Miller points out, and one can confirm in Paul<br/>
+Davies' article, that there are two tenets in science that are taken on<br/>
+faith...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Another Interaction - McGrath and Dawkins</strong><br/>## <$Title><br/>
+<br/>
+As part of the ``Root of All Evil'' program, Richard Dawkins conducted many interviews with theists.  One in particular, with theologian Alister McGrath, deals with the notion of faith\cite{Dawkins:aa}.  They start with a discussion about the term \emph{faith}, and McGrath<br/>
+says<br/>
+<br/>
+\pquote{<br/>
+We're dealing with a different situation than, for example, evidence<br/>
+that the moon orbits the earth at a certain distance<br/>
+}<br/>
+<br/>
+and<br/>
+<br/>
+\pquote{<br/>
+There are many possible ways of explaining {[}the world{]},...</p>
+</li>
+<li>
+<p class="binderItem"><strong>I don't have enough faith to be an atheist</strong><br/>## <$Title><br/>
+<br/>
+In their book {\em I don't have enough faith to be an atheist}\cite{geisler2004don}, Norman Geisler and Frank Turek are playing with the word {\em faith} to make a humorous title.  In their book, however, they too exhibit the dual-usage of the word {\bf faith} as in {\em belief} and as in {\em expected utility}.  <br/>
+<br/>
+</p>
+</li>
+<li>
+<p class="binderItem"><strong>Pascal's Wager</strong><br/>## <$Title><br/>
+<br/>
+Blaise Pascal, a French philosopher, put forward an argument referred to now as ``Pascal's Wager''\cite{Wikipedia:2015ac} for the religious life .  The argument is based on decision theory, and is one of the first uses of this theory on any topic.  In the ``Wager'', Pascal states that people choose to believe or not believe in God, and the possible environments they find themselves in are the God either exists or doesn't.  He then sets up the utility table,<br/>
+<br/>
+\begin{tabular}{@{}lll@{...</p>
+</li>
+<li>
+<p class="binderItem"><strong>A More Formal Exploration</strong><br/>## <$Title><br/>
+<br/>
+In the philosophical literature, there are more formal explorations of these concepts.  These explorations can be helped by casting the ideas into the probabilistic framework.  For example, Daniel Howard-Snyder considers what he calls ``Propositional Faith''\cite{howard2013propositional}.  He immediately recognizes, as we do here, that the word {\em faith} has many usages which he clears away as being not on topic, and focuses on the use of faith in a sentence like {\em ``A wife mig...</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>Considering Miracles</strong><br/># <$Title><br/>
+<br/>
+\newcommand{\hrb}[1]{\href{http://web.bryant.edu/~bblais/#1}{#1}}<br/>
+<br/>
+% maybe unbelievable-project-miracles-and-healing-is-it-evidence-for-the-truth-of-christianity.html}<br/>
+<br/>
+% maybe \TODO{what do to in the face of serious uncertainty?}  unbelievable-project-john-lennox-debates-science-and-god-has-science-buried-god.html}<br/>
+<br/>
+\TODO{change the ``I'' to ``we'' here.}<br/>
+<br/>
+This chapter explores the concept of {\em miracles}, and how probability can be used to describe them and their evidential suppo...</p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Introduction to Miracles</strong><br/>## <$Title><br/>
+<br/>
+Perhaps the most influential work on miracles is the chapter ``Of Miracles'' in David Hume's larger work on reason\cite{Hume:1748aa}.  It is also one of the most often \emph{misquoted} books as well.  For example, Normal Geisler misquotes Hume\cite{Brierley:2008ab}, attributing the statement ``The evidence for the regular is always greater than that for the rare.'' to Hume.  I think one of the reasons this occurs is that Hume predates probability theory, so he uses verbose explanati...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Critique of Hume</strong><br/>## <$Title><br/>
+<br/>
+One primary critique of Hume comes from Stanford Encyclopedia of Philosophy article on miracles\cite{sep-miracles}.  As we will see, this article does very little to modify Hume's conclusions, but we can use it as a good example of how to use probability mathematics to approach a philosophical article.<br/>
+<br/>
+\subsection{Concepts and Definitions}\label{concepts-and-definitions}<br/>
+<br/>
+The article begins by discussing one of Hume's definitions of a miracle<br/>
+as ``a violation of the laws of nature'...</p>
+</li>
+<li>
+<p class="binderItem"><strong>How to Approach Miracles</strong><br/>## <$Title><br/>
+<br/>
+I listened to a<br/>
+\href{http://donjohnsonministries.org/discussion-with-naturalist-matthew-ferguson-part-1/}{recent<br/>
+interview}<br/>
+(\href{http://donjohnsonministries.org/discussion-with-naturalist-matthew-ferguson-part-2/)}{Part<br/>
+2}) with Matthew Ferguson on the<br/>
+\href{http://donjohnsonministries.org/}{Don Johnson show}, which I found<br/>
+pretty impressive. Matthew Ferguson has a<br/>
+\href{http://adversusapologetica.wordpress.com/}{very interesting blog}<br/>
+that I just found, and have been enjoying re...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Healing Miracles</strong><br/>## <$Title><br/>
+<br/>
+\TODO{fix the formatting here.}<br/>
+<br/>
+\subsection{Unbelievable? 17 Nov 2007 - Are miracles evidence for God? -<br/>
+17 November 2007 -- Miracles and healing - is it evidence for the truth<br/>
+of<br/>
+Christianity?}\label{unbelievable-17-nov-2007-are-miracles-evidence-for-god-17-november-2007-miracles-and-healing-is-it-evidence-for-the-truth-of-christianity}<br/>
+<br/>
+As part of the<br/>
+\href{https://brianblais.wordpress.com/2013/02/27/unbelievable-project-a-non-believers-armchair-perspective-on-six-years-of-christ...</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>On the Resurrection of Jesus</strong><br/># <$Title><br/>
+<br/>
+<br/>
+<br/>
+</p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Is the resurrection 97% likely?</strong><br/>## <$Title><br/>
+<br/>
+Richard Swinburne has written\cite{swinburne2004existence,swinburne2003resurrection} that a thorough probabilistic approach leads one to the conclusion that the resurrection is at least 97\% likely.  His argument is summarized here.  He defines a number of propositions.<br/>
+<br/>
+\bi<br/>
+\i $t$: theism is true - there is a God (of the traditional kind)<br/>
+\i $k$: background knowledge of natural theology<br/>
+\i $P(t|k)$: probability there is a God (of the traditional kind) given the background knowledge...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Resurrection and Regression</strong><br/>## <$Title><br/>
+<br/>
+Dan Barker has written an Easter Challenge\cite{Barker:1992aa} for<br/>
+any Christian to come up with a seamless account of what happened on the<br/>
+day of the Resurrection.<br/>
+<br/>
+\pquote{The conditions of the challenge are simple and reasonable. In each of<br/>
+the four Gospels, begin at Easter morning and read to the end of the<br/>
+book: Matthew 28, Mark 16, Luke 24, and John 20-21. Also read Acts<br/>
+1:3-12 and Paul's tiny version of the story in I Corinthians 15:3-8.<br/>
+These 165 verses can be read in a few ...</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>Historical Methods</strong><br/># <$Title></p>
+</li>
+<li>
+<p class="binderItem"><strong>Backmatter</strong><br/><!--<br/>
+\backmatter<br/>
+<br/>
+\bibliography{main}<br/>
+\bibliographystyle{apalike}<br/>
+<br/>
+\printindex<br/>
+--></p>
+</li>
+</ul>
+
+</td>
+<td width="8">
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

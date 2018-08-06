@@ -1,0 +1,108 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset0 Cochin;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\fi360\sl288\slmult1\pardirnatural
+
+\f0\fs28 \cf0 #### Rule 4 (Bayes' rule):\
+\
+ This rule is perhaps the most obtuse to see for the first time, but is by far the most important rule of them all, so it is worth the effort.  Because of this, we will choose to write it in a somewhat more elaborated form, and rewrite it several ways.\
+$$\\Pg\{explanation\}\{data\} &=& \\frac\{\\Pg\{data\}\{explanation\}\\P\{explanation\}\}\{\\P\{data\}\}$$\
+where each term is described more fully as \
+\
+1. $\\P\{explanation\}$ - this is the probability the explanation is correct *prior* to seeing the data.  The term itself is often called the *prior*, and represents your beliefs before you see the data.  Typically, more complex explanations are less likely a-
+\i priori
+\i0  than simpler ones.  \
+2. $\\Pg\{explanation\}\{data\}$ - this is the probability the explanation is correct *after* seeing the data (a-
+\i posteriori
+\i0 ). The term itself is often called the *posterior* for this reason, and represents your updated beliefs once you have data.  Thus, Bayes' rule is a mathematical expression of *learning* from evidence.  \
+3. $\\Pg\{data\}\{explanation\}$ - this is the probability that the data can be explained with this particular explanation.  The term itself is often called the *likelihood*, and can be thought of as a measure of how well the explanation fits the data.  If the explanation fits the data well, this number will be high, for example. \
+4. $\\P\{data\}$ - this is the probability of the data, regardless of the explanation.  It is easiest to understand this term with an example.\
+\
+Imagine we are playing a game with several small decks of cards[^analogy], defined here:\
+\
+1. $E_1: A\\spades, 2\\hearts, 3\\spades,4\\spades$\
+2. $E_2: A\\hearts, 2\\hearts, 3\\spades, 4\\spades$\
+3. $E_3: A\\hearts,2\\hearts, 2\\hearts,4\\spades$\
+4. $E_4: A\\hearts,3\\spades, 3\\spades, 4\\spades$\
+\
+In the game, someone has handed us one of the decks, but we don't know at all which one it is.  We then draw the top card, observe that it is a $3\\spades$, and see if we can reason about which deck is likely to be the one we are holding.  We choose such a small, simple system because it is easy to intuit the answers without the math.  This intuition can provide a scaffold for understanding the mathematics, which can be used in more complex examples where one *doesn\'92t* have a strong intuition.  It is therefore worth going through at least one example in detail.\
+\
+[^analogy]: The analogy here is that the universe is set up with a set of rules that we are trying to determine.  Thus, deciding on which deck we are holding is analogous to deciding which universe we are in given my observations of the universe.  In other words, providing an *explanation* of the data is really about determining which of the many possible universes we are in.\
+\
+To begin, we need to assign the probabilities of the four cases *prior* to the data.  Given total ignorance, we assign equal probabilities to the four cases\
+<!--\
+\\beqn\
+P(E_1)&=&1/4 \\\\\
+P(E_2)&=&1/4 \\\\\
+P(E_3)&=&1/4 \\\\\
+P(E_4)&=&1/4\
+\\eeqn\
+-->\
+The following are our intuitions, with the mathematics in parallel below. Since we drew a $3\\spades$, our intuition says that this should rule out $E_3$ altogether.  Further, it says $E_4$ should be more likely than the other remaining two because it contains the observed card, $3\\spades$, more than one time - it is easier to get that particular card from the fourth deck than the others.\
+\
+The mathematics would look like this\
+<!--\
+\\beqn\
+P(E_1|3\\spades)&=&\\frac\{P(3\\spades|E_1)P(E_1)\}\{P(3\\spades)\}\\begin\{array\}\{c\}\\ \\\\\\leftarrow\\mbox\{this term the same in all\}\\end\{array\}\\\\\
+P(E_2|3\\spades)&=&\\frac\{P(3\\spades|E_2)P(E_2)\}\{P(3\\spades)\}\\\\\
+P(E_3|3\\spades)&=&\\frac\{P(3\\spades|E_3)P(E_3)\}\{P(3\\spades)\}\\\\\
+P(E_3|3\\spades)&=&\\frac\{P(3\\spades|E_4)P(E_4)\}\{P(3\\spades)\}\
+\\eeqn\
+-->\
+where we already have\
+<!--\
+\\beqn\
+P(E_1)=P(E_2)=P(E_3)=P(E_4)=1/3\
+\\eeqn\
+-->\
+Further, we have \
+<!--\
+\\beqn\
+P(3\\spades|E_1) = 1/4\
+\\eeqn\
+-->\
+because one card out of 4 in the first deck is the $3\\spades$.  Likewise, we have\
+<!--\
+\\beqn\
+P(3\\spades|E_2) &=& 1/4\\\\\
+P(3\\spades|E_3) &=& 0 \\\\\
+P(3\\spades|E_4) &=& 2/4 \
+\\eeqn\
+-->\
+Finally we have\
+<!--\
+\\beqn\
+P(3\\spades) = 4/16\
+\\eeqn\
+-->\
+because there are $``3\\spades\'92\'92$ cards out of all the 16 in the game.  Plugging these numbers in to the above equations, and performing the arithmetic, we have\
+\
+<!--\
+\\beqn\
+P(E_1|3\\spades)&=&\\frac\{(1/4)\\times (1/4)\}\{(4/16)\} = 1/4 \\\\\
+P(E_2|3\\spades)&=&\\frac\{(1/4)\\times (1/4)\}\{(4/16)\} = 1/4 \\\\\
+P(E_3|3\\spades)&=&\\frac\{(0)\\times (1/4)\}\{(2/12)\} = 0 \\\\\
+P(E_4|3\\spades)&=&\\frac\{(2/4)\\times (1/4)\}\{(4/16)\} = 1/2 \\\\\
+\\eeqn\
+-->\
+which perfectly matches our intuition.  Notice further that $P(3\\spades|E_1)$ is another way of saying ``how well is the observation of a $3\\spades$ explained by the idea that we're holding the first deck?''  The entire process can then be thought of as updating our initial beliefs with the new evidence.  \
+\
+\
+> *
+\i Any process of reasoning, in any field whatsoever, is either consistent with this process of calculation or it is not rational.*
+\i0 \
+\
+It is for this reason that we explore this process in such detail.\
+\
+On another front, an alternate way to have calculated the shared bottom term, $P(3\\spades)$, is the following\
+<!--\
+\\beqn\
+P(3\\spades) &=& P(3\\spades|E_1)P(E_1) + P(3\\spades|E_2)P(E_2)+ \\\\\
+&&P(3\\spades|E_3)P(E_3)+ P(3\\spades|E_4)P(E_4)\\\\\
+&=&(1/4)\\times (1/4) + (1/4)\\times (1/4) + (0)\\times (1/3)+ (2/4)\\times (1/4) \\\\\
+&=& 4/16\
+\\eeqn\
+-->\
+Why would one write it in this seemingly long-winded and complex way?  Because it makes it easier to say, in words, what this term is doing.  It is the sum of all of the probabilities for how well each explanation accounts for the data scaled by how likely that explanation was before seeing the data.  In other words, proper rational inference requires that you re-weight the strength of your beliefs in an explanation not just by how well that explanation describes your observations, but also by how intrinsically likely that explanation is before your observations and how well all of the *alternatives* perform on those same observations.  An observation can be very well explained by a particular explanation, but if it can be equivalently explained by other, simpler, explanations, then your belief in that more complex  explanation may in fact *weaken* with the new observation (i.e. it's probability could go down).\
+\
+}

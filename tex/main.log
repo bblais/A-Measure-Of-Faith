@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 MAY 2015 06:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 JUN 2015 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,9 +495,12 @@ Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
 (/Users/bblais/Library/texmf/tex/inputs/tufte-latex-3.5.0/tufte-common-local.te
 x)
 Class tufte-book Info: Loading tufte-common-local.tex.
-)) (./mystyle.sty
-Package: mystyle 
+)) (./mystyle-tufte.sty
 
+LaTeX Warning: You have requested package `mystyle-tufte',
+               but the package provides `mystyle'.
+
+Package: mystyle 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count119
 \lst@gtempboxa=\box56
@@ -652,36 +655,36 @@ LaTeX Warning: Label `notes' multiply defined.
 ) (./chap-historical-methods.aux) (./appendix-test.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 25.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 27.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring ON on input line 25.
+Package hyperref Info: Link coloring ON on input line 27.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -691,16 +694,16 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count140
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 25.
+LaTeX Info: Redefining \selectfont on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -783,7 +786,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 21.59985pt on input line 4.
 
-<../img/cover_draft2.png, id=132, 803.0pt x 602.25pt>
+<../img/cover_draft2.png, id=144, 803.0pt x 602.25pt>
 File: ../img/cover_draft2.png Graphic file (type png)
 
 <use ../img/cover_draft2.png>
@@ -913,9 +916,6 @@ LaTeX Warning: Marginpar on page 14 moved.
 
 LaTeX Warning: Marginpar on page 14 moved.
 
-
-LaTeX Warning: Marginpar on page 14 moved.
-
 [14]
 
 LaTeX Warning: Marginpar on page 15 moved.
@@ -943,12 +943,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \T1/pplj/m/n/10 light-ning some-time in
  []
 
-
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []\T1/pplj/m/n/10 ``a play-ing card drawn
  []
 
-[15]
+
 Underfull \hbox (badness 10000) in paragraph at lines 81--81
 []\T1/pplj/m/n/10 ``a play-ing card drawn
  []
@@ -985,9 +985,6 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
 
 LaTeX Warning: Marginpar on page 17 moved.
 
-
-LaTeX Warning: Marginpar on page 17 moved.
-
 [17]
 
 LaTeX Warning: Marginpar on page 18 moved.
@@ -1004,8 +1001,9 @@ LaTeX Warning: Marginpar on page 20 moved.
 
 LaTeX Warning: Marginpar on page 20 moved.
 
+[20]
 
-LaTeX Warning: Marginpar on page 20 moved.
+LaTeX Warning: Marginpar on page 21 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 207--207
@@ -1017,7 +1015,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--207
 \T1/pplj/m/n/10 four pos-si-bil-i-ties from
  []
 
-[20]
+
 Overfull \hbox (112.43866pt too wide) in alignment at lines 214--217
  [][][] []
  []
@@ -1026,38 +1024,40 @@ Overfull \hbox (112.43866pt too wide) in alignment at lines 214--217
 
 LaTeX Warning: Marginpar on page 22 moved.
 
+[22]
 
-LaTeX Warning: Marginpar on page 22 moved.
-
-
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 23 moved.
 
 
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 23 moved.
 
 
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 23 moved.
 
-[22] [23]
+[23]
 
 LaTeX Warning: Marginpar on page 24 moved.
 
-[24]) [25]
+[24] [25]
+
+LaTeX Warning: Marginpar on page 26 moved.
+
+) [26]
 \openout2 = `chap-simple-applications.aux'.
 
- (./chap-simple-applications.tex [26
-
-
-
-]
+ (./chap-simple-applications.tex
 Chapter 2.
 
 LaTeX Warning: Marginpar on page 27 moved.
 
-[27] [28]
+[27
+
+
+
+] [28] [29]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 6.80005pt on input line 116.
- [29]
+(Font)              scaled to size 6.80005pt on input line 121.
+
 
 LaTeX Warning: Marginpar on page 30 moved.
 
@@ -1065,24 +1065,23 @@ LaTeX Warning: Marginpar on page 30 moved.
 
 LaTeX Warning: Marginpar on page 31 moved.
 
-[31] [32]
+[31]
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+[32]
 
 LaTeX Warning: Marginpar on page 33 moved.
 
+[33]
 
-LaTeX Warning: Marginpar on page 33 moved.
+LaTeX Warning: Marginpar on page 34 moved.
 
-[33pdfTeX warning (ext4): destination with the same identifier (name{cite.Hume:
-1748aa}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.284 
-      ]pdfTeX warning (ext4): destination with the same identifier (name{cite.B
-lais:2014aa}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Blais:20
+14aa}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.323   failure''\cite{Blais:2014aa}
+l.329   failure''\cite{Blais:2014aa}
                                     ):
 
 LaTeX Warning: Marginpar on page 34 moved.
@@ -1094,39 +1093,47 @@ LaTeX Warning: Marginpar on page 34 moved.
 LaTeX Warning: Marginpar on page 34 moved.
 
 
-Overfull \hbox (1.38243pt too wide) in alignment at lines 328--332
+Overfull \hbox (1.38243pt too wide) in alignment at lines 334--338
  [][][] []
  []
 
-[34] [35]
+[34pdfTeX warning (ext4): destination with the same identifier (name{cite.Hume:
+1748aa}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.338 \eeqn
+           ] [35]
 
 LaTeX Warning: Marginpar on page 36 moved.
 
 [36] [37] [38]
-<../img/blah2-2011-01-29-11-35.png, id=522, 508.90125pt x 306.14375pt>
+<../img/blah2-2011-01-29-11-35.png, id=567, 508.90125pt x 306.14375pt>
 File: ../img/blah2-2011-01-29-11-35.png Graphic file (type png)
 
 <use ../img/blah2-2011-01-29-11-35.png>
 Package pdftex.def Info: ../img/blah2-2011-01-29-11-35.png used on input line 5
-53.
+59.
 (pdftex.def)             Requested size: 312.01341pt x 187.70036pt.
+
+Underfull \vbox (badness 1895) has occurred while \output is active []
+
  [39]
-<../img/blah3-2011-01-29-11-35.png, id=528, 513.92pt x 308.15125pt>
+<../img/blah3-2011-01-29-11-35.png, id=573, 513.92pt x 308.15125pt>
 File: ../img/blah3-2011-01-29-11-35.png Graphic file (type png)
 
 <use ../img/blah3-2011-01-29-11-35.png>
 Package pdftex.def Info: ../img/blah3-2011-01-29-11-35.png used on input line 5
-75.
+81.
 (pdftex.def)             Requested size: 312.0008pt x 187.0786pt.
- [40 <../img/blah2-2011-01-29-11-35.png> <../img/blah3-2011-01-29-11-35.png>]) 
-[41]
+ [40 <../img/blah2-2011-01-29-11-35.png> <../img/blah3-2011-01-29-11-35.png>]
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
+ [41])
+[42]
 \openout2 = `chap-faith.aux'.
 
- (./chap-faith.tex [42
-
-
-
-]
+ (./chap-faith.tex
 Chapter 3.
 
 LaTeX Warning: Marginpar on page 43 moved.
@@ -1143,8 +1150,12 @@ LaTeX Warning: Marginpar on page 43 moved.
 
 LaTeX Warning: Marginpar on page 43 moved.
 
-[43pdfTeX warning (ext4): destination with the same identifier (name{cite.Brier
-ley:2014aa}) has been already used, duplicate ignored
+[43
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Brierley
+:2014aa}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1239,7 +1250,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.howard20
 l.538 ...nal Faith''\cite{howard2013propositional}
                                                   .  He immediately recogniz...
 
-Underfull \vbox (badness 1331) has occurred while \output is active []
+Underfull \vbox (badness 8151) has occurred while \output is active []
 
  [57]
 
@@ -1264,101 +1275,154 @@ Overfull \hbox (9.60835pt too wide) in paragraph at lines 556--558
 
 ]
 Chapter 4.
-[61] [62] [63]
-Overfull \hbox (19.82799pt too wide) in paragraph at lines 186--186
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Hume:174
+8aa}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 ...'s larger work on reason\cite{Hume:1748aa}
+                                                  .  It is also one of the m...
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+[61pdfTeX warning (ext4): destination with the same identifier (name{cite.Brier
+ley:2008ab}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.32 \end{eqnarray*}
+                    ]
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+[62] [63]
+Overfull \hbox (22.44278pt too wide) in paragraph at lines 139--144
+\T1/pplj/m/n/10 es-tab-lish-ing only that $\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 
+([]\OMS/zplm/m/n/10 j[]\OT1/zplm/m/n/10 ) \OML/zplm/m/it/10 > \OT1/pplx/m/n/10 
+0.5$\T1/pplj/m/n/10 . Point (2) is $\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 ([]\OMS
+/zplm/m/n/10 j[]\OT1/zplm/m/n/10 ) \OML/zplm/m/it/10 > 
+ []
+
+[64] [65] [66] [67] [68] [69] [70] [71]
+Overfull \hbox (19.82799pt too wide) in paragraph at lines 660--660
 |\T1/pplj/m/it/10.95 Unbelievable? 17 Nov 2007 - Are mir-a-cles ev-i-dence for 
 God? - 17 Novem-
  []
 
 
-Overfull \hbox (15.92967pt too wide) in paragraph at lines 186--186
+Overfull \hbox (15.92967pt too wide) in paragraph at lines 660--660
 \T1/pplj/m/it/10.95 ber 2007 -- Mir-a-cles and heal-ing - is it ev-i-dence for 
 the truth of Chris-tian-
  []
 
-[64] [65]
+[72] [73]
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 332.
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 806.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66])
-[67]
+ [74]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75])
+[76]
 \openout2 = `chap-resurrection.aux'.
 
- (./chap-resurrection.tex [68
-
-
-
-]
+ (./chap-resurrection.tex
 Chapter 5.
 
-Overfull \hbox (146.5044pt too wide) in paragraph at lines 42--44
+Package natbib Warning: Citation `swinburne2004existence' undefined on input li
+ne 6.
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.swinburn
+e2003resurrection}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 ...rne2004existence,swinburne2003resurrection}
+                                                   that a thorough probabili...
+
+LaTeX Warning: Marginpar on page 77 moved.
+
+[77
+
+
+
+] [78] [79] [80] [81]
+Overfull \hbox (146.5044pt too wide) in paragraph at lines 151--153
 []\T1/pplj/m/n/9 Get the MP3 pod-cast of Un-be-liev-able?http://ondemand.premie
 r.org.uk/unbelievable/AudioFeed.aspxor 
  []
 
-[69] [70]
+[82] [83]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [84]
+[85]
 
- [72]
-
-LaTeX Warning: Marginpar on page 73 moved.
+LaTeX Warning: Marginpar on page 86 moved.
 
 
-LaTeX Warning: Marginpar on page 73 moved.
+LaTeX Warning: Marginpar on page 86 moved.
 
-[73] <../img/fig1.png, id=777, 393.47pt x 262.9825pt>
+[86] <../img/fig1.png, id=908, 393.47pt x 262.9825pt>
 File: ../img/fig1.png Graphic file (type png)
  <use ../img/fig1.png>
-Package pdftex.def Info: ../img/fig1.png used on input line 310.
+Package pdftex.def Info: ../img/fig1.png used on input line 419.
 (pdftex.def)             Requested size: 311.99663pt x 208.52835pt.
 
-Overfull \hbox (11.99663pt too wide) in paragraph at lines 310--311
+Overfull \hbox (11.99663pt too wide) in paragraph at lines 419--420
 [][]  
  []
 
-<../img/fig2.png, id=778, 393.47pt x 275.0275pt> [74 <../img/fig1.png>]
+<../img/fig2.png, id=909, 393.47pt x 275.0275pt>
 File: ../img/fig2.png Graphic file (type png)
-
-<use ../img/fig2.png>
-Package pdftex.def Info: ../img/fig2.png used on input line 319.
+ <use ../img/fig2.png>
+Package pdftex.def Info: ../img/fig2.png used on input line 428.
 (pdftex.def)             Requested size: 311.99663pt x 218.07927pt.
 
-Overfull \hbox (11.99663pt too wide) in paragraph at lines 319--320
+Overfull \hbox (11.99663pt too wide) in paragraph at lines 428--429
 [][]  
  []
 
-<../img/fig4.png, id=784, 393.47pt x 275.0275pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87 <../img/fig1.png>] <../img/fig4.png, id=915, 393.47pt x 275.0275pt>
 File: ../img/fig4.png Graphic file (type png)
- <use ../img/fig4.png>
-Package pdftex.def Info: ../img/fig4.png used on input line 330.
+
+<use ../img/fig4.png>
+Package pdftex.def Info: ../img/fig4.png used on input line 439.
 (pdftex.def)             Requested size: 311.99663pt x 218.07927pt.
 
-Overfull \hbox (11.99663pt too wide) in paragraph at lines 330--331
+Overfull \hbox (11.99663pt too wide) in paragraph at lines 439--440
 [][]  
  []
 
-[75 <../img/fig2.png> <../img/fig4.png>]
+[88 <../img/fig2.png> <../img/fig4.png>]
 
-LaTeX Warning: Reference `sec:ockham' on page 76 undefined on input line 342.
+LaTeX Warning: Reference `sec:ockham' on page 89 undefined on input line 451.
 
 
-LaTeX Warning: Reference `sec:ockham' on page 76 undefined on input line 342.
+LaTeX Warning: Reference `sec:ockham' on page 89 undefined on input line 451.
 
-) [76]
+) [89]
 \openout2 = `chap-historical-methods.aux'.
 
- (./chap-historical-methods.tex
+ (./chap-historical-methods.tex [90
+
+
+
+]
 Chapter 6.
-) [77
-
-
-
-] [78
+) [91] [92
 
 
 ] (./main.bblpdfTeX warning (ext4): destination with the same identifier (name{
@@ -1379,155 +1443,170 @@ ation with the same identifier (name{cite.Blais:2014aa}) has been already used,
                    \relax 
 l.21 \bibitem[Blais(2014)]{Blais:2014aa}
                                         pdfTeX warning (ext4): destination with
- the same identifier (name{cite.Brierley:2014aa}) has been already used, duplic
+ the same identifier (name{cite.Brierley:2008ab}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
-l.26 ...rley(2014{\natexlab{a}})]{Brierley:2014aa}
+l.26 \bibitem[Brierley(2008)]{Brierley:2008ab}
+                                              pdfTeX warning (ext4): destinatio
+n with the same identifier (name{cite.Brierley:2014aa}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 ...rley(2014{\natexlab{a}})]{Brierley:2014aa}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.Brierley:2014ab}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 ...rley(2014{\natexlab{b}})]{Brierley:2014ab}
+l.39 ...rley(2014{\natexlab{b}})]{Brierley:2014ab}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.davies2007taking}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 ...[Davies and Tempe(2007)]{davies2007taking}
+l.46 ...[Davies and Tempe(2007)]{davies2007taking}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.Dawkins:aa}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.45 \bibitem[Dawkins and McGrath()]{Dawkins:aa}
+l.51 \bibitem[Dawkins and McGrath()]{Dawkins:aa}
                                                 pdfTeX warning (ext4): destinat
 ion with the same identifier (name{cite.fine2003plato}) has been already used, 
 duplicate ignored
 <to be read again> 
                    \relax 
-l.50 \bibitem[Fine(2003)]{fine2003plato}
+l.56 \bibitem[Fine(2003)]{fine2003plato}
                                         pdfTeX warning (ext4): destination with
  the same identifier (name{cite.geisler2004don}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.55 ...m[Geisler and Turek(2004)]{geisler2004don}
+l.61 ...m[Geisler and Turek(2004)]{geisler2004don}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.gould1981evolution}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \bibitem[Gould(1981)]{gould1981evolution}
+l.66 \bibitem[Gould(1981)]{gould1981evolution}
                                               pdfTeX warning (ext4): destinatio
 n with the same identifier (name{cite.howard2013propositional}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 ...ard-Snyder(2013)]{howard2013propositional}
+l.71 ...ard-Snyder(2013)]{howard2013propositional}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.Hume:1748aa}) has been already used, 
 duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \bibitem[Hume(1748)]{Hume:1748aa}
-                                      pdfTeX warning (ext4): destination with t
-he same identifier (name{cite.Jaynes2003}) has been already used, duplicate ign
-ored
-<to be read again> 
-                   \relax 
-l.76 \bibitem[Jaynes(2003)]{Jaynes2003}
-                                        [79
+l.76 \bibitem[Hume(1748)]{Hume:1748aa}
+                                       [93
 
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.jeffery
-s1991sharpening}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{cite.Jaynes2
+003}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 ... and Berger(1991)]{jefferys1991sharpening}
+l.82 \bibitem[Jaynes(2003)]{Jaynes2003}
+                                       pdfTeX warning (ext4): destination with 
+the same identifier (name{cite.jefferys1991sharpening}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 ... and Berger(1991)]{jefferys1991sharpening}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.jordaan2005decisions}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 \bibitem[Jordaan(2005)]{jordaan2005decisions}
+l.94 \bibitem[Jordaan(2005)]{jordaan2005decisions}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.laplace1825philosophical}) has been a
 lready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 ...h Edition 1951)]{laplace1825philosophical}
+l.100 ... Edition 1951)]{laplace1825philosophical}
                                                   pdfTeX warning (ext4): destin
-ation with the same identifier (name{cite.MerriamWebster2009}) has been already
- used, duplicate ignored
+ation with the same identifier (name{cite.sep-miracles}) has been already used,
+ duplicate ignored
 <to be read again> 
                    \relax 
-l.99 ...Webster Online}(2009)]{MerriamWebster2009}
+l.105 \bibitem[McGrew(2014)]{sep-miracles}
+                                          pdfTeX warning (ext4): destination wi
+th the same identifier (name{cite.MerriamWebster2009}) has been already used, d
+uplicate ignored
+<to be read again> 
+                   \relax 
+l.111 ...ebster Online}(2009)]{MerriamWebster2009}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.Miller:2009aa}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \bibitem[Miller(2009)]{Miller:2009aa}
+l.116 \bibitem[Miller(2009)]{Miller:2009aa}
                                            pdfTeX warning (ext4): destination w
 ith the same identifier (name{cite.sagandemon}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.111 \bibitem[Sagan(1996)]{sagandemon}
+l.123 \bibitem[Sagan(1996)]{sagandemon}
                                        pdfTeX warning (ext4): destination with 
 the same identifier (name{cite.Spear:2013aa}) has been already used, duplicate 
 ignored
 <to be read again> 
                    \relax 
-l.116 \bibitem[Spear(2013)]{Spear:2013aa}
+l.128 \bibitem[Spear(2013)]{Spear:2013aa}
                                          pdfTeX warning (ext4): destination wit
 h the same identifier (name{cite.swinburne2003resurrection}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 ...inburne(2003)]{swinburne2003resurrection}
+l.133 ...inburne(2003)]{swinburne2003resurrection}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.Wikipedia:2015aa}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 ...ia(2015{\natexlab{a}})]{Wikipedia:2015aa}
+l.138 ...ia(2015{\natexlab{a}})]{Wikipedia:2015aa}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.Wikipedia:2015ab}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 ...ia(2015{\natexlab{b}})]{Wikipedia:2015ab}
+l.144 ...ia(2015{\natexlab{b}})]{Wikipedia:2015ab}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{cite.Wikipedia:2015ac}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 ...ia(2015{\natexlab{c}})]{Wikipedia:2015ac}
-                                                  ) [80]
+l.150 ...ia(2015{\natexlab{c}})]{Wikipedia:2015ac}
+                                                  ) [94]
 \openout2 = `appendix-test.aux'.
 
  (./appendix-test.tex
 Appendix A.
-) [81
+) [95
 
 
 ]
 No file main.ind.
+
+Package natbib Warning: There were undefined citations.
+
 \tf@thm=\write8
 \openout8 = `main.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 (./main.aux (./frontmatter.aux) (./chap-introduction.aux)
 (./chap-simple-applications.aux) (./chap-faith.aux) (./chap-miracles.aux)
 (./chap-resurrection.aux) (./chap-historical-methods.aux) (./appendix-test.aux)
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F51EBA71809F3486E80E1F860CBA1044;5788.
+(rerunfilecheck)             Checksum: 7BF04CCAB07D4DDAA99D4054EFF9BE17;6342.
 
 
 LaTeX Warning: There were undefined references.
@@ -1535,16 +1614,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 15250 strings out of 493117
- 217638 string characters out of 6135433
- 413288 words of memory out of 5000000
- 18074 multiletter control sequences out of 15000+600000
- 127883 words of font info for 187 fonts, out of 8000000 for 9000
+ 15321 strings out of 493117
+ 218572 string characters out of 6135433
+ 413994 words of memory out of 5000000
+ 18096 multiletter control sequences out of 15000+600000
+ 129056 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,74p,956b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,74p,1589b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2014/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}</usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/arev/ArevSans-Roman.pfb></usr/local/texlive/201
@@ -1562,10 +1641,10 @@ r8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 local/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (81 pages, 1347067 bytes).
+Output written on main.pdf (95 pages, 1386106 bytes).
 PDF statistics:
- 940 PDF objects out of 1000 (max. 8388607)
- 765 compressed objects within 8 object streams
- 234 named destinations out of 1000 (max. 500000)
- 3359 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1085 PDF objects out of 1200 (max. 8388607)
+ 883 compressed objects within 9 object streams
+ 280 named destinations out of 1000 (max. 500000)
+ 3383 words of extra memory for PDF output out of 10000 (max. 10000000)
 
