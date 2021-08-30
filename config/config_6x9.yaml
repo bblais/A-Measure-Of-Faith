@@ -1,0 +1,7 @@
+---
+documentclass: book
+numbersections: True
+bibliography: chapters/main.bib
+biblio-style: apalike
+geometry: margin=1in, paperwidth=6in, paperheight=9in
+---

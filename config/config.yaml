@@ -1,0 +1,6 @@
+---
+documentclass: book
+numbersections: True
+bibliography: chapters/main.bib
+biblio-style: apalike
+---

@@ -1,0 +1,7 @@
+
+_archive/
+.doit.db.db
+.DS_Store
+__pycache__/
+build/
+test/
