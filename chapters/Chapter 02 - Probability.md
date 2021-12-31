@@ -200,7 +200,7 @@ Imagine we are playing a game with several small decks of cards, defined here:
 - $E_1: A\spadesuit, 2\heartsuit, 3\spadesuit,4\spadesuit$
 - $E_2: A\heartsuit, 2\heartsuit, 3\spadesuit, 4\spadesuit$
 - $E_3: A\heartsuit,2\heartsuit, 2\heartsuit,4\spadesuit$
-- $E_4: A\heartsuit,3\spadesuit, 3\spadesuit, 4\spadesuit$
+- $E_4: A\spadesuit,3\spadesuit, 3\spadesuit, 4\spadesuit$
 
 Where $E$ is denoting a deck or, more generally, an *explanation* for the data we will collect by drawing cards.  In the game, someone has handed us one of the decks (i.e. $E_1$, $E_2$, $E_3$ or $E_4$) but we don't know at all which one it is. The analogy here is that the universe is set up with a set of rules that we are trying to determine.  Thus, deciding on which deck we are holding is analogous to deciding which universe we are actually in, given our observations of the universe.  In other words, providing an *explanation* of the data is really about determining which of the many possible universes we are in.
 
@@ -305,7 +305,7 @@ This explanation of the game is what is called *plastic*^[In mathematical models
 
 However, this process of reasoning violates the laws of probability by not taking our uncertainty of this parameter (i.e. the number of $3\spadesuit$  in the deck) into account.  For simplicity, let's just consider the two decks in question, $E_4$ and $E_5$, and play the game with them (again, as before, drawing a $3\spadesuit$ from the top).
 
-- $E_4$: $A\heartsuit$,$3\spadesuit$, $3\spadesuit$, $4\spadesuit$
+- $E_4$: $A\spadesuit$,$3\spadesuit$, $3\spadesuit$, $4\spadesuit$
 - $E_5$: the deck can have anywhere from zero to three $3\spadesuit$, and enough other cards to make a total of four cards
 
 
