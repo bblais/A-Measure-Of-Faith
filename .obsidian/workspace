@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "5268cc2543549192",
+    "type": "split",
+    "children": [
+      {
+        "id": "1868ba28eaabb443",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "chapters/Chapter 02 - Probability.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c41de42e3be0df69",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcbe305f1b2bebad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be994c4df0abaefc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ec6d1a2502d96b5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "89a1b424efdbb912",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd56dd0370724d77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b4602c3ad2c10b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "chapters/Chapter 02 - Probability.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ff2a44193104ad57",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "1868ba28eaabb443",
+  "lastOpenFiles": [
+    "chapters/Chapter 02 - Probability.md",
+    "chapters/Chapter 06 - Miracles.md",
+    "chapters/Chapter 04 - The Case For God.md",
+    "chapters/Chapter 00 - Front Matter.md",
+    "chapters/Chapter 05 - The Case for Jesus.md",
+    "chapters/Chapter 01 - Introduction.md",
+    "chapters/Chapter 07 - Faith.md",
+    "chapters/Chapter 08 - Conclusions.md",
+    "chapters/Chapter 03 - Belief and Evidence.md",
+    "chapters/Chapter 00x - Last Compiled.md"
+  ]
+}

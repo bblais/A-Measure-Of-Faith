@@ -4,7 +4,7 @@ Perhaps the most famous treatment of the concept of miracles comes from Hume's e
 
 ## Concepts and definitions
 
-The *SEP* article begins by discussing one of Hume's definitions of a miracle as "a violation of the laws of nature."  From what I can tell, their main critique is they don't like the connotations of the word "law," a perspective I share — the word "law" has too many alternate meanings to be the foundation of a well-defined argument.  Their revised definition is the following:
+The *SEP* article begins by discussing one of Hume's definitions of a miracle as "a violation of the laws of nature."  From what I can tell, their main critique is they don't like the connotations of the word "law," a perspective I share -- the word "law" has too many alternate meanings to be the foundation of a well-defined argument.  Their revised definition is the following:
 
 > A miracle is an event that exceeds the productive power of nature
 
@@ -125,15 +125,15 @@ Essentially, he is saying that the methods of science have never confirmed a mir
 
 The SEP article criticizes this by noting that some of these conditions can cut the other way, such as the condition of "credit and reputation,"
 
->It might have been said with some shew of plausibility, that such persons by their knowledge and abilities, their reputation and interest, might have it in their power to countenance and propagate an imposture among the people, and give it some credit in the world. (Leland 1755: 90–91; cf. Beckett 1883: 29–37)
+>It might have been said with some shew of plausibility, that such persons by their knowledge and abilities, their reputation and interest, might have it in their power to countenance and propagate an imposture among the people, and give it some credit in the world. (Leland 1755: 90--91; cf. Beckett 1883: 29--37)
 
 This is, essentially, pointing out fallacy of authority - a good critique.  Science, by its processes, attempts to avoid that as well.  Of course, Hume predates modern science, so I think we can forgive him some sloppiness or poor choice of terminology.
 
 Hume continues to suggest that the religious context of the miracle claim makes the telling of the miracle story even more likely.  This would increase the probability of obtaining the testimony even if no miracle happened - $P(E|\sim\!M)$ increases - making the probability of a miracle go down.  The criticism here?  The effect could happen in the other direction:
 
-> But as George Campbell points out (1762/1839: 48–49), this consideration cuts both ways; the religious nature of the claim may also operate to make it less readily received:
+> But as George Campbell points out (1762/1839: 48--49), this consideration cuts both ways; the religious nature of the claim may also operate to make it less readily received:
 > 
->>[T]he prejudice resulting from the religious affection, may just as readily obstruct as promote our faith in a religious miracle. What things in nature are more contrary, than one religion is to another religion? They are just as contrary as light and darkness, truth and error. The affections with which they are contemplated by the same person, are just as opposite as desire and aversion, love and hatred. The same religious zeal which gives the mind of a Christian a propensity to the belief of a miracle in support of Christianity, will inspire him with an aversion from the belief of a miracle in support of Mahometanism. The same principle which will make him acquiesce in evidence less than sufficient in one case, will make him require evidence more than sufficient in the other….
+>>[T]he prejudice resulting from the religious affection, may just as readily obstruct as promote our faith in a religious miracle. What things in nature are more contrary, than one religion is to another religion? They are just as contrary as light and darkness, truth and error. The affections with which they are contemplated by the same person, are just as opposite as desire and aversion, love and hatred. The same religious zeal which gives the mind of a Christian a propensity to the belief of a miracle in support of Christianity, will inspire him with an aversion from the belief of a miracle in support of Mahometanism. The same principle which will make him acquiesce in evidence less than sufficient in one case, will make him require evidence more than sufficient in the other...
 
 I disagree quite strongly with this line of thinking.  One of the big problems with pseudoscience is that it promotes poor thinking in other domains.  Someone who believes in miracles will not find it hard to believe that the miracle claims of other religions are at least plausible.  If you believe in unseen agents, then to move from Christianity to New Age to Scientology isn't that large of a stretch.  Often, when ones religion is undermined, the typical response is to switch to another religion!  Thus, they are not as opposite as "light and darkness."  Poor thinking is poor thinking, regardless of the context.
 
@@ -143,13 +143,13 @@ Hume brings up miracles in other religions.  In a fit of special pleading, the [
 
 >All attempts to draw an evidential parallel between the miracles of the New Testament and the miracle stories of later ecclesiastical history are therefore dubious. There are simply more resources for explaining how the ecclesiastical stories, which were promoted to an established and favorably disposed audience, could have arisen and been believed without there being any truth to the reports.
 
-The argument is quite simple - if there are known cases of miracle claims where no miracle actually occurred, that increase $P(E|\sim\!M)$, making the probability of a miracle go down given testimony.  It doesn't matter whether you have good reasons to believe there was no miracle for these cases — it undermines testimony of miracles in general.  Add to that the fact that *less data* should yield *less* certainty not more.
+The argument is quite simple - if there are known cases of miracle claims where no miracle actually occurred, that increase $P(E|\sim\!M)$, making the probability of a miracle go down given testimony.  It doesn't matter whether you have good reasons to believe there was no miracle for these cases -- it undermines testimony of miracles in general.  Add to that the fact that *less data* should yield *less* certainty not more.
 
 ## In conclusion
 
 So, as far as I can tell, there is no substantive critique to Hume's statements about miracles.  Although he lacks the rigor of the mathematics of probability (through no fault of his own)  his wording is so straightforwardly translated to probabilities that I find it difficult to see what the problem is.  I also find it ironic that the entire SEP article, which has been pro-miracle throughout its contents, ends with this:
 
->For the evidence for a miracle claim, being public and empirical, is never strictly demonstrative, either as to the fact of the event or as to the supernatural cause of the event. It remains possible, though the facts in the case may in principle render it wildly improbable, that the testifier is either a deceiver or himself deceived; and so long as those possibilities exist, there will be logical space for other forms of evidence to bear on the conclusion. Arguments about miracles therefore take their place as one piece—a fascinating piece—in a larger and more important puzzle.
+>For the evidence for a miracle claim, being public and empirical, is never strictly demonstrative, either as to the fact of the event or as to the supernatural cause of the event. It remains possible, though the facts in the case may in principle render it wildly improbable, that the testifier is either a deceiver or himself deceived; and so long as those possibilities exist, there will be logical space for other forms of evidence to bear on the conclusion. Arguments about miracles therefore take their place as one piece--a fascinating piece--in a larger and more important puzzle.
 
 This is pretty much exactly what Hume was saying.  Given that there is always a non-zero probability of the testifier either lying or being mistaken, one has to establish the evidence for a miracle strong enough to overcome both the negligibly small prior probability of the miracle and this non-zero probability of the testimony being wrong.  Since mistakes are a common human trait, and distortions are also common on testimony, evidence for miracles according to probability theory, Hume, and all rational thought have always been found lacking.
 

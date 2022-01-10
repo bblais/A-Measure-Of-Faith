@@ -24,9 +24,9 @@ From these few definitions, we can already see a few things.  First, people use 
 
 ### Belief, trust, and faith
 
-We have already seen that *belief* is represented mathematically by *probability*, so where *faith* requires belief we will employ probabilities.  *Trust* [@MerriamWebster2009] is ``belief that someone or something is reliable, good, honest, effective, etc.'' So it would seem that trust is a subset of belief, like knowledge is a subset of belief, but pertaining specifically to the reliability or goodness of the thing believed. 
+We have already seen that *belief* is represented mathematically by *probability*, so where *faith* requires belief we will employ probabilities.  *Trust* [@MerriamWebster2009] is ''belief that someone or something is reliable, good, honest, effective, etc.'' So it would seem that trust is a subset of belief, like knowledge is a subset of belief, but pertaining specifically to the reliability or goodness of the thing believed. 
 
-Faith, however, seems to go a bit further than trust and involve *action* or the willingness to act.  When asked by Peter Boghossian, *``why don't we say that we have faith in the existence of chickens?''*, Tim McGrew replies, 
+Faith, however, seems to go a bit further than trust and involve *action* or the willingness to act.  When asked by Peter Boghossian, *''why don't we say that we have faith in the existence of chickens?''*, Tim McGrew replies, 
 
 > We are venturing nothing on the existence of chickens. When I believe that chickens exist and I act on that belief I am not taking any step that places outcomes I care about beyond my direct control. [In the case of religion], people are placing the outcome of their eternal soul out of their control. They are taking a risk where the outcomes matter. The decision itself is evidenced but the outcome is uncertain.
 
@@ -34,7 +34,7 @@ Faith, however, seems to go a bit further than trust and involve *action* or the
 
 ## Rollercoasters: faith in everyday life
 
-Words have meaning, and if we are going to communicate with each other we need to make sure to use words as carefully as we can.  Otherwise, misunderstandings abound.  It seems very common that a word like "faith" is used by different people for different ends, and the definition shifts even within an argument.  Take for example, the video by Rich Spear [@Spear:2013aa].  In it, Spear presents a distinction drawn between "faith" and "belief," using an analogy of a roller-coaster —belief in the ride being safe vs trusting it being safe enough to ride on.  Notice that his focus is on trust, and thus on *action*.  
+Words have meaning, and if we are going to communicate with each other we need to make sure to use words as carefully as we can.  Otherwise, misunderstandings abound.  It seems very common that a word like "faith" is used by different people for different ends, and the definition shifts even within an argument.  Take for example, the video by Rich Spear [@Spear:2013aa].  In it, Spear presents a distinction drawn between "faith" and "belief," using an analogy of a roller-coaster --belief in the ride being safe vs trusting it being safe enough to ride on.  Notice that his focus is on trust, and thus on *action*.  
 
 It is clear that one must *at least* believe the ride is safe as a prerequisite for trusting it. Since when we say we believe *strongly* in a proposition $A$ when $P(A)>0.95$ (or some other, somewhat arbitrary, high number), we can map this prerequisite to something like the following
 $$
@@ -43,7 +43,7 @@ P(\text{safe}) &= 0.99 \\
 P(\text{unsafe}) &= 0.01
 \end{aligned}
 $$
-Once you believe it is safe, do you trust it to ride?  This brings in decision theory, where we mix probabilities with utility measures. You could believe it to be safe at the $\P{safe} = 0.99$ level, but still not trust it ``with your life'' because of the *cost* associated with being wrong.  A utility table might look like
+Once you believe it is safe, do you trust it to ride?  This brings in decision theory, where we mix probabilities with utility measures. You could believe it to be safe at the $\P{safe} = 0.99$ level, but still not trust it ''with your life'' because of the *cost* associated with being wrong.  A utility table might look like
 
 |            | safe | unsafe |
 | ---------- | :--: | :----: |
@@ -81,7 +81,7 @@ $$
 \end{aligned}
 $$
 
-Boghossian is focusing on the probabilities ($P\text{outcome 1}$, $P\text{outcome 2}$, etc…) and McGrew is focussing on the utilities ($U(\text{outcome 1}|\text{action $A$})$, $U(\text{outcome 2}|\text{action $A$})$, etc…)  
+Boghossian is focusing on the probabilities ($P\text{outcome 1}$, $P\text{outcome 2}$, etc...) and McGrew is focussing on the utilities ($U(\text{outcome 1}|\text{action $A$})$, $U(\text{outcome 2}|\text{action $A$})$, etc...)  
 
 
 
@@ -179,9 +179,9 @@ It is called an *equivocation fallacy* to use a word in one way but switch defin
 
 ### Priors and faith
 
-The word *faith* seems to only be used in contexts with low *prior* probability. In the conversation between McGrew and Boghossian they spoke of faith in the context of the supernatural, extreme activities (i.e. jumping out of planes), events beyond our immediate senses — all of which coincide with lower *prior* probability, and need *more* evidence than is typical to overcome them. These examples may, or may not, also have high utility. We don't have faith in the existence of chickens because the existence of chickens has high *prior* probability.
+The word *faith* seems to only be used in contexts with low *prior* probability. In the conversation between McGrew and Boghossian they spoke of faith in the context of the supernatural, extreme activities (i.e. jumping out of planes), events beyond our immediate senses -- all of which coincide with lower *prior* probability, and need *more* evidence than is typical to overcome them. These examples may, or may not, also have high utility. We don't have faith in the existence of chickens because the existence of chickens has high *prior* probability.
 
-It makes sense then that there will be people who are not convinced by the evidence for things that others have *faith* in.  They are not convinced the evidence is of sufficient quantity or quality to raise a low *prior* probability up to a significant *posterior* probability.  For those who are convinced by the evidence, it also makes sense that they would then focus on the *utility* of those claims.  The problem that arises, however, that the word *faith* refers to two distinct components — the belief and the utility — and the apologist can easily switch between them without even noticing it themselves. Again, we put forward the suggestion to discuss things in terms of decision theory, explicitly outlining the equations in order to avoid words with multiple meanings.  
+It makes sense then that there will be people who are not convinced by the evidence for things that others have *faith* in.  They are not convinced the evidence is of sufficient quantity or quality to raise a low *prior* probability up to a significant *posterior* probability.  For those who are convinced by the evidence, it also makes sense that they would then focus on the *utility* of those claims.  The problem that arises, however, that the word *faith* refers to two distinct components -- the belief and the utility -- and the apologist can easily switch between them without even noticing it themselves. Again, we put forward the suggestion to discuss things in terms of decision theory, explicitly outlining the equations in order to avoid words with multiple meanings.  
 
 ## Does science have faith?
 
@@ -198,7 +198,7 @@ Let's say we replace "*understandable*" with "*predictable*," a replacement whic
 
 The second tenet (2) I would wager is too vague. What does "*better*" mean? Better for whom, or for what? Psychologically, one might argue something akin to "ignorance is bliss," and there might be something to that. If we define, however, "*better*" to be higher standard of living (longer, healthier, more free life) then knowledge can be argued to have a demonstrable benefit over ignorance. The results of science has doubled the life expectancy in the past 100 years, and has allowed us to live more free and healthy lives.  As Carl Sagan says, science delivers the goods. Is there any convincing argument that ignorance is better, or that we really can't decide which is better? 
 
-There is a danger in using the word *faith* in these contexts.  It can communicate to the unaware that there are things that one should justifiably believe on insufficient evidence — a direct violation of the laws of probability.  It can also imply, for those who take *faith* to mean *trust*, that the scientists using the term are somehow admitting an agency in the universe that they don't intend.  It serves only to propagate sloppy thinking in both the fields of science and religion.
+There is a danger in using the word *faith* in these contexts.  It can communicate to the unaware that there are things that one should justifiably believe on insufficient evidence -- a direct violation of the laws of probability.  It can also imply, for those who take *faith* to mean *trust*, that the scientists using the term are somehow admitting an agency in the universe that they don't intend.  It serves only to propagate sloppy thinking in both the fields of science and religion.
 
 ## Another interaction - McGrath and Dawkins
 
@@ -210,11 +210,11 @@ As part of the "Root of All Evil" program, Richard Dawkins conducted many interv
 
 and
 
->  There are many possible ways of explaining [the world], and we have to make the very difficult judgement of which is the best of these [explanations] […] evidence takes us thus far, but then when it comes to deciding between a number of competing explanations, it is extremely difficult to make an evidence-driven argument.
+>  There are many possible ways of explaining [the world], and we have to make the very difficult judgement of which is the best of these [explanations] [...] evidence takes us thus far, but then when it comes to deciding between a number of competing explanations, it is extremely difficult to make an evidence-driven argument.
 
 and
 
-> I believe faith is rational, in the sense that it tries to make the best possible sense of things […] even though we believe this is the best possible sense of things, we cannot \emph{prove} this is the case […] there is a point where faith goes *beyond* the evidence
+> I believe faith is rational, in the sense that it tries to make the best possible sense of things [...] even though we believe this is the best possible sense of things, we cannot \emph{prove} this is the case [...] there is a point where faith goes *beyond* the evidence
 
 By this point, the reader should be able to tell that McGrath is employing the *belief* part of the expected utility form of *faith*.  One wonders in these cases why he doesn't simply talk about evidence, and the weight of probabilities? Historians, for example, don't use the word *faith* even though they deal with probabilities, some of which are highly uncertain.  Scientists deal with probabilities all the time without invoking the word *faith* in any paper.
 
@@ -224,7 +224,7 @@ Why is he doing this? It seems as if it is because McGrath is holding to a doubl
 
 ### Inference to the best explanation
 
-Then McGrath continues to talk about probabilistic reasoning, and says that with faith one is doing *inference to the best explanation*, given a number of competing multiple explanations. As we stated earlier, if all he means is that faith is probabilistic reasoning, then we don't have an argument — except that we think he can make things more clear. We would contend, along with Dawkins, the *vast* majority of people do not take it to mean this — even the notion of *faith* as *trust* isn't the same as this.
+Then McGrath continues to talk about probabilistic reasoning, and says that with faith one is doing *inference to the best explanation*, given a number of competing multiple explanations. As we stated earlier, if all he means is that faith is probabilistic reasoning, then we don't have an argument -- except that we think he can make things more clear. We would contend, along with Dawkins, the *vast* majority of people do not take it to mean this -- even the notion of *faith* as *trust* isn't the same as this.
 
 However, we'd like to challenge his basic premise: that in dealing with multiple competing explanations that one should try to *infer to the best explanation*, and *believe strongly in that explanation*. A simple example introduced in Section on Belief and Evidence suffices to see this. In this example, we have two explanations of the number of stars, one which says that there is an *even* number of stars and another that says that there is an *odd* number of stars. Pretty much we know that, at any given instant, one of these *must* be true. However strong belief in either one is completely unwarranted - there is simply no way to know. From a probabilistic framework, we express this as
 
@@ -245,7 +245,7 @@ $$
 
 Even though there is a *best* explanation here (*even* is slightly more probable than *odd*), and we have the exact probabilities, it is *still irrational* to hold strong belief in either explanation. One really does have to look where the weight of the probabilities lay. Inference to the best explanation fails as a guiding principle in the face of uncertainty, and is not well defined in all contexts. 
 
-What is happening here is that on the face of it, "inference to the best explanation" sounds like a great thing — something we should always strive for.  However, when you look at what it *actually*  means, it falls short unless you are in a situation where the best explanation is also very probable.  Strong belief is only justified when the claim is very probable, not just that is is the most probable amongst a number of (possibly nearly equivalent) alternatives.
+What is happening here is that on the face of it, "inference to the best explanation" sounds like a great thing -- something we should always strive for.  However, when you look at what it *actually*  means, it falls short unless you are in a situation where the best explanation is also very probable.  Strong belief is only justified when the claim is very probable, not just that is is the most probable amongst a number of (possibly nearly equivalent) alternatives.
 
 ### Shifting sands
 
@@ -257,7 +257,7 @@ First it was "*faith is reasonable*," based on evidence, going beyond the eviden
 
 When pressed on what this implies, he says that 
 
-> there are many reasons I believe in God and that [origins] is not even the primary one...religion really isn't much about where things came  from, about things in the distant past, but really about how things  are now. How to live your life, how to be moral, etc…
+> there are many reasons I believe in God and that [origins] is not even the primary one...religion really isn't much about where things came  from, about things in the distant past, but really about how things  are now. How to live your life, how to be moral, etc...
 
 which then becomes 
 
@@ -267,9 +267,9 @@ and then, this becomes that it is not really about the life of Jesus, and his hi
 
 Notice how this keeps shifting? At first, it is about belief, and then it is about significance (which one could argue is a kind of utility).  Every time he gets pushed on the specific consequences of his statement, he retreats, redefines, and redirects the conversation.
 
-McGrath doesn't seem to realize that any explanation, even of things currently, entails assumptions that can be tested - perhaps with observations about the past. He can't simply say that religion is "not about where things came from," when they explicitly make statements of origins — statements which have been universally discredited. The atonement, for example, *does* depend critically on the existence of Jesus, the existence the ``Fall'', and a creator of the universe — for none of which did McGrath provide evidence. If Jesus didn't exist as a real person (or even if he was just an ordinary guy) then it doesn't matter that his followers simply *believed* that Jesus was God incarnate when determining ones belief in the doctrine of salvation. The demonstration of the historicity of the events claimed is *necessary* for the doctrinal belief. If you don't have strong evidence of the former, then you are not rational to believe strongly in the latter - you'd be claiming to know things you could not know.
+McGrath doesn't seem to realize that any explanation, even of things currently, entails assumptions that can be tested - perhaps with observations about the past. He can't simply say that religion is "not about where things came from," when they explicitly make statements of origins -- statements which have been universally discredited. The atonement, for example, *does* depend critically on the existence of Jesus, the existence the ''Fall'', and a creator of the universe -- for none of which did McGrath provide evidence. If Jesus didn't exist as a real person (or even if he was just an ordinary guy) then it doesn't matter that his followers simply *believed* that Jesus was God incarnate when determining ones belief in the doctrine of salvation. The demonstration of the historicity of the events claimed is *necessary* for the doctrinal belief. If you don't have strong evidence of the former, then you are not rational to believe strongly in the latter - you'd be claiming to know things you could not know.
 
-As a scientist, one takes an idea, and pushes the idea to it furthest consequences to see where it breaks, or to see what it depends on. McGrath seems to change the topic whenever this is done - he does not seem to want to face the very real, specific consequences of his stated beliefs and refuses to see the connections between the things that may be confirmable (apparent design in the biology and the universe itself, historicity of people and events, alleged miracle claims, etc…) and the things that make him feel good, but are unmeasurable (existence of heaven, the atonement of sins, etc…).
+As a scientist, one takes an idea, and pushes the idea to it furthest consequences to see where it breaks, or to see what it depends on. McGrath seems to change the topic whenever this is done - he does not seem to want to face the very real, specific consequences of his stated beliefs and refuses to see the connections between the things that may be confirmable (apparent design in the biology and the universe itself, historicity of people and events, alleged miracle claims, etc...) and the things that make him feel good, but are unmeasurable (existence of heaven, the atonement of sins, etc...).
 
 ## Pascal's wager
 

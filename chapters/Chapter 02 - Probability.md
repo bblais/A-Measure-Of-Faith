@@ -46,11 +46,11 @@ The following picture shows a way to visualize this, with a "Universe" of all po
 
 
 
-Although this probability is *estimated* by the fraction of Aces in a deck of cards, whenever we write probabilities we are referring to a measure of the strength of one's belief in the statement.  Thus, when we write that $P(A)= 4/52 = 0.077$ this probability means that you believe it to be  unlikely — but not extremely unlikely — that you draw an Ace from a well-shuffled deck (see the Rough guide for the conversion of qualitative labels to probability values in  Table 1 [ ](#table-1) at the end of the chapter).  This belief, as we will see, is not just a *guess* but is something arrived at through proper rational processes, or in other words, by adhering strictly to the rules of probability.
+Although this probability is *estimated* by the fraction of Aces in a deck of cards, whenever we write probabilities we are referring to a measure of the strength of one's belief in the statement.  Thus, when we write that $P(A)= 4/52 = 0.077$ this probability means that you believe it to be  unlikely -- but not extremely unlikely -- that you draw an Ace from a well-shuffled deck (see the Rough guide for the conversion of qualitative labels to probability values in  Table 1 [ ](#table-1) at the end of the chapter).  This belief, as we will see, is not just a *guess* but is something arrived at through proper rational processes, or in other words, by adhering strictly to the rules of probability.
 
 ### A bit more about the deck-of-cards analogy
 
-We are using the deck of cards to be analogous to the real world.  While there are things we know about the real world there is a lot of uncertainty as well, just like the uncertainty of the deck of cards.  We can gather evidence in the real world, to better know what the truth is, and analogously we can draw cards from the deck to better know what the properties of the deck is, i.e. is it well-shuffled, is it a standard 52-card deck or a deck of Tarot cards, etc…  As in the real world, we can propose *models* or simplified descriptions of what we think the deck is, and we can perform tests of these models by drawing from the deck and comparing to what we expect from the models.   The methods of science do this with nature itself, by arranging situations where the observations will possibly rule out some models in favor of others, so that we get closer to the truth.  The same rules of probability apply in all of these cases, but given the intuitive nature of a deck of cards, it is easier to see them applied in this simple system.
+We are using the deck of cards to be analogous to the real world.  While there are things we know about the real world there is a lot of uncertainty as well, just like the uncertainty of the deck of cards.  We can gather evidence in the real world, to better know what the truth is, and analogously we can draw cards from the deck to better know what the properties of the deck is, i.e. is it well-shuffled, is it a standard 52-card deck or a deck of Tarot cards, etc...  As in the real world, we can propose *models* or simplified descriptions of what we think the deck is, and we can perform tests of these models by drawing from the deck and comparing to what we expect from the models.   The methods of science do this with nature itself, by arranging situations where the observations will possibly rule out some models in favor of others, so that we get closer to the truth.  The same rules of probability apply in all of these cases, but given the intuitive nature of a deck of cards, it is easier to see them applied in this simple system.
 
 #### Rule 2 (Negation rule):
 
@@ -66,7 +66,7 @@ The following picture shows a universe of all possibilities and the subset ($A$)
 In other words, either a statement is true or its negation is true.
 $$
 \begin{aligned}
-A&\equiv\left[\,\text{``you will draw an Ace from a deck of cards''}\right. \\
+A&\equiv\left[\,\text{''you will draw an Ace from a deck of cards''}\right. \\
 P(A)+P(\mathbf{not}\, A)&=1 \\
 \frac{1}{13} + \frac{12}{13} &=1
 \end{aligned}
@@ -76,7 +76,7 @@ means that you can be *certain* (i.e. probability equal to 1) that when you draw
 Notice how this occurs.  The following is correct logical inference:
 $$
 \begin{aligned}
-B&\equiv\left[\text{``a playing card drawn from a deck is black''}\right. \\
+B&\equiv\left[\text{''a playing card drawn from a deck is black''}\right. \\
 P(B)+P(\mathbf{not}\, B)&=1
 \end{aligned}
 $$
@@ -134,7 +134,7 @@ $$
 P(A\,\mathbf{and}\, B) &=P(B|A)P(A) = \frac{2}{4}\times \frac{4}{52} = \frac{1}{26}
 \end{aligned}
 $$
-Mathematically, it can be seen that $P(A \,\mathbf{and}\, B)$ is always lower than $P(A)$ unless we are *certain* that the other statement, $B$, is true  — the conjunction of two things is inherently (and mathematically) less probable than the individual components.  Failure to recognize this leads to the *conjunction fallacy*.  The most common example given is as follows (from [https://en.wikipedia.org/wiki/Conjunction_fallacy](https://en.wikipedia.org/wiki/Conjunction_fallacy)),
+Mathematically, it can be seen that $P(A \,\mathbf{and}\, B)$ is always lower than $P(A)$ unless we are *certain* that the other statement, $B$, is true  -- the conjunction of two things is inherently (and mathematically) less probable than the individual components.  Failure to recognize this leads to the *conjunction fallacy*.  The most common example given is as follows (from [https://en.wikipedia.org/wiki/Conjunction_fallacy](https://en.wikipedia.org/wiki/Conjunction_fallacy)),
 
 > *Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations.*
 >
@@ -149,13 +149,13 @@ Most people lead towards (2), but the actual answer is (1) because the combinati
 
 There are a few points to be made about the approach we've been using so far, which become important in later examples.
 
-- Notice how concise the description is — the math can summarize the relationship between several concepts with few words or symbols.  
+- Notice how concise the description is -- the math can summarize the relationship between several concepts with few words or symbols.  
 
 - As we've seen, the conjunction of two things is inherently (and mathematically) less probable than the individual components, sometimes with unintuitive consequences.
 
-- If there is more than one way to reason properly to an answer, those different ways must come to the same answer.  This is a good check to see that you are thinking properly when you see the same answers, but it is also a way to distinguish two methods that are in fact not equivalent even if they seem to be — they come to different answers.
+- If there is more than one way to reason properly to an answer, those different ways must come to the same answer.  This is a good check to see that you are thinking properly when you see the same answers, but it is also a way to distinguish two methods that are in fact not equivalent even if they seem to be -- they come to different answers.
 
-- Two statements are considered *independent* if knowledge of one gives you no more information about the other.  In probabilistic terms, this means that $P(B|A)=P(B)$ — knowing $A$ is true doesn't make the probability of $B$ any more or less.  Flipping a coin a second time is still going to be 50-50 heads-tails whether you flipped a heads the first time or not.  Drawing a second card from the top of a deck is a little less likely to be a black card if you draw a black card on the first time — knowledge of previous cards drawn tells you information about the probabilities for the second.  Independence becomes important in the evaluation of evidence because it changes how evidence can be accumulated. 
+- Two statements are considered *independent* if knowledge of one gives you no more information about the other.  In probabilistic terms, this means that $P(B|A)=P(B)$ -- knowing $A$ is true doesn't make the probability of $B$ any more or less.  Flipping a coin a second time is still going to be 50-50 heads-tails whether you flipped a heads the first time or not.  Drawing a second card from the top of a deck is a little less likely to be a black card if you draw a black card on the first time -- knowledge of previous cards drawn tells you information about the probabilities for the second.  Independence becomes important in the evaluation of evidence because it changes how evidence can be accumulated. 
 
 - In the case of *independent* statements, the conjunction rule simplifies to
 
@@ -190,17 +190,17 @@ P({\rm explanation}|{\rm data})&=& \frac{P({\rm data}|{\rm explanation})P({\rm e
 
 where each term is described more fully as 
 
-- $P({\rm explanation})$ —the probability the explanation is correct *prior* to seeing the data.  The term itself is often called the *prior*, and represents your beliefs before you see the data.  Typically, more complex explanations are less likely a-*prior*i than simpler ones.  I will use the term *model* in place of explanation in most of this book, but it means the same thing.
-- $P({\rm explanation}|{\rm data})$ — the probability the explanation is correct *after* seeing the data (*a-posteriori*). The term itself is often called the *posterior* for this reason, and represents your updated beliefs once you have data.  Thus, Bayes' rule is a mathematical expression of *learning* from evidence.  
-- $P({\rm data}|{\rm explanation})$ — the probability that the data can be explained with *this particular explanation*.  The term itself is often called the *likelihood*, and can be thought of as a measure of how well the explanation fits the data.  If the explanation fits the data well, this number will be high, for example.  If it fails to explain the data, this number will be low.  Although related to our final (*posterior*) belief, it is not equivalent.   An explanation that fits the data well may be very unlikely as our best explanation just because that explanation was extremely unlikely in the first place (i.e. before we saw the data, aka the *prior* was low). 
-- $P({\rm data})$ — the total probability of the data, regardless of the explanation.  It is easiest to understand this term with an examples below.
+- $P({\rm explanation})$ --the probability the explanation is correct *prior* to seeing the data.  The term itself is often called the *prior*, and represents your beliefs before you see the data.  Typically, more complex explanations are less likely a-*prior*i than simpler ones.  I will use the term *model* in place of explanation in most of this book, but it means the same thing.
+- $P({\rm explanation}|{\rm data})$ -- the probability the explanation is correct *after* seeing the data (*a-posteriori*). The term itself is often called the *posterior* for this reason, and represents your updated beliefs once you have data.  Thus, Bayes' rule is a mathematical expression of *learning* from evidence.  
+- $P({\rm data}|{\rm explanation})$ -- the probability that the data can be explained with *this particular explanation*.  The term itself is often called the *likelihood*, and can be thought of as a measure of how well the explanation fits the data.  If the explanation fits the data well, this number will be high, for example.  If it fails to explain the data, this number will be low.  Although related to our final (*posterior*) belief, it is not equivalent.   An explanation that fits the data well may be very unlikely as our best explanation just because that explanation was extremely unlikely in the first place (i.e. before we saw the data, aka the *prior* was low). 
+- $P({\rm data})$ -- the total probability of the data, regardless of the explanation.  It is easiest to understand this term with an examples below.
 
 Imagine we are playing a game with several small decks of cards, defined here:
 
 - $E_1: A\spadesuit, 2\heartsuit, 3\spadesuit,4\spadesuit$
 - $E_2: A\heartsuit, 2\heartsuit, 3\spadesuit, 4\spadesuit$
 - $E_3: A\heartsuit,2\heartsuit, 2\heartsuit,4\spadesuit$
-- $E_4: A\heartsuit,3\spadesuit, 3\spadesuit, 4\spadesuit$
+- $E_4: A\spadesuit,3\spadesuit, 3\spadesuit, 4\spadesuit$
 
 Where $E$ is denoting a deck or, more generally, an *explanation* for the data we will collect by drawing cards.  In the game, someone has handed us one of the decks (i.e. $E_1$, $E_2$, $E_3$ or $E_4$) but we don't know at all which one it is. The analogy here is that the universe is set up with a set of rules that we are trying to determine.  Thus, deciding on which deck we are holding is analogous to deciding which universe we are actually in, given our observations of the universe.  In other words, providing an *explanation* of the data is really about determining which of the many possible universes we are in.
 
@@ -208,7 +208,7 @@ Where $E$ is denoting a deck or, more generally, an *explanation* for the data w
 
 We then draw the top card, observe that it is a $3\spadesuit$, and see if we can reason about which deck is likely to be the one we are holding.  We choose such a small, simple system because it is easy to intuit the answers without the math.  This intuition can provide a scaffold for understanding the mathematics, which can be used in more complex examples where one *doesn't* have a strong intuition.  It is therefore worth going through at least one example in detail.
 
-To begin, we need to assign the probabilities of the four cases *prior* to the data.  Given total ignorance of which deck was chosen— we know that there are 4 possibilities but have no idea about anything more about the selection process —  we assign equal probabilities to the four cases[^equal]
+To begin, we need to assign the probabilities of the four cases *prior* to the data.  Given total ignorance of which deck was chosen-- we know that there are 4 possibilities but have no idea about anything more about the selection process --  we assign equal probabilities to the four cases[^equal]
 
 $$\begin{aligned}
 P(E_1)&=&1/4 \\
@@ -266,7 +266,7 @@ P(E_3|3\spadesuit)&=\frac{(0)\times (1/4)}{(2/12)} = 0 \\
 P(E_4|3\spadesuit)&=\frac{(2/4)\times (1/4)}{(4/16)} = 1/2 \\
 \end{aligned}$$
 
-which perfectly matches our intuition — $E3$ is certainly false, and $E_4$ is more likely than the other two.  Notice further that $P(3\spadesuit|E_1)$ is another way of saying "how well is the observation of a $3\spadesuit$ explained by the idea that we're holding the first deck?"  The entire process can then be thought of as updating our initial beliefs with the new evidence.  
+which perfectly matches our intuition -- $E3$ is certainly false, and $E_4$ is more likely than the other two.  Notice further that $P(3\spadesuit|E_1)$ is another way of saying "how well is the observation of a $3\spadesuit$ explained by the idea that we're holding the first deck?"  The entire process can then be thought of as updating our initial beliefs with the new evidence.  
 
 > *Any process of reasoning, in any field whatsoever, is either consistent with this process of calculation or it is not rational.*
 
@@ -398,7 +398,7 @@ What is knowledge?  Plato gave the following definition of knowledge:
 
 > Knowledge is justified true belief. [@fine2003plato]
 
-This is an unsatisfying definition because, it seems, in order to justifiably label anything as *knowledge* with this definition we'd need to be able to independently determine that the statement is true. This presupposes that there is some "outside" knowledge, but we have no access to that.  I believe there is likely to be a truth to be known, but that we can never truly know what it is for certain — but this is not a problem. It is a red herring to bring up 100% certainty for knowledge, because it is never achievable, and isn't what we practically call knowledge. I prefer a definition inspired by Stephen J Gould:^[In this way, knowledge is a subset of belief.]
+This is an unsatisfying definition because, it seems, in order to justifiably label anything as *knowledge* with this definition we'd need to be able to independently determine that the statement is true. This presupposes that there is some "outside" knowledge, but we have no access to that.  I believe there is likely to be a truth to be known, but that we can never truly know what it is for certain -- but this is not a problem. It is a red herring to bring up 100% certainty for knowledge, because it is never achievable, and isn't what we practically call knowledge. I prefer a definition inspired by Stephen J Gould:^[In this way, knowledge is a subset of belief.]
 
 > In science, '*fact*' can only mean confirmed to such a degree that it would be perverse to withhold provisional assent. `I suppose that apples might start to rise tomorrow, but the possibility does not merit equal time in physics classrooms.' [@gould1981evolution]
 
@@ -412,7 +412,7 @@ We can ask the question, how did we come to this knowledge?  The answer is simpl
 
 ### Proof
 
-Do *proof* and *evidence* mean the same thing?  No, they don't.  There are two primary processes for rational inference — *deductive* and *inductive*.  In *deductive* reasoning, one starts with some (given) axioms, and can demonstrate *with certainty* (i.e. prove) a number of theorems (i.e direct consequences) from those axioms.  In *inductive* reasoning, one presents evidence or data which makes certain models either more or less likely — never to absolute certainty.  Thus, the word "*proof*" should only be used in situations involving *certainty*, derived from axioms with logic.  In this way, *deductive* reasoning is a subset of *inductive* for those cases where the probabilities are *exactly* 1 or *exactly* 0.  *Induction* is just another name for the application of the rules of probability, so we have been doing that from the beginning of the book.  
+Do *proof* and *evidence* mean the same thing?  No, they don't.  There are two primary processes for rational inference -- *deductive* and *inductive*.  In *deductive* reasoning, one starts with some (given) axioms, and can demonstrate *with certainty* (i.e. prove) a number of theorems (i.e direct consequences) from those axioms.  In *inductive* reasoning, one presents evidence or data which makes certain models either more or less likely -- never to absolute certainty.  Thus, the word "*proof*" should only be used in situations involving *certainty*, derived from axioms with logic.  In this way, *deductive* reasoning is a subset of *inductive* for those cases where the probabilities are *exactly* 1 or *exactly* 0.  *Induction* is just another name for the application of the rules of probability, so we have been doing that from the beginning of the book.  
 
 I realize that I'm being pedantic here because in common speech we use the word "proof" a little more loosely.  We speak about "scientific proof" or "I won't believe this without proof".  However, it is important to be specific about one means here and I will insist though this book that the word "proof" be used only in the more restrictive sense.  Everything else is just probabilities approaching proof.  As a result, we have the following maxim,
 
@@ -448,20 +448,20 @@ In each of these cases, *at the time* there was in fact strong evidence for the 
 
 ## An example of independence
 
-The nature of independence comes up in many places so it is important to understand how it can affect inference.   Recall that two statements are considered *independent* if knowledge of one gives you no more information about the other.  In probabilistic terms, this means that $P(B|A)=P(B)$ — knowing $A$ is true doesn't make the probability of $B$ any more or less.  In the case of cards, if I constantly reshuffle the deck after each draw then knowing one card will not help you with the next.  
+The nature of independence comes up in many places so it is important to understand how it can affect inference.   Recall that two statements are considered *independent* if knowledge of one gives you no more information about the other.  In probabilistic terms, this means that $P(B|A)=P(B)$ -- knowing $A$ is true doesn't make the probability of $B$ any more or less.  In the case of cards, if I constantly reshuffle the deck after each draw then knowing one card will not help you with the next.  
 
 I can easily make certain cards more or less likely by changing the process of drawing.  If I always place cards the I draw from the top of the deck back at the bottom of the deck, then knowing I've drawn two Aces so far makes the drawing of Aces *less likely* in future draws.  If however I place the cards back near the top of the deck (e.g. throwing them roughly into a pile that I draw from), then knowing I've drawn two Aces so far makes the drawing of Aces *more likely* in future draws. 
 
-If you are assuming (for simplicity) that information you're getting from two different people is *independent* and it turns out that it isn't, then you will not reach proper conclusions.  It might be that the information is less reliable than you thought — that the second person only heard the information from the first, so you're effectively getting it from one person.  The equations would look like (focussing on the numerator of Bayes' Rule)
+If you are assuming (for simplicity) that information you're getting from two different people is *independent* and it turns out that it isn't, then you will not reach proper conclusions.  It might be that the information is less reliable than you thought -- that the second person only heard the information from the first, so you're effectively getting it from one person.  The equations would look like (focussing on the numerator of Bayes' Rule)
 $$
 \begin{aligned}
 P(\text{claim}|A\,\mathbf{and}\, B) &\sim P(A\,\mathbf{and}\, B|\text{claim}) \\
 &=P(A|\text{claim})P(B|A,\text{claim})
 \end{aligned}
 $$
-The key part is $P(B|A,\text{claim})$ — how likely is the testimony from $B$ given the testimony from $A$? If it is independent, then one gains relevant information from the testimony.  If $B$ is parroting $A$, then this term is nearly $1$ and you will effectively only have $P(A|\text{claim})$.  If $B$ typically avoids agreeing with $A$, and has heard $A$ giving the testimony, then the probabilities are shifted in the opposite direction.  One can see that it becomes critical to know whether the parts of the process that provided your evidence are all independent.  
+The key part is $P(B|A,\text{claim})$ -- how likely is the testimony from $B$ given the testimony from $A$? If it is independent, then one gains relevant information from the testimony.  If $B$ is parroting $A$, then this term is nearly $1$ and you will effectively only have $P(A|\text{claim})$.  If $B$ typically avoids agreeing with $A$, and has heard $A$ giving the testimony, then the probabilities are shifted in the opposite direction.  One can see that it becomes critical to know whether the parts of the process that provided your evidence are all independent.  
 
-Scientists design experiments to make sure that the evidence is as informative as it can be — that two measurements of the same thing giving the same answer are doing so not because they correlate but because they independently came to the same answer so we can be confident in it.
+Scientists design experiments to make sure that the evidence is as informative as it can be -- that two measurements of the same thing giving the same answer are doing so not because they correlate but because they independently came to the same answer so we can be confident in it.
 
 ## Lessons from probability
 

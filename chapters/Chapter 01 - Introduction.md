@@ -23,7 +23,7 @@ A further benefit to describing the thought process using probability is to prov
 
 ## Organization
 
-I begin the book with an elementary introduction to probability.  Those familiar with it can skip that coverage.  I then move on to applications of this way of thinking to topics common in religion, specifically the Christian religion with which I was brought up and have had an interest in for many years.  I cover terms including *belief*, *faith*, *miracles*, *evidence*, *proof* and *knowledge* — terms we commonly use but are often clouded by the fuzzy use of language.  The use of mathematics  brings a concreteness and lucidity to more verbose and *murky* approaches.  These methods force  the discussion to be both *specific* and *complete*.  
+I begin the book with an elementary introduction to probability.  Those familiar with it can skip that coverage.  I then move on to applications of this way of thinking to topics common in religion, specifically the Christian religion with which I was brought up and have had an interest in for many years.  I cover terms including *belief*, *faith*, *miracles*, *evidence*, *proof* and *knowledge* -- terms we commonly use but are often clouded by the fuzzy use of language.  The use of mathematics  brings a concreteness and lucidity to more verbose and *murky* approaches.  These methods force  the discussion to be both *specific* and *complete*.  
 
 
 ## Who is this for?

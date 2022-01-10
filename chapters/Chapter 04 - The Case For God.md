@@ -57,7 +57,7 @@ Swinburne states that this explanation is *simplest* for a number of reasons,
 
 >  A scientific explanation, will have to postulate as a starting point of explanation a substance or substances that caused or still cause the universe and its characteristics. To postulate many or extended such substances (an always existing universe; or an extended volume of matter energy from which, uncaused by God, all began) is to postulate more entities than theism. 
 
-> To start with, theism postulates a God who is just one person, not many. To postulate one substance is to make a very simple postulation. He is infinitely powerful, omnipotent. This is a simpler hypothesis than the hypothesis that there is a God who has such-and-such limited power (for example, the power to rearrange matter, but not the power to create it)….But, if God’s essence is an eternal essence, then any complete explanation of phenomena in terms of God’s agency is also an ultimate explanation. For God’s existence at a time is entailed by his existing at all, and does not require to be explained in terms of his previous existence and previous choices. So the simplest kind of God is a factually necessary one, in the sense defined earlier.
+> To start with, theism postulates a God who is just one person, not many. To postulate one substance is to make a very simple postulation. He is infinitely powerful, omnipotent. This is a simpler hypothesis than the hypothesis that there is a God who has such-and-such limited power (for example, the power to rearrange matter, but not the power to create it)....But, if God's essence is an eternal essence, then any complete explanation of phenomena in terms of God's agency is also an ultimate explanation. For God's existence at a time is entailed by his existing at all, and does not require to be explained in terms of his previous existence and previous choices. So the simplest kind of God is a factually necessary one, in the sense defined earlier.
 
 So God being one thing (not many), and infinite in various attributes, and actually exists constitutes the simplest sort of explanation to Swinburne.  He then spends some time describing the properties of omnipotence, omniscience, and omni-benevolence which we won't go into detail here - please read his book of the details.
 
@@ -76,7 +76,7 @@ $$
 P(G | \text{data}) = \frac{P(\text{data}|G)\cdot P(G)}{P(\text{data}|G)\cdot P(G) + P(\text{data}|\sim G)\cdot P(\sim G)}
 $$
 
-where $G$ refers to "the classical theism God exists" and $\sim G$ refers to "the classical theism God *does not* exist."  He then breaks down the terms with $\sim G$ into several different hypotheses, which we can label $H_1, H_2, H_3,$ etc…  In the text, he limits this to three hypotheses,
+where $G$ refers to "the classical theism God exists" and $\sim G$ refers to "the classical theism God *does not* exist."  He then breaks down the terms with $\sim G$ into several different hypotheses, which we can label $H_1, H_2, H_3,$ etc...  In the text, he limits this to three hypotheses,
 $$
 \begin{aligned}
 P(\text{data}|\sim G)P(\sim G)= &P(\text{data}|\sim H_1)P(H_1) + \\
@@ -93,8 +93,8 @@ where
 The probabilities for these hypotheses are set quite low, given the following,
 
 > - $H_1$: "hypothesis of theism is a very simple hypothesis indeed, simpler than hypotheses of many or limited gods"
-> - $H_2$: "But there is no particular reason why an unextended physical point or any of the other possible starting points of the universe, or an everlasting extended universe, should as such have the power and liability to bring about all the features that I have described. […] It will only become at all probable that there will be a universe of our kind if we build into the hypotheses an enormous amount of complexity. " 
-> - $H_3$: "And that our universe should have all the characteristics described (above all, the overwhelming fact that each particle of matter throughout vast volumes of space should behave in exactly the same way as every other particle codified in ‘laws of nature’) without there being some explanation of this is beyond belief. While $P(\text{data}|H_3)=1$ (the universe being this way unexplained entails it being this way),$P(H_3)$ is infinitesimally low."
+> - $H_2$: "But there is no particular reason why an unextended physical point or any of the other possible starting points of the universe, or an everlasting extended universe, should as such have the power and liability to bring about all the features that I have described. [...] It will only become at all probable that there will be a universe of our kind if we build into the hypotheses an enormous amount of complexity. " 
+> - $H_3$: "And that our universe should have all the characteristics described (above all, the overwhelming fact that each particle of matter throughout vast volumes of space should behave in exactly the same way as every other particle codified in 'laws of nature') without there being some explanation of this is beyond belief. While $P(\text{data}|H_3)=1$ (the universe being this way unexplained entails it being this way),$P(H_3)$ is infinitesimally low."
 
 He concludes with
 
@@ -131,7 +131,7 @@ We start with one of the alternative hypotheses,
 
 > - $H_2$: "there is no God or gods but an initial (or everlasting) physical state of the universe, different from the present state but of such a kind as to bring about the present state"
 
-I am not sure if $H_2$ is well-defined, but being charitable we can read it as simply vague.  In science we would break $H_2$ into a number of *specific* models of the universe which make *specific* prediction for quantities like the initial entropy of the universe, the mass distribution of the early universe, the speed of the expansion, etc… The models that are most probable use a modest number of parts to explain *in detail* the present and past state of observable universe.   Does the God-hypothesis, $G$, make *any* of these predictions?  No — it doesn't.  Equivalent to "magic" God-hypothesis is not well-defined enough to make such predictions.
+I am not sure if $H_2$ is well-defined, but being charitable we can read it as simply vague.  In science we would break $H_2$ into a number of *specific* models of the universe which make *specific* prediction for quantities like the initial entropy of the universe, the mass distribution of the early universe, the speed of the expansion, etc... The models that are most probable use a modest number of parts to explain *in detail* the present and past state of observable universe.   Does the God-hypothesis, $G$, make *any* of these predictions?  No -- it doesn't.  Equivalent to "magic" God-hypothesis is not well-defined enough to make such predictions.
 
 #### Imagination
 
@@ -147,7 +147,7 @@ how about,
 - $H_5$: *Greek Pantheon*, or any number of other mythos, exists.  This is $H_1$ broken up into specifics
 - $H_6$: *Multiverse* models (there could be many) 
 - $\vdots$
-- etc…
+- etc...
 
 In short, one can come up with any amount of alternative models which explain the base-level data that Swinburne wants to handle.  These data don't include specific observations like the expansion rate of the universe, or the fraction of hydrogen and helium in the universe, or the balance between matter and anti-matter, or really anything specific so the number of compatible models is enormous.  The only limit is our imagination.
 
@@ -171,11 +171,11 @@ He then adds that, for the *cause* to be able to cause the universe, [it must be
 
 The clearest exposition of the problems with this argument I have found is [from Sean Carroll](https://www.youtube.com/watch?v=X0qKZqPy9T8&feature=youtu.be&t=2305), in his debate with William Lane Craig.  The problems with the argument are both from the argument itself and from the scientific support for its premises.
 
-The first premise assumes that our everyday experience of causation applies in all cases, even well outside our everyday experience.  We know from physics that this isn't true — our intuitions fail at the very small, the very large, and the very fast at the least.  On the small scale, there are (to our best knowledge) *uncaused* events such as radioactive decay and the production of virtual particles in the vacuum.   To imagine that our notions of causation should apply to entire universes is naive.  
+The first premise assumes that our everyday experience of causation applies in all cases, even well outside our everyday experience.  We know from physics that this isn't true -- our intuitions fail at the very small, the very large, and the very fast at the least.  On the small scale, there are (to our best knowledge) *uncaused* events such as radioactive decay and the production of virtual particles in the vacuum.   To imagine that our notions of causation should apply to entire universes is naive.  
 
 The second premise is often supported by referring to the Big Bang theory, and such theorems as the Borde-Guth-Vilenkin theorem which William Lane Craig interprets as "the universe must have had a beginning" although Carroll corrects him by saying that the theorem implies that the universe *might* have a beginning but that it only requires that the *expansion* had a beginning.   
 
-Finally, even if our universe had a beginning, its cause could be some other natural process.  Perhaps an outcome of multiverse models, at which one would have to back the argument up to support that the multiverse has a beginning.  However, once this is admitted, we have to come to terms with the fact that we have no evidence about the beginning — or not — of the multiverse and the entire argument collapses.
+Finally, even if our universe had a beginning, its cause could be some other natural process.  Perhaps an outcome of multiverse models, at which one would have to back the argument up to support that the multiverse has a beginning.  However, once this is admitted, we have to come to terms with the fact that we have no evidence about the beginning -- or not -- of the multiverse and the entire argument collapses.
 
 ## The fine tuning argument
 
@@ -183,7 +183,7 @@ Finally, even if our universe had a beginning, its cause could be some other nat
 
 There are a several arguments which go by the name of Fine Tuning but they all stem from the same idea.  The basic idea comes from scientific observations of the sensitivity of certain physical systems to change.  On the largest scale, the observation is that the conditions in the universe for the development of atoms, molecules, and life itself depend critically on certain *arbitrary* physical constants [@craig2018teleological] such as the speed of light, strength of gravity, and the expansion rate of the universe [@rees2008just].  By critically, we have examples like the gravitational constant needs to be the value it currently is by 1 part in $10^{34}$ (1/10000000000000000000000000000000000 or 1 followed by 34 zeros) or stars wouldn't form, and the expansion rate of the universe within 1 part in $10^{55}$ or the universe would not have lasted long enough for life to form or expanded too quickly to allow for planets to form.  
 
-Similar fine-tuning observations have been suggested more locally [@wallace2015god], like the mass of our Moon and the location of the Earth relative to our Sun.  The argument is the same — if these properties were at all different then life, and thus humans, would not be here.
+Similar fine-tuning observations have been suggested more locally [@wallace2015god], like the mass of our Moon and the location of the Earth relative to our Sun.  The argument is the same -- if these properties were at all different then life, and thus humans, would not be here.
 
 These observations are coupled to the argument in the following way.  If we observe some property, then its value must be the result of
 

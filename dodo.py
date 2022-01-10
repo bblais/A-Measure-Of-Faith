@@ -72,7 +72,7 @@ def task_md_html_individual():
 
         htmlfile='build/%s.html' % base
 
-        s= 'pandoc  -M date="`date`" --filter eqn2png.py --filter pandoc-citeproc  --filter replace_metavars.py -s --toc --toc-depth=2 --top-level-division=chapter --self-contained -o "%s" "%s" config/config.yaml' % (htmlfile,mdfile)
+        s= 'pandoc  -M date="`date`" --filter eqn2png.py --citeproc  --filter replace_metavars.py -s --toc --toc-depth=2 --top-level-division=chapter --self-contained -o "%s" "%s" config/config.yaml' % (htmlfile,mdfile)
     
         yield {
             'name':base,
@@ -95,7 +95,7 @@ def task_md_html():
         fnames.append(mdfile)
 
 
-    s= 'pandoc  -M date="`date`" --filter eqn2png.py --filter pandoc-citeproc  --filter replace_metavars.py -s --toc --toc-depth=2 --top-level-division=chapter --self-contained -o build/measure_of_faith.html -B dedication.txt title.txt %s config/config.yaml' % (' '.join(q(fnames)))
+    s= 'pandoc  -M date="`date`" --filter eqn2png.py --citeproc  --filter replace_metavars.py -s --toc --toc-depth=2 --top-level-division=chapter --self-contained -o build/measure_of_faith.html -B dedication.txt title.txt %s config/config.yaml' % (' '.join(q(fnames)))
     
     
     return {

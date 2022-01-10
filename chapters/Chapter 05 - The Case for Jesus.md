@@ -20,13 +20,13 @@ Following up with his argument for the existence of God, Swinburne presents a pr
 
 
 
-> Now at the end of the day this book is interested in $P(h|e\&k)$ —the probability that Jesus was God Incarnate who rose from the dead ($h$), on the evidence both of natural theology ($k$) and of the detailed history of Jesus and of other human prophets ($e$)
+> Now at the end of the day this book is interested in $P(h|e\&k)$ --the probability that Jesus was God Incarnate who rose from the dead ($h$), on the evidence both of natural theology ($k$) and of the detailed history of Jesus and of other human prophets ($e$)
 
-For clarity, I prefer to use the letter $R$ for the primary claim that Jesus was risen from the dead, rather than $h$.  Since Swinburne is assuming the "evidence of natural theology" through the entire argument, we don't need the extra symbol $k$ — we can subsume it into the "evidence."  Finally, in Swinburne's argument, he brings in two extra symbols: $c$ for the claim that God became incarnate and $f$ that "we have *claims* that there is evidence of the strength given by $e$."  Although I agree that we should always focus on what evidence we have (i.e. we have claims of events), Swinburne makes no use of these two extra symbols because near the end of the argument he makes the following two statements (in his notation):
+For clarity, I prefer to use the letter $R$ for the primary claim that Jesus was risen from the dead, rather than $h$.  Since Swinburne is assuming the "evidence of natural theology" through the entire argument, we don't need the extra symbol $k$ -- we can subsume it into the "evidence."  Finally, in Swinburne's argument, he brings in two extra symbols: $c$ for the claim that God became incarnate and $f$ that "we have *claims* that there is evidence of the strength given by $e$."  Although I agree that we should always focus on what evidence we have (i.e. we have claims of events), Swinburne makes no use of these two extra symbols because near the end of the argument he makes the following two statements (in his notation):
 
 > 1. $P(h|e \& k)$ will not be very different from $P(c|e \& k)$
 >
-> 2. It cannot make any difference to the probability that $f$ (with $k$) gives to $c$, if we add to $f$ [...] the details of the evidence [...] So, $P(c|e\&k)= P(c|f\&k)$ […]
+> 2. It cannot make any difference to the probability that $f$ (with $k$) gives to $c$, if we add to $f$ [...] the details of the evidence [...] So, $P(c|e\&k)= P(c|f\&k)$ [...]
 
 which effectively makes his two extra symbols redundant:  $f$ is equivalent to the evidence $e$, and $c$ is equivalent to the primary statement under analysis $h$.  After recognizing this, the basic structure of the argument follows the Bayes' Rule,
 
@@ -56,7 +56,7 @@ where the evidence is
 
 The math follows straightforwardly by addressing each term of the equation above,
 
-The probability that if God became incarnate/was resurrected we would have the evidence we have, Swinburne suggests the ``fairly low'' number of 
+The probability that if God became incarnate/was resurrected we would have the evidence we have, Swinburne suggests the ''fairly low'' number of 
 $$
 P(\text{evidence}|R) = \frac{1}{10}
 $$
@@ -66,7 +66,7 @@ P(R) = P(R|G)P(G)
 $$
 where the probability of God, $P(G)=1/2$, is the "modest" value taken from the previous work.  The first part, $P(R|G)$, is an attempt to divine the motivations of God, 
 
->Then let us represent by $c$ [in our simplified notation, $R$ ] the claim that God became incarnate among humans at some time with a divided incarnation, a more precise form of the way described by the Council of Chalcedon.  I suggested that it was ‘as probable as not’ that he would do this and so in numerical terms the probability of his doing it is 1⁄2. 
+>Then let us represent by $c$ [in our simplified notation, $R$ ] the claim that God became incarnate among humans at some time with a divided incarnation, a more precise form of the way described by the Council of Chalcedon.  I suggested that it was 'as probable as not' that he would do this and so in numerical terms the probability of his doing it is $1/2$. 
 
 Thus, Swinburne arrives at the prior probability of the resurrection,
 $$
@@ -108,9 +108,9 @@ The overall structure of the argument is, of course, sound.  Bayes' Rule will wo
 
 For example,
 
-> Then let us represent by $c$ [in our simplified notation, $R$ ] the claim that God became incarnate among humans at some time with a divided incarnation, a more precise form of the way described by the Council of Chalcedon.  I suggested that it was ‘as probable as not’ that he would do this and so in numerical terms the probability of his doing it is 1⁄2. 
+> Then let us represent by $c$ [in our simplified notation, $R$ ] the claim that God became incarnate among humans at some time with a divided incarnation, a more precise form of the way described by the Council of Chalcedon.  I suggested that it was 'as probable as not' that he would do this and so in numerical terms the probability of his doing it is $1/2$. 
 
-Swinburne puts great store in the idea that God would do things the Christian way.  He has entire chapters littered with phrases starting with "God will want to…," "…reason God would have for…," "…reasons which God might have for…,"etc…  We are told that the mind of God is inscrutable, so I find it unconvincing that Swinburne can read it so clearly and narrowly.  How do we know that an incarnate God is the best one?  Perhaps it would have been better if he had come down looking like an alien?  Why the particular miracle of raising from the dead?  Why not glowing skin, flying, or invincibility?  Although my suggestions sound suspiciously like Superman or someone from the X-Men, other than 20-20 hindsight[^posthoc] there really is no way to tell what the reasoning should be, thus making all probabilities based on that to be arbitrary.  As a game, try to come up with a rational argument for why it would be in God's plan to send Superman.  God would want an alien to stress the Fall of mankind, but would want the alien to appear human in all obvious ways.  God would want this representative to be invincible to give good evidence for the omnipotence of God himself, but be limited in space and time to give humans the free will to work on problems on their own.  One can keep going with this line of argument because it is completely unconstrained by any possibility of confirmation or disconfirmation.  
+Swinburne puts great store in the idea that God would do things the Christian way.  He has entire chapters littered with phrases starting with "God will want to...," "...reason God would have for...," "...reasons which God might have for...,"etc...  We are told that the mind of God is inscrutable, so I find it unconvincing that Swinburne can read it so clearly and narrowly.  How do we know that an incarnate God is the best one?  Perhaps it would have been better if he had come down looking like an alien?  Why the particular miracle of raising from the dead?  Why not glowing skin, flying, or invincibility?  Although my suggestions sound suspiciously like Superman or someone from the X-Men, other than 20-20 hindsight[^posthoc] there really is no way to tell what the reasoning should be, thus making all probabilities based on that to be arbitrary.  As a game, try to come up with a rational argument for why it would be in God's plan to send Superman.  God would want an alien to stress the Fall of mankind, but would want the alien to appear human in all obvious ways.  God would want this representative to be invincible to give good evidence for the omnipotence of God himself, but be limited in space and time to give humans the free will to work on problems on their own.  One can keep going with this line of argument because it is completely unconstrained by any possibility of confirmation or disconfirmation.  
 
 [^posthoc]:  which in philosophical circles is called post-hoc or "after-the-fact" reasoning.
 
@@ -127,7 +127,7 @@ He admits that there may be some detailed alternative story,
 >
 > The traditional account does not have these disadvantages of complexity. If Jesus did indeed rise, then this one action would lead us to expect to find the data which I have been discussing with no very great improbability. If the traditional account is improbable overall, that is because of its prior improbability, involving a massive violation of laws of nature, and just how improbable that makes it depends on the worth of natural theology;  
 
-But the "worth of natural theology" in his argument comes in the form of reading God's mind, and is thus arbitrary.  Further, he never considers evidence which we *don't* have but should be observable and recorded if the actual events transpired as claimed.  For example, the Romans should have had trials for grave robbing — whether Jesus was resurrected or no — but these are not mentioned by other historians of the time at all, even while other Roman trials of the early Christians are discussed in great detail.   Any mention of the temple veil ripping, the dead saints walking around Jerusalem, and the purported earthquake are also never mentioned.  Any probabilistic treatment needs to handle these cases. The part of Bayes' Rule which describes how well the claim explains the evidence can be broken up into separate parts of the evidence,
+But the "worth of natural theology" in his argument comes in the form of reading God's mind, and is thus arbitrary.  Further, he never considers evidence which we *don't* have but should be observable and recorded if the actual events transpired as claimed.  For example, the Romans should have had trials for grave robbing -- whether Jesus was resurrected or no -- but these are not mentioned by other historians of the time at all, even while other Roman trials of the early Christians are discussed in great detail.   Any mention of the temple veil ripping, the dead saints walking around Jerusalem, and the purported earthquake are also never mentioned.  Any probabilistic treatment needs to handle these cases. The part of Bayes' Rule which describes how well the claim explains the evidence can be broken up into separate parts of the evidence,
 $$
 P(\text{evidence}|\text{claim})=P(e_1\,{\bf and}\,e_2|\text{claim})=P(e_1|e_2,\text{claim})P(e_2|\text{claim})
 $$
@@ -148,15 +148,15 @@ In "The Argument from Miracles" [@mcgrew2009argument], Tim and Lydia McGrew offe
 
 The primary assumptions of the approach are stated up-front,
 
-> Our argument will proceed on the assumption that we have a substantially accurate text of the four gospels, Acts, and several of the undisputed Pauline epistles (most significantly Galatians and I Corinthians); that the gospels were written, if not by the authors whose names they now bear, at least by disciples of Jesus or people who knew those disciples – people who knew at first hand the details of his life and teaching or people who spoke with those eyewitnesses – and that the narratives, at least where not explicitly asserting the occurrence of a miracle, deserve as much credence as similarly attested documents would be accorded if they reported strictly secular matters.  Where the texts do assert something miraculous – for example, Jesus’ post-resurrection appearances – we take it, given the basic assumption of authenticity, that the narrative represents what someone relatively close to the situation claimed. For the purposes of our argument, we make no assumption of inspiration, much less inerrancy, for these documents, and we accept that there are small textual variations and minor signs of editing, though we do not in any place rely on any passage where the textual evidence leaves serious doubt about the original meaning. 
+> Our argument will proceed on the assumption that we have a substantially accurate text of the four gospels, Acts, and several of the undisputed Pauline epistles (most significantly Galatians and I Corinthians); that the gospels were written, if not by the authors whose names they now bear, at least by disciples of Jesus or people who knew those disciples -- people who knew at first hand the details of his life and teaching or people who spoke with those eyewitnesses -- and that the narratives, at least where not explicitly asserting the occurrence of a miracle, deserve as much credence as similarly attested documents would be accorded if they reported strictly secular matters.  Where the texts do assert something miraculous -- for example, Jesus' post-resurrection appearances -- we take it, given the basic assumption of authenticity, that the narrative represents what someone relatively close to the situation claimed. For the purposes of our argument, we make no assumption of inspiration, much less inerrancy, for these documents, and we accept that there are small textual variations and minor signs of editing, though we do not in any place rely on any passage where the textual evidence leaves serious doubt about the original meaning. 
 
 The core of the argument comes down to,
 
 > As a first step, let us consider a single disciple. The best of the available naturalistic explanations, the hallucination theory, requires (if it is to match $R$ in likelihood) an extraordinary level of detailed delusion, seamlessly integrated (so far as he can tell) with his experience of those around him. Such delusions do occur in waking life in those who suffer from severe mental illness, but such illness is mercifully rare and is accompanied by other noticeable conditions that were absent in the case of the disciples. The other naturalistic hypotheses have higher prior probabilities, perhaps as high as $0.001$, but they do not come close to matching the explanatory power of $R$; their contribution to the likelihood $P(D_i|\sim\!\!R)$ is negligible even by comparison to the hallucination theory.
 >
-> […]
+> [...]
 >
-> But having assigned a single factor, we must ask what happens when we take into account the fact that there were thirteen such disciples. We can get a first approximation to the result by assuming independence. […] So under the assumption of independence, the Bayes factors for each of the thirteen $D_i$ must be multiplied, which yields a staggering combined factor
+> But having assigned a single factor, we must ask what happens when we take into account the fact that there were thirteen such disciples. We can get a first approximation to the result by assuming independence. [...] So under the assumption of independence, the Bayes factors for each of the thirteen $D_i$ must be multiplied, which yields a staggering combined factor
 >
 > 
 > $$
@@ -179,20 +179,20 @@ McGrew anticipates the challenge of the independence assumption and provides a d
 
 They describe the problem with the independence assumption
 
-> If three men accused of committing a crime all give, in essentially the same words, the same innocent explanation of their actions, the plausibility of the claim that they are conspiring to give themselves an alibi undermines the force of their combined testimony. Even when there is no definite intent to deceive, witnesses may influence one another’s testimony causally in a way that would obtain even if the event had not happened, or had not happened in the way that they are saying it did. 
+> If three men accused of committing a crime all give, in essentially the same words, the same innocent explanation of their actions, the plausibility of the claim that they are conspiring to give themselves an alibi undermines the force of their combined testimony. Even when there is no definite intent to deceive, witnesses may influence one another's testimony causally in a way that would obtain even if the event had not happened, or had not happened in the way that they are saying it did. 
 
 First, with the three pieces of evidence under consideration
 
 > First, let us consider the independence of the strands of argument which we have labeled
-> $W$, $D$, and $P$.  […] The testimony of the women to the empty tomb and to the appearances of Christ are independent, obviously, of Paul’s conversion […]  The women’s testimony is essentially independent of that of the thirteen male witnesses. [etc…]
+> $W$, $D$, and $P$.  [...] The testimony of the women to the empty tomb and to the appearances of Christ are independent, obviously, of Paul's conversion [...]  The women's testimony is essentially independent of that of the thirteen male witnesses. [etc...]
 >
 > But the assumption of independence *among* the thirteen male witnesses raises greater difficulties. [emphasis original]  
 
 Then the argument moves to the idea of collusion in  early  Christianity,
 
->  When people are claiming to be eyewitnesses to some event (in this case, the appearance of the risen Jesus), and when they are in danger of an unpleasant fate for making the claim in question, their believing and having better evidence for this claim is a better explanation of positive dependence among their accounts – their being able to encourage one another to continue making their testimony – than their not believing the claim or having worse evidence for it. […] If any one of the witnesses in question had not actually had clear and realistic sensory experiences just as if Jesus were physically present, talking with them, eating before them, offering to let them inspect his hands and side and the like, it is not credible that he would listen to the urging of his fellows to remain steadfast in testifying to such experiences. 
+>  When people are claiming to be eyewitnesses to some event (in this case, the appearance of the risen Jesus), and when they are in danger of an unpleasant fate for making the claim in question, their believing and having better evidence for this claim is a better explanation of positive dependence among their accounts -- their being able to encourage one another to continue making their testimony -- than their not believing the claim or having worse evidence for it. [...] If any one of the witnesses in question had not actually had clear and realistic sensory experiences just as if Jesus were physically present, talking with them, eating before them, offering to let them inspect his hands and side and the like, it is not credible that he would listen to the urging of his fellows to remain steadfast in testifying to such experiences. 
 
-So, in sum, the McGrews argue that either the testimony of the disciples is  independent or when it is not independent, the independence is broken in such a way that *favors* the resurrection claim.  This is due to the idea that the existence of thirteen claims to the resurrection — under penalty of death — is much less likely than would be expected if the event didn't happen than if it did.  
+So, in sum, the McGrews argue that either the testimony of the disciples is  independent or when it is not independent, the independence is broken in such a way that *favors* the resurrection claim.  This is due to the idea that the existence of thirteen claims to the resurrection -- under penalty of death -- is much less likely than would be expected if the event didn't happen than if it did.  
 
 ### Problems with the argument
 
@@ -200,9 +200,9 @@ The problems with this argument stem from a *lack of imagination* of alternative
 
 #### Lack of imagination
 
-My first objection comes from the assumptions about the text — this already gives too much ground.   I don't have a problem with "substantially accurate text" because I don't think the primary issues come from translation or copying problems.  Quotes like "people who knew at first hand the details of his life and teaching or people who spoke with those eyewitnesses" and "basic assumption of authenticity, that the narrative represents what someone relatively close to the situation claimed" are not well-supported historically.  I think this can be handled in the present analysis by rolling these assumptions into the primary claim, $R$, and adding the contrary claims into the alternative, $\sim\!\!R$.  By restricting the analysis to only those that, effectively, assume eye-witness testimony already favors the primary claim unduly.  
+My first objection comes from the assumptions about the text -- this already gives too much ground.   I don't have a problem with "substantially accurate text" because I don't think the primary issues come from translation or copying problems.  Quotes like "people who knew at first hand the details of his life and teaching or people who spoke with those eyewitnesses" and "basic assumption of authenticity, that the narrative represents what someone relatively close to the situation claimed" are not well-supported historically.  I think this can be handled in the present analysis by rolling these assumptions into the primary claim, $R$, and adding the contrary claims into the alternative, $\sim\!\!R$.  By restricting the analysis to only those that, effectively, assume eye-witness testimony already favors the primary claim unduly.  
 
-For an example, it helps to recall that what we actually have for evidence are *claims* written decades later which all show theological embellishment and literary structures.   If you see the Gospel of Mark as a story about how the "last shall be first," a response to the Roman destruction of the Jewish temple, then many of the claims collapse as possible literary constructions.  The testimony of the women is easily understood in this context and can be further understood as a way of Mark dealing with the possible fact that the entire story is a late creation — those "unreliable women" didn't get the message out until now.  In fact Mark, our earliest Gospel, doesn't even mention any of the testimony from the disciples about the resurrection and the letters of Paul never even mention disciples…at all.[^disciple]
+For an example, it helps to recall that what we actually have for evidence are *claims* written decades later which all show theological embellishment and literary structures.   If you see the Gospel of Mark as a story about how the "last shall be first," a response to the Roman destruction of the Jewish temple, then many of the claims collapse as possible literary constructions.  The testimony of the women is easily understood in this context and can be further understood as a way of Mark dealing with the possible fact that the entire story is a late creation -- those "unreliable women" didn't get the message out until now.  In fact Mark, our earliest Gospel, doesn't even mention any of the testimony from the disciples about the resurrection and the letters of Paul never even mention disciples...at all.[^disciple]
 
 [^disciple]:Paul mentions apostles but never mentions anyone actually knowing Jesus personally, listening to his ministry, or being with him during the crucifixion.
 
@@ -214,7 +214,7 @@ The McGrews provide a quote which they should follow themselves,
 
 > "William Kruskal sums up his detailed discussion of independence in the combination of testimony with a succinct cautionary moral: 'Do not multiply lightly' (Kruskal, 1988, p. 929). "  
 
-When your calculation *critically* depends on the independence assumption and there is a chance — even a small one — that the sources were not independent, especially in the direction against your claim, then you need to establish that this chance is less likely than the claim you're using independence to support.  Otherwise you are biasing the calculation towards your claim.
+When your calculation *critically* depends on the independence assumption and there is a chance -- even a small one -- that the sources were not independent, especially in the direction against your claim, then you need to establish that this chance is less likely than the claim you're using independence to support.  Otherwise you are biasing the calculation towards your claim.
 
 Other than collusion, what other mechanisms are there?  Recall that all the evidence we have is from *literary* constructions decades after the events.  You could have *literary* "collusion."  Say, only 5 disciples independently made the original claims, but for *literary* reasons you like the number 12 or 13, you might have expanded those claims to include all the disciples.  Because of the gap between the original events and the writings it would be challenging to rule out such processes, yet the calculations presented depend *critically* on those processes not happening.  
 
@@ -228,10 +228,10 @@ One of the more recent arguments for resurrection  comes in the form of the so-c
 
 [^craigminimal]: https://www.reasonablefaith.org/media/debates/is-there-historical-evidence-for-the-resurrection-of-jesus-the-craig-ehrman
 
-> - Jesus’s honorable burial
+> - Jesus's honorable burial
 > - his empty tomb
 > - his post-mortem appearances
-> - the origin of the disciples’ belief in his resurrection.
+> - the origin of the disciples' belief in his resurrection.
 >
 > [https://crossexamined.org/the-minimal-facts-of-the-resurrection/](https://crossexamined.org/the-minimal-facts-of-the-resurrection/)
 
@@ -239,7 +239,7 @@ One of the more recent arguments for resurrection  comes in the form of the so-c
 
 Matthew Ferguson in his essay "[Knocking Out the Pillars of the "Minimal Facts" Apologetic](https://adversusapologetica.wordpress.com/2013/06/29/knocking-out-the-pillars-of-the-minimal-facts-apologetic/)" [@Ferguson2013] has a very detailed historical dismantling of these primary claims and is very good reading. 
 
-An immediate rejoinder to the minimal facts approach is the fact that Paul, the earliest Christian writer, doesn’t mention most of them - the honorable burial or the empty tomb. Paul also uses the same word for Jesus "appearing" to Peter and James as to "appearing" to himself, which calls into question whether these were actual visitations or just visions, clearly not requiring an empty tomb or any other details of the crucifixion. Further, Paul never talks about any post-resurrection *stories*, only *visions*. This, too, doesn’t lend any support to the minimal facts argument because a big part of the post-resurrection appearances the stories. If the stories aren’t true then the appearances are called into question too.
+An immediate rejoinder to the minimal facts approach is the fact that Paul, the earliest Christian writer, doesn't mention most of them - the honorable burial or the empty tomb. Paul also uses the same word for Jesus "appearing" to Peter and James as to "appearing" to himself, which calls into question whether these were actual visitations or just visions, clearly not requiring an empty tomb or any other details of the crucifixion. Further, Paul never talks about any post-resurrection *stories*, only *visions*. This, too, doesn't lend any support to the minimal facts argument because a big part of the post-resurrection appearances the stories. If the stories aren't true then the appearances are called into question too.
 
 Another thing to consider is that if this line of logic were applied to, say, the Roswell Incident it would be quite easy to argue for alien visitation. Given the rarity of alien visitations, as well as supernatural resurrection, I will need more than a few claims about tombs and visions to convince me that something extraordinary occurred.
 

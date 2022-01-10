@@ -19,7 +19,7 @@ and breaks up his hypotheses into pieces,
 
 > - 
 > - h is
->   theconjunction(h1 &h2).NowattheendofthedaythisbookisinterestedinP(h|e&k)—theprobabilitythatJesus
+>   theconjunction(h1 &h2).NowattheendofthedaythisbookisinterestedinP(h|e&k)--theprobabilitythatJesus
 >   was God Incarnate who rose from the dead (h), on the evidence both of natural theology (k) and of the detailed history
 >   of Jesus and of other human prophets (e).
 
@@ -34,13 +34,13 @@ Note - only considering positive evidence, not negative.  imagination - seen by 
 > book that certain probabilities are high, or low. 
 >
 > Let us represent by t theism, the claim that there is a God of the traditional kind. P(t|k) is the probability that there is
-> such a God on the evidence of natural theology. I suggested in Chapter 1 that we give this the modest value of 1⁄2.
+> such a God on the evidence of natural theology. I suggested in Chapter 1 that we give this the modest value of $1/2$.
 > Then let us represent by c the claim that God became incarnate among humans at some time with a divided
-> incarnation, a more precise form of the way described by the Council of Chalcedon.  I suggested that it was ‘as probable as not’ that he
-> would do this and so in numerical terms the probability of his doing it is 1⁄2. 
+> incarnation, a more precise form of the way described by the Council of Chalcedon.  I suggested that it was 'as probable as not' that he
+> would do this and so in numerical terms the probability of his doing it is $1/2$. 
 >
 > P(c|k) = P(c|t & k) P(t|k). Given my suggested values,
-> that is 1⁄2 × 1⁄2, P(c|k) = 1⁄4.
+> that is $1/2$ × $1/2$, P(c|k) = 1⁄4.
 >
 > Now,initially,insteadofe1,e2 ande3,letustakethesightlydifferentf1,f2,andf3.f1 istheclaimthatthereisevidenceofthe
 > strength that, Iclaimed in Part II, there is with respect to Jesus, that the prior requirements for being God Incarnate are satisfied in
@@ -85,7 +85,7 @@ Note - why can't there be evidence for the event (e.g. a body seen after death) 
 
 - $k$: background knowledge of natural theology
 
-- $P(t|k)$: probability there is a God (of the traditional kind) given the background knowledge of natural theology.  He suggests (from Chapter 1) a ``modest'' value of
+- $P(t|k)$: probability there is a God (of the traditional kind) given the background knowledge of natural theology.  He suggests (from Chapter 1) a ''modest'' value of
 
 - $$
   P(t|k) = 1/2
@@ -119,7 +119,7 @@ Note - why can't there be evidence for the event (e.g. a body seen after death) 
   P(c|f,k) = \frac{100}{103} = 0.97
   $$
 
-- $P(f|c,k)$: the probability that, if God became incarnate, we would have the evidence we have.  Swinburne suggests the ``fairly low'' number of $P(f|c,k) = 1/10$, so 
+- $P(f|c,k)$: the probability that, if God became incarnate, we would have the evidence we have.  Swinburne suggests the ''fairly low'' number of $P(f|c,k) = 1/10$, so 
 
 - $$
   P(f \& c|k) = P(f|c \& k)P(c|k) = \frac{1}{10}\cdot\frac{1}{4} = \frac{1}{40}

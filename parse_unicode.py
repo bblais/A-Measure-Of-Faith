@@ -1,13 +1,30 @@
-fname='chapters/Chapter 02 - Probability.md'
-with open(fname) as fid:
-    text=fid.read()
+from glob import glob
+fnames=glob("chapters/*.md")
 
-text=text.replace('\u200b','')
+omit=['Misc thoughts and to-dos.md','chapters/Scratch.md']
 
-for line in text.split('\n'):
-    if line.startswith('The following are our intuitions'):
-        print(line)
-        break
 
-with open(fname,'w') as fid:
-    fid.write(text)
+for fname in fnames:
+    flag=False
+    for name in omit:
+        if name in fname:
+            flag=True
+            break
+    if flag:
+        continue
+
+
+    with open(fname) as fid:
+        lines=fid.readlines()
+
+    first_time=False
+    for i,line in enumerate(lines):
+        if any([ord(x)>127 for x in line]):
+            S=f"{fname} [Line {i}]: "
+            for x in line:
+                if ord(x)<=127:
+                    S+=x
+                else:
+                    S+=" 🥶%d🥶 " % ord(x)
+            print(S)
+
