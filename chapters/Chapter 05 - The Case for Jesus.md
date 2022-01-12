@@ -222,6 +222,9 @@ Other than collusion, what other mechanisms are there?  Recall that all the evid
 
 If you're really trying to structure the 
 
+#todo
+- [ ] check out https://bblais.github.io/posts/2019/Sep/03/probability-of-the-resurrection/ and fill in this argument
+
 ## Minimal facts argument
 
 One of the more recent arguments for resurrection  comes in the form of the so-called "Minimal Facts Approach" [@habermas2004case], introduced by Gary Habermas and Michael Licona and popularized by William Lane Craig. In this approach a core handful of claims are supposedly supported even by secular scholars, and that this core inevitably leads directly to supporting the resurrection. Different people have somewhat different lists of these minimal facts[^minimal], but Craig summarizes them[^craigminimal] neatly as

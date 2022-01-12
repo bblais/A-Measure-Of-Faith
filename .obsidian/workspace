@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "chapters/Chapter 02 - Probability.md",
+            "file": "chapters/Misc thoughts and to-dos.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Chapter 02 - Probability.md",
+                "file": "chapters/Misc thoughts and to-dos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,15 @@
   },
   "active": "1868ba28eaabb443",
   "lastOpenFiles": [
-    "chapters/Chapter 02 - Probability.md",
-    "chapters/Chapter 06 - Miracles.md",
-    "chapters/Chapter 04 - The Case For God.md",
-    "chapters/Chapter 00 - Front Matter.md",
+    "chapters/Misc thoughts and to-dos.md",
+    "chapters/Simple Applications.md",
+    "chapters/Scratch.md",
+    "chapters/Chapter XX - Backmatter.md",
     "chapters/Chapter 05 - The Case for Jesus.md",
-    "chapters/Chapter 01 - Introduction.md",
     "chapters/Chapter 07 - Faith.md",
-    "chapters/Chapter 08 - Conclusions.md",
-    "chapters/Chapter 03 - Belief and Evidence.md",
-    "chapters/Chapter 00x - Last Compiled.md"
+    "chapters/Chapter 06 - Miracles.md",
+    "chapters/Chapter 02 - Probability.md",
+    "chapters/Chapter 04 - The Case For God.md",
+    "chapters/Chapter 00 - Front Matter.md"
   ]
 }
