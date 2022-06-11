@@ -1,5 +1,8 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "theme": "moonstone",
-  "cssTheme": "Deep Work"
+  "cssTheme": "Deep Work",
+  "enabledCssSnippets": [
+    "My Font"
+  ]
 }

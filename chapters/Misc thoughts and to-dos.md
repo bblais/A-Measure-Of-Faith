@@ -6,7 +6,6 @@
 ## Lessons
 
 
-
 - apply your reasoning about rare or miraculous things to other rare and improbable things - Mormonism, UFO abduction, etc...  does it work there?  if someone used the argument you've used, but for one of these things, would you be convinced?  why or why not?
 - consider alternative explanations for everything
 - reconsider your prized beliefs from time to time.  were your original reasons valid?  are they still valid?
@@ -22,17 +21,17 @@
 
 
 #todo
-- [ ] scale up the model complexity penalty example -- perhaps continuous case?
+- [x] scale up the model complexity penalty example -- perhaps continuous case?
 >I did not realize that it was possible to calculate a penalty for model complexity, and I found this section very helpful to put that in concrete terms. It's hard for me to relate the small penalty in the card example to models with more degrees of freedom. Is there a way to scale this, like you’ve done for the Monty Hall problem?
 
 
 #todo   
-- [ ] look at changing the expected value in this example
+- [x] look at changing the expected value in this example
 >I’m having a little bit of a hard time with one part of the card deck example. It seems to me that for purposes of comparison the decks should be equivalent except for level of complexity, but the expected value of the zero to three 3-spades in E5 is (0+1+2+3)/4 = 1.5 spades, which is fewer than the 2 spades in E4. It’s unclear whether E5 is less likely than E4 after the first draw because of its complexity or because it has fewer 3-spades on average.
 
   
 #todo   
-- [ ] check out Jaynes ch 20 to see if it can help with this section
+- [x] check out Jaynes ch 20 to see if it can help with this section
 >I've now looked at Jaynes ch 20 on model comparison and re-read your section, and it looks like the answers are there. Jaynes compares the peak likelihood against the likelihood integrated over parameters and calls that the Ockham factor. Your model E5 has a higher peak likelihood than E4 because it can have up to three 3-spades in the deck, and re-reading your section, I see that you’re saying that you shouldn’t look only at the peak likelihood, as tempting as that might be, rather you have to look at the composite problem.
 
   
@@ -40,7 +39,7 @@
 
 
 #todo 
-- [ ] go through this calculation
+- [x] go through this calculation
 >To sketch this out: if E5 were instead {0,2,2,4} of 3-spades, then its expected value would match that of E4, and the only difference left would be complexity, I think. After drawing the first 3-spades, the probability numerator for E5 needs the scaling factor to reduce the prior to the still-plausible region of parameter space.
 
 
@@ -53,7 +52,7 @@
 **Probability is not just about the math - Lessons from probability**
 
 #todo 
-- [ ] make sure all of Jaynes' desiderata are mentioned in the book
+- [x] make sure all of Jaynes' desiderata are mentioned in the book
 >The list at the beginning of this section gave me a big confidence boost. One possible addition: in your Graceful Atheist interview, you mentioned Jaynes saying that you can't make conclusions on only a subset of the data (i.e., it has to be non-ideological). I'm not sure that's in your book yet, and I think it would fit well in this list.
 
   

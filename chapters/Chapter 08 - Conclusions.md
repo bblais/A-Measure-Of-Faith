@@ -11,6 +11,12 @@ We saw how arguments fail primarily for a few reasons:
 2. ill-formed hypotheses where initial plausibilities can't be established
 3. hypotheses that are too flexible and can fit any kind of data
 
+
+
+
+
+
+
 Although most of this book concerns the application of these ideas to topics in *religious* thought, they can be equally applied in areas of *health*, *politics*, and even *relationships*.  In short, the ideas provide a framework to view all of the claims one encounters in life, from buying a car to voting for a representative to deciding what medical procedures to follow.  
 
 It is my hope that, by seeing these methods applied to specific examples in this book, that you will be able to improve your life through improving your approach to evaluating claims of all kinds.

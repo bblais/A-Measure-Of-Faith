@@ -8,7 +8,14 @@ Pierre-Simon Laplace, who first formalized the mathematics of probability, spoke
 
 E.T. Jaynes describes it in much the same way.  He says that we label something "random" due to our ignorance of the system not to any intrinsic randomness.  He calls this labeling the mind-projection fallacy [@Jaynes2003], where you misattribute the unpredictable behavior of a system as a product of the system itself. A rolled die is following the laws of physics, deterministically, and detailed knowledge of the die, the roll, and the surface should allow you to predict 100% of the time what it will do.  We lack that knowledge, thus the behavior becomes unpredictable. We often then attribute that unpredictable behavior as a "random die", as if it were the die that contains the randomness and not our own state of knowledge.
 
+E.T. Jaynes goes further and lists a number of features any system used to make plausible inference must have.  These include
 
+1.  We must be consistent with the laws of logic. 
+2. If a conclusion can be reasoned out in more than one way then every possible way must yield the same result.  In other words, we need to be *internally consistent*.
+3.  We must take into account *all* of the information provided that is relevant to the question.  We can't arbitrarily ignore some of the information, basing our conclusions only on what remains. In other words, we must be *non-ideological*.
+4.  Equivalent states of knowledge must be represented by equivalent plausibility assignments.  This is another form of internal consistency.  
+
+Jaynes demonstrates that the only way to satisfy these conditions is to follow the structure of probability theory, and that any process that does not follow this structure violates one of the conditions above. 
 
 ### The basic rules of probability
 
@@ -292,55 +299,58 @@ An observation can be very well explained by a particular explanation, but if it
 
 ## On simplicity
 
-Ockham's razor, which is the philosophical idea that simpler theories are preferred, is a consequence of Bayes' rule when comparing models of differing complexity [@jefferys1991sharpening].  We can see this by extending the card game example with a fifth possibility.  
-
-![](../images/image-20190402152748613.png){width=400px}
+Ockham's razor, which is the philosophical idea that simpler theories are preferred, is a consequence of Bayes' rule when comparing models of differing complexity [@jefferys1991sharpening].  We can see this by extending the card game example.  We extend it two ways -- we draw another card, and we add a fifth model.  The data now include a draw of a $3\spadesuit$ followed by a $4\spadesuit$.
 
 
-Instead of giving the specific cards in this deck, we are simply told
+![[Pasted image 20220114105745.png]]{width=400px}
 
-- $E_5:$ the deck can have anywhere from zero to three $3\spadesuit$, and enough other cards to make a total of four cards
 
-This explanation of the game is what is called *plastic*^[In mathematical models, this is often referred to as having an *adjustable parameter*] - a value in the model that is not specified ahead of time, but can be *fit* to the data, and an optimum value found.  We could potentially think like this, "depending on the data, we may infer a different value for the number of $3\spadesuit$ in this deck.  It may be heavily loaded toward $3\spadesuit$, which would make $E_{5}$ explain the data very well; however it may have none, and not explain the data at all.  Clearly, once you observe a $3\spadesuit$, the "best" value for this deck is to have three of them out of the four cards - making it more likely than the previously best explanation, $E_4$, which only had two out of four."
+Instead of giving the specific cards in the $E_5$ deck, we are simply told
 
-However, this process of reasoning violates the laws of probability by not taking our uncertainty of this parameter (i.e. the number of $3\spadesuit$  in the deck) into account.  For simplicity, let's just consider the two decks in question, $E_4$ and $E_5$, and play the game with them (again, as before, drawing a $3\spadesuit$ from the top).
+- $E_5:$ the deck can be any one of the decks shown:
+
+	> ($A\spadesuit, 2\spadesuit, 3\spadesuit, 3\spadesuit$), ($A\spadesuit, 3\spadesuit, 3\spadesuit, 4\spadesuit$),($A\spadesuit, 3\spadesuit, 3\spadesuit, 3\spadesuit$),($4\spadesuit, 4\spadesuit, 3\spadesuit, 4\spadesuit$)
+
+This explanation of the game is what is called *plastic*^[In mathematical models, this is often referred to as having an *adjustable parameter*] - a value in the model that is not specified ahead of time, but can be *fit* to the data, and an optimum value found.  We could potentially think like the following. Depending on the data, we may infer a different value for the number of $3\spadesuit$ in this deck.  It may be heavily loaded toward $3\spadesuit$ and $4\spadesuit$, which would make $E_{5}$ explain the data very well; however it may have few or none, and not explain the data well or at all.  Clearly, once you observe a $3\spadesuit$, the "best" value for this deck is to have three of them out of the four cards - making it more likely than the previously best explanation, $E_4$, which only had two out of four.  Once we see the second card, the $4\spadesuit$, the new deck $E_5$ can explain that as well!  In fact, $E_5$ contains $E_4$ as a subset, so in some way we might think that makes $E_5$ explain the data at least as well -- if not better -- than $E_4$.  
+
+However, this process of reasoning violates the laws of probability by not taking our uncertainty resulting in the multiple choices of decks in $E_5$.   For simplicity, let's just consider the two decks in question, $E_4$ and $E_5$, and play the game with them (again, as before, drawing a $3\spadesuit$ from the top and then drawing a second card, the $4\spadesuit$).
 
 - $E_4$: $A\heartsuit$,$3\spadesuit$, $3\spadesuit$, $4\spadesuit$
-- $E_5$: the deck can have anywhere from zero to three $3\spadesuit$, and enough other cards to make a total of four cards
+- $E_5:$ the deck can be any one of the decks shown:
 
-
-![Having a more complex model ($E_5$) divides the space of options into more areas, and thus makes the model less likely.  A more complex model needs to explain the data *even better* than a less complex one.](../images/E4E5_game.png) 
+> 	$[A\spadesuit, 2\spadesuit, 3\spadesuit, 3\spadesuit]$, $[A\spadesuit, 3\spadesuit, 3\spadesuit, 4\spadesuit]$,$[A\spadesuit, 3\spadesuit, 3\spadesuit, 3\spadesuit]$,$[4\spadesuit, 4\spadesuit, 3\spadesuit, 4\spadesuit]$
 
 
 We set up the calculation as before,
 
 $$\begin{aligned}
-P(E_4|3\spadesuit)&=&\frac{P(3\spadesuit|E_4)P(E_4)}{P(3\spadesuit)}\\
-P(E_5|3\spadesuit)&=&\frac{P(3\spadesuit|E_5)P(E_5)}{P(3\spadesuit)}
+P(E_4|3\spadesuit,4\spadesuit)&=&\frac{P(3\spadesuit,4\spadesuit|E_4)P(E_4)}{P(3\spadesuit,4\spadesuit)}\\
+P(E_5|3\spadesuit,4\spadesuit)&=&\frac{P(3\spadesuit,4\spadesuit|E_5)P(E_5)}{P(3\spadesuit,4\spadesuit)}
 \end{aligned}$$
 
-We defer the calculation of the shared term, $P(3\spadesuit)$, and focus on the numerators of both calculations.[^numerators]  First the one for $E_4$ (and remember, we have only two decks here, so we'll have a prior of $P(E_4)=P(E_5)=1/2$),
+We defer the calculation of the shared term, $P(3\spadesuit,4\spadesuit)$, and focus on the numerators of both calculations.[^numerators]  First the one for $E_4$ (and remember, we have only two decks here, so we'll have a prior of $P(E_4)=P(E_5)=1/2$),
 
-[^numerators]: Once we have the numerators, we can add them up to get the shared term $P(3\spadesuit)$
+[^numerators]: Once we have the numerators, we can add them up to get the shared term $P(3\spadesuit,4\spadesuit)$
 
 $$\begin{aligned}
-P(E_4|3\spadesuit)&\sim&P(3\spadesuit|E_4)P(E_4)\\
-&=&(2/4)\times (1/2) = 1/4
+P(E_4|3\spadesuit,4\spadesuit)&\sim P(3\spadesuit,4\spadesuit|E_4)P(E_4)\\
+&=(2/4)\times (1/3) \times (1/2) = 1/12
 \end{aligned}$$
+Where the second draw (the $4\spadesuit$) is out of *3 cards*, so we have $1/3$ in the multiply.
 
 Next with the $E_5$ deck,
 
 $$
 \begin{aligned}
-P(E_5|3\spadesuit)&\sim P(3\spadesuit|E_5)P(E_5)\\
-&=P(3\spadesuit|E_5)\times (1/2) \\
+P(E_5|3\spadesuit,4\spadesuit)&\sim P(3\spadesuit, 4\spadesuit|E_5)P(E_5)\\
+&=P(3\spadesuit, 4\spadesuit|E_5)\times (1/2) \\
 \end{aligned}
 $$
-where the term $P(3\spadesuit|E_5)$ is arrived at by breaking it into the four possibilities, e.g. from zero to three $3\spadesuit$.  Each of the possibilities (all equally likely, because we are given no other information) has the form of the fraction of $\spadesuit$ for that possibility times 1/4 because there are 4 total possibilities to consider, for example
+where the term $P(3\spadesuit, 4\spadesuit|E_5)$ is arrived at by breaking it into the four possibilities -- ne for each of the decks.  Each of the possibilities (all equally likely, because we are given no other information) has the form of the number of $3\spadesuit$ divided by 4  times the number of $4\spadesuit$ divided by 3 (remember -- it's the second  card drawn, out of 3 remaining cards) for each deck, times 1/4 because there are 4 total possible decks to consider, for example
 $$
 \begin{aligned}
-P(3\spadesuit|E_5\text{with zero } 3\spadesuit s)P(\text{zero } 3\spadesuit s|E_5) =& \underbrace{(0/4)}_{\text{zero }\spadesuit s} \times (1/4) \\
-P(3\spadesuit|E_5\text{with one } 3\spadesuit)P(\text{one } 3\spadesuit|E_5) =& \underbrace{(1/4)}_{\text{one }\spadesuit} \times (1/4)\\
+P(3\spadesuit,4\spadesuit|E_5\text{ with } [A\spadesuit, 2\spadesuit, 3\spadesuit, 3\spadesuit])P(E_5\text{ with } [A\spadesuit, 2\spadesuit, 3\spadesuit, 3\spadesuit]|E_5) =& \underbrace{(2/4)}_{\text{two } 3\spadesuit s} \times \underbrace{(0/3)}_{\text{zero } 4\spadesuit s} \times(1/4) \\
+P(3\spadesuit,4\spadesuit|E_5\text{ with } [A\spadesuit, 3\spadesuit, 3\spadesuit, 4\spadesuit])P(E_5\text{ with } [A\spadesuit, 3\spadesuit, 3\spadesuit, 4\spadesuit]|E_5) =& \underbrace{(2/4)}_{\text{two } 3\spadesuit s} \times \underbrace{(1/3)}_{\text{one } 4\spadesuit s} \times(1/4) \\
 \vdots &
 \end{aligned}
 $$
@@ -350,31 +360,37 @@ Doing the same for all the possibilities, we get for the $E_5$ numerator,
 
 $$
 \begin{aligned}
-P(3\spadesuit|E_5)P(E_5) &=\left[(0/4)\times (1/4) + (1/4)\times (1/4) +  \right. \\
-&\left. (2/4)\times (1/4) +  (3/4)\times (1/4)\right]\times (1/2) \\
-&=3/16
+P(3\spadesuit, 4\spadesuit|E_5)P(E_5)&=
+\left[(2/4)\times (0/3)\times (1/4) + (2/4)\times (1/3)\times (1/4) +  \right. \\
+&\left. (3/4)\times (0/3)\times (1/4) +  (1/4)\times (3/3)\times (1/4)\right]\times (1/2) \\
+&=5/96
 \end{aligned}
 $$
-
 
 Finally, we can get the shared term, 
 
 $$\begin{aligned}
-P(3\spadesuit)= 1/4 + 3/16 = 7/16
+P(3\spadesuit, 4\spadesuit)= 1/12 + 5/96 = 13/96
 \end{aligned}$$
 
-and the probabilities of each of the decks, given the observation of a $P(3\spadesuit)$,
+and the probabilities of each of the decks, given the observation of a $P(3\spadesuit, 4\spadesuit)$,
 
 $$\begin{aligned}
-P(E_4|3\spadesuit)&=&\frac{1/4}{7/16} = 4/7\\
-P(E_5|3\spadesuit)&=&\frac{3/16}{7/16} = 3/7
+P(E_4|3\spadesuit, 4\spadesuit)&=&\frac{1/12}{13/96} = 8/13\\
+P(E_5|3\spadesuit, 4\spadesuit)&=&\frac{5/96}{13/96} = 5/13
 \end{aligned}$$
 
 This means that, although $E_5$ contains the *possibility* of a better fit to the data, it is less *probable* because it has a flexible parameter that is unspecified *before* the data.  Even more interesting, is that $E_5$ actually *contains* $E_4$ as a possibility!  In other words, if you have an explanation which is not specific but can adjust to the data only after seeing it, there is a danger in accepting that explanation over one that is specific and doesn't change its prediction after the data.  The proper use of the rules of probability help guard against this danger.  In religious contexts, an example of this happens when addressing the efficacy of prayer.  Someone might reason as follows, "if the prayer works then God chose to act, otherwise God had a reason to withhold action".  This is a poor explanation, because it is not specific and adjusts to the data only after the fact -- only couldn't make a prediction with this model of the world.  
 
+We can scale this problem up, to include 
+
+- $E_6$: A collection of every possible 4-card deck drawn from a regular deck of 52 cards, all turned into spades (so there are 4 of every rank).  
+
+This new deck is *extremely* flexible, including a deck $[4\spadesuit, 4\spadesuit, 3\spadesuit, 3\spadesuit]$ which fits the data as precisely as if it could be designed, and any other spades draw we could think of.  There are 270725 such decks, and doing the same calculation as above we get that $E_6$ is less likely than either of the other decks we considered by more than a factor of 100.  $E_6$ is consistent with nearly *any* data we observe, and in so being, it pays a penalty in our confidence that it is true.
+
 When we prefer a "simpler" model with Ockham's razor, simpler means *fewer  adjustable parameters*.  It also means that the predictions are both *specific* and not *overly plastic*. For example, a hypothesis which is consistent with the observed data, but also would be consistent if the data were the opposite would be overly plastic.  An example of an infinitely plastic "explanation" is "*magic did it*."  Because it can "explain" anything (given that it is consistent with any possible observation), it thus explains nothing.  Conspiracy theorists suffer from this problem, because any counter-evidence provided get lumped into the conspiracy.  If you claim that we staged the moon landing, and someone provides photographs of the astronauts on the moon, then you can just say that the astronaut and the photographer are "in on the conspiracy" -- the model gets adjusted after the fact and is *overly plastic*.
 
-Notice also that *simpler* does not necessarily mean having fewer parts.  The explanation $E_5$ actually has fewer parts than $E_4$ because I don't specify any of the other cards, only the possible number of $3\spadesuit$.  The complexity of the explanation  comes from its flexibility.
+Notice also that *simpler* does not necessarily mean having fewer parts or having an easier description.  For $E_4$, I had to specify each card, whereas for $E_6$, I merely said "every possible 4-card deck".  The complexity of the explanation  comes from its *flexibility*.   In another context, fitting a line to data you need to specify the *slope* and the *intercept*.  A model where the slope and intercept are determined from other considerations than the data (and are thus not *fit* to the data) is more simple than one where we only fit the intercept and have zero slope.  The complexity comes from the flexibility a model has once we are presented with data.
 
 ## On belief, knowledge, and proof
 
