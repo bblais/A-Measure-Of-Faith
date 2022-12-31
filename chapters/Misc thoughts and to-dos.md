@@ -60,8 +60,8 @@
 **Miracles - Arguments against miracles**
 
 #todo 
-- [ ] read essay
-- [ ] check blog again for other Hume posts
+- [x] read essay
+- [x] check blog again for other Hume posts
 >After reading [John Earman's article critiquing Hume](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsites.pitt.edu%2F~jearman%2FEarman2002a.pdf&data=04%7C01%7C%7Cace836fc94ee4ed1a3d108d9d06084a7%7C6c853569e95e43788926ab9501a771a3%7C0%7C0%7C637769937486238332%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=5ovLNYB%2F2WCbdVtk88RHhWbTY1RkJBwI4WYYzDINZ3g%3D&reserved=0 "https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsites.pitt.edu%2F~jearman%2FEarman2002a.pdf&data=04%7C01%7C%7Cace836fc94ee4ed1a3d108d9d06084a7%7C6c853569e95e43788926ab9501a771a3%7C0%7C0%7C637769937486238332%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=5ovLNYB%2F2WCbdVtk88RHhWbTY1RkJBwI4WYYzDINZ3g%3D&reserved=0"), yours was the first positive interpretation of Hume I came across. It was helpful to see a simple validation of an old idea that has been ridiculed so much. I later found an [essay by Peter Millican](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdavidhume.org%2Fscholarship%2Fpapers%2Fmillican%2F2013_Earman_Miracles.pdf&data=04%7C01%7C%7Cace836fc94ee4ed1a3d108d9d06084a7%7C6c853569e95e43788926ab9501a771a3%7C0%7C0%7C637769937486238332%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=dGqxN8Qmnrxcf0oBX4JoDX%2Fpy7%2BZ5RMTFLsqq2SY4bk%3D&reserved=0 "https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdavidhume.org%2Fscholarship%2Fpapers%2Fmillican%2F2013_Earman_Miracles.pdf&data=04%7C01%7C%7Cace836fc94ee4ed1a3d108d9d06084a7%7C6c853569e95e43788926ab9501a771a3%7C0%7C0%7C637769937486238332%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=dGqxN8Qmnrxcf0oBX4JoDX%2Fpy7%2BZ5RMTFLsqq2SY4bk%3D&reserved=0") that you might enjoy if you haven't seen it already.
 
   
@@ -69,12 +69,12 @@
 **Lack of imagination**  
 
 #todo 
-- [ ] update alternatives to include Kamil's alternatives and Fodor's alternatives
+- [x] update alternatives to include Kamil's alternatives and Fodor's alternatives
 >I was pretty floored when I finally understood that one major consequence of Bayes theorem was that you have to find the highest-quality alternative explanations possible. As a deconverting Christian, I personally care less about whether theism in general is true and more about whether Christianity in particular is true. In the The Case for Jesus > McGrew on the Resurrection > Lack of Imagination section, I think it would be helpful to contrast McGrew’s weak alternative hypothesis (a not-very-good hallucination theory) with a much more substantial alternative. I like this [succinct summary from Kamil Gregor](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2FDRNIXn1xD_0%3Ft%3D340&data=04%7C01%7C%7Cace836fc94ee4ed1a3d108d9d06084a7%7C6c853569e95e43788926ab9501a771a3%7C0%7C0%7C637769937486238332%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=BV6zIVTtp2h2MRQumud01sL51cMGkitG50WTkGZV%2Fd0%3D&reserved=0 "https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2FDRNIXn1xD_0%3Ft%3D340&data=04%7C01%7C%7Cace836fc94ee4ed1a3d108d9d06084a7%7C6c853569e95e43788926ab9501a771a3%7C0%7C0%7C637769937486238332%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=BV6zIVTtp2h2MRQumud01sL51cMGkitG50WTkGZV%2Fd0%3D&reserved=0") (YouTube, the summary is ~2 minutes long) which as far as I can tell reflects the dominant scholarly hypothesis. I found a similar summary in a well-known book by Christian theologian N. T. Wright if you're interested.
 
   
 #todo 
-- [ ] add a response to this -- essentially, the only reason they see not-serious is because there are not many adherents currently.  but this is *exactly* how atheists view the Christian God Yahweh, just like Zeus and Apophis.
+- [x] add a response to this -- essentially, the only reason they see not-serious is because there are not many adherents currently.  but this is *exactly* how atheists view the Christian God Yahweh, just like Zeus and Apophis.
 >Regarding the alternative examples in The Case for God > Swinburne > Imagination, I totally understand how an evil-god and the Greek pantheon might seem like rivals to theism to many people, but to me, maybe because it’s all still so fresh, they don't seem like very serious alternatives. I do wonder if other people would, like me, see these as weak examples and feel like they penalize the overall argument, consciously or not.
 
   
@@ -82,8 +82,8 @@
 **The case for Jesus - Minimal facts argument**
 
 #todo 
-- [ ] need to update the link/info for Ferguson's essay
-- [ ] include the material and cite it.
+- [x] need to update the link/info for Ferguson's essay
+- [x] include the material and cite it.
 >Unfortunately, it looks like Matthew Ferguson’s essay “Knocking Out the Pillars of the “Minimal Facts” Apologetic” is no longer available. He took down his blog, and although I did find mention that he has plans to put some content up again, he has yet to do so. If you want to try to contact him, you can look up celsushistoricus on Facebook and Reddit.
 
 
@@ -113,3 +113,11 @@
 **
 
 >I’m in my early 40s, married with three kids, an aerospace engineer, resigning my church membership in the next couple of months after being in it all my life. My Christian community in Cambridge, MA, is fairly intellectual, including a professor of epistemology and a pastor with an MIT economics PhD who are both very conversant with Bayes Theorem. I took a probability class in my masters program at MIT and use it occasionally for work. Before reading A Measure of Faith, I had already discovered some of the qualitative implications of Bayes and learned that my level of belief, which had seemed marginal, was actually much lower than I thought it was. My brother was interviewed on the Graceful Atheist, and he pointed me to your book. I’m mostly interested in checking the validity of the overall argument and understanding how strong a case it makes.
+
+
+
+#todo 
+- [ ] make tables less fragile
+- [ ] put websites in  the bibtex so they show up in references
+
+

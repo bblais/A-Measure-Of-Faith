@@ -4,5 +4,6 @@
   "cssTheme": "Deep Work",
   "enabledCssSnippets": [
     "My Font"
-  ]
+  ],
+  "accentColor": ""
 }

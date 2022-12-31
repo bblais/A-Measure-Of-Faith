@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "5268cc2543549192",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6d47dc1bd1dcc09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d545a52b7f44d7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test/table.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2751364495a592b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapters/Misc thoughts and to-dos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c41de42e3be0df69",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcbe305f1b2bebad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be994c4df0abaefc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec6d1a2502d96b5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "pascal",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "89a1b424efdbb912",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd56dd0370724d77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b4602c3ad2c10b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "chapters/Misc thoughts and to-dos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f84ccdd016ed7551",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "be994c4df0abaefc",
+  "lastOpenFiles": [
+    "test/table.md",
+    "test/chap.md",
+    "chapters/Misc thoughts and to-dos.md",
+    "chapters/Chapter 07 - Faith.md",
+    "test/test_filter.md",
+    "chapters/Chapter 05 - The Case for Jesus.md",
+    "chapters/Chapter 04 - The Case For God.md",
+    "chapters/Simple Applications.md",
+    "_archive/scriv/Measure Of Faith.md",
+    "chapters/Chapter 06 - Miracles.md"
+  ]
+}

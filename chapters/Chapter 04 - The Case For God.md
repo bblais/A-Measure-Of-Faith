@@ -149,7 +149,11 @@ how about,
 - $\vdots$
 - etc...
 
+One might feel that bringing in the Greek Pantheon, or the Norse pantheon, that we aren't taking these views seriously.   However there are modern believers in the Norse pantheon, and even if there weren't, the only reason we don't take them seriously currently is because there are not many adherents.  It is the case that atheists actually do view the Christian God Yahweh in the same as Zeus, Thor, or Loki.
+
 In short, one can come up with any amount of alternative models which explain the base-level data that Swinburne wants to handle.  These data don't include specific observations like the expansion rate of the universe, or the fraction of hydrogen and helium in the universe, or the balance between matter and anti-matter, or really anything specific so the number of compatible models is enormous.  The only limit is our imagination.
+
+
 
 Once we decide that specific observations are important then it is up to the investigator to propose methods for testing their model (or models) directly agains those observations.  This is true for the theist and atheist alike.
 

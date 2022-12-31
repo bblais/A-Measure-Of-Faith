@@ -43,7 +43,7 @@ P(\text{safe}) &= 0.99 \\
 P(\text{unsafe}) &= 0.01
 \end{aligned}
 $$
-Once you believe it is safe, do you trust it to ride?  This brings in decision theory, where we mix probabilities with utility measures. You could believe it to be safe at the $\P{safe} = 0.99$ level, but still not trust it ''with your life'' because of the *cost* associated with being wrong.  A utility table might look like
+Once you believe it is safe, do you trust it to ride?  This brings in decision theory, where we mix probabilities with utility measures. You could believe it to be safe at the $P(\text{safe}) = 0.99$ level, but still not trust it ''with your life'' because of the *cost* associated with being wrong.  A utility table might look like
 
 |            | safe | unsafe |
 | ---------- | :--: | :----: |
@@ -277,12 +277,10 @@ As a scientist, one takes an idea, and pushes the idea to it furthest consequenc
 
 Blaise Pascal, a French philosopher, put forward an argument referred to now as "*Pascal's Wager*" [@Wikipedia:2015ac] for the religious life .  The argument is based on decision theory, and is one of the first uses of this theory on any topic.  In the "Wager," Pascal states that people choose to believe or not believe in God, and the possible environments they find themselves in are the God either exists or doesn't.  He then sets up the utility table,
 
-
-
-|                      |        God Exists         | God Does Not Exist |
-| -------------------- | :-----------------------: | ------------------ |
-| Believe in God       | $+\infty$ (infinite gain) | $-1$ (finite loss) |
-| Don't Believe in God | $-\infty$ (infinite loss) | $1+$ (finite gain) |
+|                      | **God Exists**| **God Does Not Exist** |
+|----------------------|--------------------------|-------------------|
+| Believe in God       | $+\infty$ (infinite gain)| $-1$ (finite loss)|
+| Don't Believe in God | $-\infty$ (infinite loss)| $1+$ (finite gain)|
 
 It is clear then that the best course of action, given this utility table, is to believe.  There are many problems with this argument, some which impact the mathematics and others that are theological.  An example of the former is the analysis assumes only one possible God - what if you choose the wrong God?  Extending the table to include this would make the "best choice" not as clear cut.  An example of the latter is the idea that one cannot simple *choose* to believe, and the act of pretending to believe would go against the dictates of God.  
 

@@ -208,6 +208,12 @@ For an example, it helps to recall that what we actually have for evidence are *
 
 A similar line of argument can be held for the writings of Paul.  I'll admit that the conversion of Paul itself would be a rare event, but not unheard of.  I'll accept the McGrew estimate of 1 out of a 1000 for it, but how many early religious sects were there in the Roman empire at that time?  If you play the lottery enough, as we've seen, you will invariably have rare events happening frequently.  Also, whichever sects were successful would have to have had a successful group of founders with a compelling (and flexible) story.  Even Paul's conversion fits the "last shall be first" theme which would be a compelling narrative for the early Christians regardless of the truth value of any of the claims.  The point here is not to suggest any particular way that Christianity began, but to point out that there are numerous, unremarkable pathways which are still consistent with a rare conversion.
 
+If you want to have a plausible description of how the events may have transpired, providing a model which will have a much higher prior than the resurrection model, we can look at [Kamil Gregor's description](https://www.youtube.com/watch?v=DRNIXn1xD_0&t=340s) or [James Fodor's RHBS model](https://www.youtube.com/watch?v=zNVQKUSn00Y). 
+
+#todo 
+- [ ] summarize these two arguments
+
+
 #### Lack of scepticism
 
 The McGrews provide a quote which they should follow themselves, 
@@ -220,10 +226,52 @@ Other than collusion, what other mechanisms are there?  Recall that all the evid
 
 ### How should the argument be done?
 
-If you're really trying to structure the 
+If you're really trying to structure the problem properly, one would do something like this.  First, we start with the different models:
 
-#todo
-- [ ] check out https://bblais.github.io/posts/2019/Sep/03/probability-of-the-resurrection/ and fill in this argument
+* $R$ = Resurrection happened
+* $M$ = Resurrection story made up entirely
+* $V$ = Resurrection story incited by visions from early apostles and embellished
+* etc...
+
+and then the math follows just like the examples before,
+
+* data = texts of gospels and Paul (and their history)
+
+* $P(R | \text{data}) \sim P(\text{data} | R) \times P(R)$
+* $P(M | \text{data}) \sim P(\text{data} | M) \times P(M)$
+* $P(V | \text{data}) \sim P(\text{data} | V) \times P(V)$
+* .... [insert more models if you'd like]
+
+then add up to $T = \ldots$, and divide all terms, just like the coin.  
+
+Arguments over priors can ensue, but I think it would  be fair to say that $P(M)>P(V) \gg P(R)$. Although one might question this order (e.g.  arguing that visions are more common than story construction) it is certainly true that resurrections are far less common than stories or visions.  How often do we see resurrections?  How often do we see God raising someone from the dead?  How often have we heard claims of people being raised from the dead, from God or otherwise?  These very simple questions bring the prior for the Resurrection *way* down.  The theist will typically counter with something like "I agree that resurrections through *natural* processes are extremely unlikely, but if there is a God he could easily make resurrections through *supernatural* causes likely."  I'll deal specifically with this objection in detail below but at this point the term $P(R)$ doesn't presuppose any mechanisms - it is just the probability of a resurrection before seeing any data and it should be agreed that this is much lower than visions or stories.
+
+Beyond the prior, we note that terms like $P(\text{data} | R)$ have to balance both the positive claims and negative claims.  For example, we might say that this term is quite high from the positive claims -- if the Resurrection actually happened then it easily explains the stories of seeing Jesus afterward.  However, there are things that we probably should have seen -- but don't -- if the Resurrection actually happened.  Some includes the lack of an account of Roman stolen-body litigation (as would have been done to the disciples), the fact that Paul doesn't mention the empty tomb, and the guards at the tomb are only mentioned in Matthew are not mentioned in Mark, Luke, John, or even Paul.  These negative claims are easily explained with the other two models but are not easily explained from the Resurrection model making $P(\text{data} | R)$ much lower than is generally communicated.
+
+#### Supernatural causation
+
+Now, what about the claim that the low priors are mitigated by the issue of God *supernaturally* raising Jesus?  Here is where it gets interesting.  If you want to add the possibility of God raising Jesus *supernaturally* from the dead we can do this with a process called *marginalization*, which is a fancy term for adding up all of the possibilities.  Mathematically it looks like the following,
+
+First define some symbols,
+
+* $+G$ = God
+* $+S$ = Supernatural action
+* $-G$ = no God
+* $-S$ = natural action
+
+We can then draw out the probability terms (which don't mention any specific methods of resurrections) into several terms, each for a different method, and then apply Bayes' rule yielding
+$$
+\begin{aligned}
+P(R | \text{data}) =& P(R, +G,+S | \text{data}) + P(R, -G,+S| \text{data}) + P(R, +G,-S| \text{data}) + P(R, -G,-S| \text{data})\\
+\sim & P(\text{data}|R,+G,+S)P(R|+G,+S)P(+S|+G)P(+G) + \\ \nonumber
+&P(\text{data}|R,-G,+S)P(R|-G,+S)P(+S|-G)P(-G) + \\ \nonumber
+&P(\text{data}|R,+G,-S)P(R|+G,-S)P(-S|+G)P(+G) + \\ \nonumber
+&P(\text{data}|R,-G,-S)P(R|-G,-S)P(-S|-G)P(-G) 
+\end{aligned}
+$$
+This messy result lets us look at individual terms to see where we might have to examine the data more closely.  Theists state that terms like $P(R|-G,-S)$ are small (unlikely resurrection given no God and only natural action), and I'll grant you that.  How about $P( R | +G, -S)$ or, in words,  why couldn't God have done the resurrection naturally?  How about  $P( R | -G, +S) $ or, in words, couldn't Satan or Stephen Fry's evil God have done the resurrection supernaturally?  How have theists ruled these out?  
+
+ Suddenly, by opening up some specific alternatives, one needs to follow all of those alternatives -- and their inverses -- through the entire calculation.  You then have to provide evidence for God's supposed actions ($P(+S|+G)$ and $P(-S|+G)$) reading his inscrutable plan.  You also have to demonstrate that there are not other supernatural agents at play, and that it is likely that God is the one acting. Given that theists have yet to provide *any way* of testing supernatural claims *at all* it seems like a big feat.  In short, by introducing supernatural causation into the mix, theists have made their life harder -- not easier.
 
 ## Minimal facts argument
 
@@ -245,6 +293,7 @@ Matthew Ferguson in his essay "[Knocking Out the Pillars of the "Minimal Facts" 
 An immediate rejoinder to the minimal facts approach is the fact that Paul, the earliest Christian writer, doesn't mention most of them - the honorable burial or the empty tomb. Paul also uses the same word for Jesus "appearing" to Peter and James as to "appearing" to himself, which calls into question whether these were actual visitations or just visions, clearly not requiring an empty tomb or any other details of the crucifixion. Further, Paul never talks about any post-resurrection *stories*, only *visions*. This, too, doesn't lend any support to the minimal facts argument because a big part of the post-resurrection appearances the stories. If the stories aren't true then the appearances are called into question too.
 
 Another thing to consider is that if this line of logic were applied to, say, the Roswell Incident it would be quite easy to argue for alien visitation. Given the rarity of alien visitations, as well as supernatural resurrection, I will need more than a few claims about tombs and visions to convince me that something extraordinary occurred.
+
 
 
 

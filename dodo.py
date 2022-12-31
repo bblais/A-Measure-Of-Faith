@@ -62,26 +62,7 @@ def fix_mdfile(fname):
             fid.write(text2)
 
 
-def task_md_html_individual():
-    import os
 
-    for name in files:
-        base,ext=os.path.splitext(name)
-        mdfile="chapters/%s" % name
-        fix_mdfile(mdfile)
-
-        htmlfile='build/%s.html' % base
-
-        s= 'pandoc  -M date="`date`" --filter eqn2png.py --citeproc  --filter replace_metavars.py -s --toc --toc-depth=2 --top-level-division=chapter --self-contained -o "%s" "%s" config/config.yaml' % (htmlfile,mdfile)
-    
-        yield {
-            'name':base,
-            'file_dep': [mdfile,'config/config.yaml'],
-            'targets': [htmlfile],
-            'actions': [s],
-#            'task_dep':['last_compile'],
-            'clean':True,
-        }
 
 def task_md_html():
     import os
@@ -95,7 +76,7 @@ def task_md_html():
         fnames.append(mdfile)
 
 
-    s= 'pandoc  -M date="`date`" --filter eqn2png.py --citeproc  --filter replace_metavars.py -s --toc --toc-depth=2 --top-level-division=chapter --self-contained -o build/measure_of_faith.html -B dedication.txt title.txt %s config/config.yaml' % (' '.join(q(fnames)))
+    s= 'pandoc  -M date="`date`" --filter eqn2png.py --citeproc  --filter replace_metavars.py -s --toc --toc-depth=2 --top-level-division=chapter --embed-resources --standalone -o build/measure_of_faith.html -B dedication.txt title.txt %s config/config.yaml' % (' '.join(q(fnames)))
     
     
     return {
@@ -108,74 +89,51 @@ def task_md_html():
 def task_md_tex():
     import os
 
-    for name in files:
-        base,ext=os.path.splitext(name)
-        mdfile="chapters/%s" % name
-        texfile='build/%s.tex' % base
-
-        yield {
-            'name': base,
-            'file_dep': [mdfile,'config/config.yaml'],
-            'targets': [texfile],
-            'actions': ['pandoc -M date="`date`" --filter replace_metavars.py --natbib --top-level-division=chapter  -o "%s" "%s"' % (texfile,mdfile)],
-            #'task_dep':['last_compile'],
-            'clean':True,
-        }
-
-def task_md_tex_6x9():
-    import os
-
-    for name in files:
-        base,ext=os.path.splitext(name)
-        mdfile="chapters/%s" % name
-        texfile='build/%s_6x9.tex' % base
-
-        yield {
-            'name': base,
-            'file_dep': [mdfile,'config/config_6x9.yaml'],
-            'targets': [texfile],
-            'actions': ['pandoc -M date="`date`" --filter replace_metavars.py --natbib --top-level-division=chapter  -o "%s" "%s"' % (texfile,mdfile)],
-            'clean':True,
-        }
-
-
-
-def task_tex_tex():
-    import os
-
     fnames=[]
+    tex_fnames=[]
     for name in files:
         base,ext=os.path.splitext(name)
         mdfile="chapters/%s" % name
         texfile='build/%s.tex' % base
+        fnames.append(mdfile)
+        tex_fnames.append(texfile)
 
-        fnames.append(texfile)
+
 
     return {
         'file_dep': fnames+ ['config/config.yaml','config/config.latex'],
         'targets': ['build/measure_of_faith.tex'],
-        'actions': ['pandoc -s --template=config/config.latex -M fontsize=12pt -M documentclass=book --top-level-division=chapter --toc --natbib --bibliography=chapters/main.bib  -o build/measure_of_faith.tex  --include-before=%s %s' % (q([fnames[0]])[0],' '.join(q(fnames[1:])))],
+        'actions': [
+            'pandoc -M date="`date`" --filter replace_metavars.py --natbib --top-level-division=chapter  -o "%s" "%s"' % (tex_fnames[0],fnames[0]),
+            'pandoc -s --from markdown -M date="`date`" --filter replace_metavars.py --template=config/config.latex -M fontsize=12pt -M documentclass=book --top-level-division=chapter --toc --natbib --bibliography=chapters/main.bib  -o build/measure_of_faith.tex  --include-before=%s %s' % (q([tex_fnames[0]])[0],' '.join(q(fnames[1:])))
+            ],
         'clean':True,
     }
 
-def task_tex_tex_6x9():
+
+def task_md_tex_6x9():
     import os
 
     fnames=[]
+    tex_fnames=[]
     for name in files:
         base,ext=os.path.splitext(name)
         mdfile="chapters/%s" % name
-        texfile='build/%s_6x9.tex' % base
+        texfile='build/%s.tex' % base
+        fnames.append(mdfile)
+        tex_fnames.append(texfile)
 
-        fnames.append(texfile)
+
 
     return {
-        'file_dep': fnames+ ['config/config_6x9.yaml'],
+        'file_dep': fnames+ ['config/config_6x9.yaml','config/config_6x9.latex'],
         'targets': ['build/measure_of_faith_6x9.tex'],
-        'actions': ['pandoc -s --template=config/config_6x9.latex -M fontsize=12pt -M documentclass=book --top-level-division=chapter --toc --natbib --bibliography=chapters/main.bib  -o build/measure_of_faith_6x9.tex  --include-before=%s %s' % (q([fnames[0]])[0],' '.join(q(fnames[1:])))],
+        'actions': [
+            'pandoc -M date="`date`" --filter replace_metavars.py --natbib --top-level-division=chapter  -o "%s" "%s"' % (tex_fnames[0],fnames[0]),
+            'pandoc -s --from markdown -M date="`date`" --filter replace_metavars.py --template=config/config_6x9.latex -M fontsize=12pt -M documentclass=book --top-level-division=chapter --toc --natbib --bibliography=chapters/main.bib  -o build/measure_of_faith_6x9.tex  --include-before=%s %s' % (q([tex_fnames[0]])[0],' '.join(q(fnames[1:])))
+            ],
         'clean':True,
     }
-
 
 
 from doit.task import clean_targets    

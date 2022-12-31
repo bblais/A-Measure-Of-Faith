@@ -9,6 +9,7 @@ $if(linestretch)$
 \setstretch{$linestretch$}
 $endif$
 \usepackage{amssymb,amsmath}
+\usepackage{graphicx}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
@@ -168,7 +169,7 @@ $endfor$
 \newcommand{\Pg}[2]{P\left(\mbox{#1}|\mbox{#2}\right)}
 \newcommand{\F}[1]{F\left(\mbox{#1}\right)}
 \newcommand{\Fg}[2]{F\left(\mbox{#1}|\mbox{#2}\right)}
-\renewcommand{\U}[1]{U\left(\mbox{#1}\right)}
+\newcommand{\U}[1]{U\left(\mbox{#1}\right)}
 \newcommand{\Ug}[2]{U\left(\mbox{#1}|\mbox{#2}\right)}
 
 \usepackage[usenames, dvipsnames]{color}
