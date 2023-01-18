@@ -8,9 +8,9 @@ Pierre-Simon Laplace, who first formalized the mathematics of probability, spoke
 
 E.T. Jaynes describes it in much the same way.  He says that we label something "random" due to our ignorance of the system not to any intrinsic randomness.  He calls this labeling the mind-projection fallacy [@Jaynes2003], where you misattribute the unpredictable behavior of a system as a product of the system itself. A rolled die is following the laws of physics, deterministically, and detailed knowledge of the die, the roll, and the surface should allow you to predict 100% of the time what it will do.  We lack that knowledge, thus the behavior becomes unpredictable. We often then attribute that unpredictable behavior as a "random die", as if it were the die that contains the randomness and not our own state of knowledge.
 
-E.T. Jaynes goes further and lists a number of features any system used to make plausible inference must have.  These include
+E.T. Jaynes goes further and lists a number of features any system used to make plausible inference must have[@Jaynes2003].  These include
 
-1.  We must be consistent with the laws of logic. 
+1.  We must be consistent with the laws of logic[@sep-aristotle-logic]. 
 2. If a conclusion can be reasoned out in more than one way then every possible way must yield the same result.  In other words, we need to be *internally consistent*.
 3.  We must take into account *all* of the information provided that is relevant to the question.  We can't arbitrarily ignore some of the information, basing our conclusions only on what remains. In other words, we must be *non-ideological*.
 4.  Equivalent states of knowledge must be represented by equivalent plausibility assignments.  This is another form of internal consistency.  
@@ -19,7 +19,7 @@ Jaynes demonstrates that the only way to satisfy these conditions is to follow t
 
 ### The basic rules of probability
 
-For a complete description of the rules of probability, and their application in general statistical inference there are several books available, one of which from the present author [@Blais:2014aa].  We will need to establish a basic set of notation and mathematics in order to address the concepts.  This notation will in some cases make clear and condensed (due the the terseness of mathematics) much longer expositions of the same concepts in English.  In other cases, it will provide a systematic framework for exploring disparate problems, in order to see the connection to all of rational thought.  We begin by describing the rules of probability, and some of their consequences.  
+For a complete description of the rules of probability, and their application in general statistical inference there are several books available, one of which from the present author [@Blais:2014aa].  We will need to establish a basic set of notation and mathematics in order to address the concepts.  This notation will in some cases make clear and condensed much longer expositions of the same concepts in English (due to the terseness of mathematics).  In other cases, it will provide a systematic framework for exploring disparate problems, in order to see the connection to all rational thought.  We begin by describing the rules of probability, and some of their consequences.  
 
 When we write $P(A)$ the "$P$" stands for "probability" and "$A$" is some proposition or claim.  We will be in the habit of naming sentences or statements with a short-hand of a single letter, like $A \equiv$ "*I draw an Ace from a well-shuffled, typical 52-card deck of cards*"[^equiv].
 
@@ -57,7 +57,7 @@ Although this probability is *estimated* by the fraction of Aces in a deck of ca
 
 ### A bit more about the deck-of-cards analogy
 
-We are using the deck of cards to be analogous to the real world.  While there are things we know about the real world there is a lot of uncertainty as well, just like the uncertainty of the deck of cards.  We can gather evidence in the real world, to better know what the truth is, and analogously we can draw cards from the deck to better know what the properties of the deck is, i.e. is it well-shuffled, is it a standard 52-card deck or a deck of Tarot cards, etc...  As in the real world, we can propose *models* or simplified descriptions of what we think the deck is, and we can perform tests of these models by drawing from the deck and comparing to what we expect from the models.   The methods of science do this with nature itself, by arranging situations where the observations will possibly rule out some models in favor of others, so that we get closer to the truth.  The same rules of probability apply in all of these cases, but given the intuitive nature of a deck of cards, it is easier to see them applied in this simple system.
+We are using the deck of cards to be analogous to the real world.  While there are things we know about the real world there is a lot of uncertainty as well, just like the uncertainty of the deck of cards.  We can gather evidence in the real world, to better know what the truth is, and analogously we can draw cards from the deck to better know what the properties of the deck is, i.e. if it is well-shuffled, is a standard 52-card deck or a deck of Tarot cards, etc...  As in the real world, we can propose *models* or simplified descriptions of what we think the deck is, and we can perform tests of these models by drawing from the deck and comparing to what we expect from the models.   The methods of science do this with nature itself, by arranging situations where the observations will possibly rule out some models in favor of others, so that we get closer to the truth.  The same rules of probability apply in all of these cases, but given the intuitive nature of a deck of cards, it is easier to see them applied in this simple system.
 
 #### Rule 2 (Negation rule):
 
@@ -73,7 +73,7 @@ The following picture shows a universe of all possibilities and the subset ($A$)
 In other words, either a statement is true or its negation is true.
 $$
 \begin{aligned}
-A&\equiv\left[\,\text{''you will draw an Ace from a deck of cards''}\right. \\
+A&\equiv\left[\,\text{"you will draw an Ace from a deck of cards"}\right. \\
 P(A)+P(\mathbf{not}\, A)&=1 \\
 \frac{1}{13} + \frac{12}{13} &=1
 \end{aligned}
@@ -83,7 +83,7 @@ means that you can be *certain* (i.e. probability equal to 1) that when you draw
 Notice how this occurs.  The following is correct logical inference:
 $$
 \begin{aligned}
-B&\equiv\left[\text{''a playing card drawn from a deck is black''}\right. \\
+B&\equiv\left[\text{"a playing card drawn from a deck is black"}\right. \\
 P(B)+P(\mathbf{not}\, B)&=1
 \end{aligned}
 $$
@@ -95,7 +95,7 @@ R\equiv&\left[\text{"a playing card drawn from a deck is red"}\right. \\
 P(B)+P(R)=&1 \leftarrow \text{this is incorrect}
 \end{aligned}
 $$
-The key point here is that "not-black" is not the same as "red" except in those cases where you can be *certain* that there are only those two possibilities.  One has to be on the lookout for hidden possibilities - perhaps one has a *Five Crowns* deck which has green and yellow cards as well? Failure of imagination can easily lead to accidental either-or logical failures.  Statements like "You're either with us or against us!" (no third option?) and "If you don't take a stand against a political candidate then you must be supportive of her." (again, no other options?) serve as a reminder to recognize this lack of imagination on our part.
+The key point here is that "not-black" is not the same as "red" except in those cases where you can be *certain* that there are only those two possibilities.  One has to be on the lookout for hidden possibilities - perhaps one has a *Five Crowns* deck[@fivecrowns2023] which has green and yellow cards as well? Failure of imagination can easily lead to accidental either-or logical failures.  Statements like "You're either with us or against us!" (no third option?) and "You could either pursue your dream job or stay where you are and be miserable for the rest of your life." (again, no other options?) serve as a reminder to recognize this lack of imagination on our part.
 
 #### Rule 3 (Conjunction rule): 
 
@@ -118,7 +118,7 @@ The conditional statements are like restricting the universe to the small part o
 
 
 
-The conjunction rule in this case means that the probability of you drawing a black Ace is related to the probability of you drawing an Ace from a collection of black cards (i.e. "given that the card is black",  $P(A|B)$) and the probability that you will draw a black card at all ($P(B)$) or equivalently, the probability of you drawing a black card from a collection of Aces (i.e. "given that the card is an Ace", $P(B|A)$) and the probability that you will draw an Ace at all ($P(A)$).
+The conjunction rule in this case means that the probability of you drawing a black Ace is related to the probability of you drawing an Ace from a collection of black cards (i.e. "given that the card is black",  $P(A|B)$) and the probability that you will draw a black card at all ($P(B)$).  It is also equal to the probability of you drawing a black card from a collection of Aces (i.e. "given that the card is an Ace", $P(B|A)$) and the probability that you will draw an Ace at all ($P(A)$).
 
 Numerically we have 
 $$
@@ -141,7 +141,7 @@ $$
 P(A\,\mathbf{and}\, B) &=P(B|A)P(A) = \frac{2}{4}\times \frac{4}{52} = \frac{1}{26}
 \end{aligned}
 $$
-Mathematically, it can be seen that $P(A \,\mathbf{and}\, B)$ is always lower than $P(A)$ unless we are *certain* that the other statement, $B$, is true  -- the conjunction of two things is inherently (and mathematically) less probable than the individual components.  Failure to recognize this leads to the *conjunction fallacy*.  The most common example given is as follows (from [https://en.wikipedia.org/wiki/Conjunction_fallacy](https://en.wikipedia.org/wiki/Conjunction_fallacy)),
+Mathematically, it can be seen that $P(A \,\mathbf{and}\, B)$ is always lower than $P(A)$ unless we are *certain* that the other statement, $B$, is true  -- the conjunction of two things is inherently (and mathematically) less probable than the individual components.  Failure to recognize this leads to the *conjunction fallacy*.  The most common example of this fallacy presented is as follows[@wiki_conjunction_fallacy:2023aa],
 
 > *Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations.*
 >
@@ -152,7 +152,7 @@ Mathematically, it can be seen that $P(A \,\mathbf{and}\, B)$ is always lower th
 
 Most people lead towards (2), but the actual answer is (1) because the combination of two things (a bank teller *and* is a feminist) is a smaller subset and is thus less likely[^conjunctionenglish].
 
-[^conjunctionenglish]: this may be partly due to English being sloppier than math.  In choices like the Linda problem, there may be an implied "and is *not* a feminist" in option (1) in common usage but is not strictly present.
+[^conjunctionenglish]: this may be partly due to English being sloppier than math.  In choices like the Linda problem, there may be an implied "and is *not* a feminist" in option (1) in common usage but is not strictly present[@Blais:2014aa].
 
 There are a few points to be made about the approach we've been using so far, which become important in later examples.
 
@@ -162,7 +162,9 @@ There are a few points to be made about the approach we've been using so far, wh
 
 - If there is more than one way to reason properly to an answer, those different ways must come to the same answer.  This is a good check to see that you are thinking properly when you see the same answers, but it is also a way to distinguish two methods that are in fact not equivalent even if they seem to be -- they come to different answers.
 
-- Two statements are considered *independent* if knowledge of one gives you no more information about the other.  In probabilistic terms, this means that $P(B|A)=P(B)$ -- knowing $A$ is true doesn't make the probability of $B$ any more or less.  Flipping a coin a second time is still going to be 50-50 heads-tails whether you flipped a heads the first time or not.  Drawing a second card from the top of a deck is a little less likely to be a black card if you draw a black card on the first time -- knowledge of previous cards drawn tells you information about the probabilities for the second.  Independence becomes important in the evaluation of evidence because it changes how evidence can be accumulated. 
+- Two statements are considered *independent* if knowledge of one gives you no more information about the other.  In probabilistic terms, this means that $P(B|A)=P(B)$ -- knowing $A$ is true doesn't make the probability of $B$ any more or less.  Flipping a coin a second time is still going to be 50-50 heads-tails whether you flipped heads the first time or not.  Drawing a second card from the top of a deck is a little less likely to be a black card if you drew a black card on the first time -- knowledge of previous cards drawn tells you information about the probabilities for the second[^futurecards].  Independence becomes important in the evaluation of evidence because it changes how evidence can be accumulated.   
+
+[^futurecards]: It is important to recognize that the relationshop here is not causal but *logical*.  Knowing that you drew a black card on the second card will change the probability you'd assign to drawing a black card on the first, even though they are not causally related.
 
 - In the case of *independent* statements, the conjunction rule simplifies to
 
@@ -192,15 +194,15 @@ $$
 Mathematically, it is just a rewriting of the conjunction rule above.  Its deeper meaning can be seen when rewritten in a somewhat more elaborated form describing our belief in an explanation given some data,
 
 $$\begin{aligned}
-P({\rm explanation}|{\rm data})&=& \frac{P({\rm data}|{\rm explanation})P({\rm explanation})}{P({\rm data})}
+\underbrace{P({\rm explanation}|{\rm data})}_{\rm posterior}&=& \frac{\underbrace{P({\rm data}|{\rm explanation})}_{\rm likelihood}\underbrace{P({\rm explanation})}_{\rm prior}}{\underbrace{P({\rm data})}_{\rm total\,proability}}
 \end{aligned}$$
 
 where each term is described more fully as 
 
-- $P({\rm explanation})$ --the probability the explanation is correct *prior* to seeing the data.  The term itself is often called the *prior*, and represents your beliefs before you see the data.  Typically, more complex explanations are less likely a-*prior*i than simpler ones.  I will use the term *model* in place of explanation in most of this book, but it means the same thing.
+- $P({\rm explanation})$ -- the probability the explanation is correct *prior* to seeing the data.  The term itself is often called the *prior*, and represents your beliefs before you see the data.  Typically, more complex explanations are less likely a-*prior*i than simpler ones.  I will use the term *model* in place of explanation in most of this book, but it means the same thing.
 - $P({\rm explanation}|{\rm data})$ -- the probability the explanation is correct *after* seeing the data (*a-posteriori*). The term itself is often called the *posterior* for this reason, and represents your updated beliefs once you have data.  Thus, Bayes' rule is a mathematical expression of *learning* from evidence.  
-- $P({\rm data}|{\rm explanation})$ -- the probability that the data can be explained with *this particular explanation*.  The term itself is often called the *likelihood*, and can be thought of as a measure of how well the explanation fits the data.  If the explanation fits the data well, this number will be high, for example.  If it fails to explain the data, this number will be low.  Although related to our final (*posterior*) belief, it is not equivalent.   An explanation that fits the data well may be very unlikely as our best explanation just because that explanation was extremely unlikely in the first place (i.e. before we saw the data, aka the *prior* was low). 
-- $P({\rm data})$ -- the total probability of the data, regardless of the explanation.  It is easiest to understand this term with an examples below.
+- $P({\rm data}|{\rm explanation})$ -- the probability that the data can be explained with *this particular explanation*.  The term itself is often called the *likelihood*, and can be thought of as a measure of how well the explanation fits the data.  If the explanation fits the data well, this number will be high, for example.  If it fails to explain the data, this number will be low.  Although related to our final (*posterior*) belief, it is not equivalent.   An explanation that fits the data well may be very unlikely as our best explanation just because that explanation was extremely unlikely in the first place (i.e. before we saw the data, aka the *prior* was low).  Saying that gremlins cause our car to run may explain the observation of our running but is unlikely becaue the existence of gremlins is unlikely before we make any observations on our car.
+- $P({\rm data})$ -- the total probability of the data, regardless of the explanation.  It is easiest to understand this term with an examples below.  This term doesn't play major role for us, and is simply there to make sure that the probabilities across all explanations add up to one, mathematically.
 
 Imagine we are playing a game with several small decks of cards, defined here:
 
@@ -209,11 +211,11 @@ Imagine we are playing a game with several small decks of cards, defined here:
 - $E_3: A\heartsuit,2\heartsuit, 2\heartsuit,4\spadesuit$
 - $E_4: A\spadesuit,3\spadesuit, 3\spadesuit, 4\spadesuit$
 
-Where $E$ is denoting a deck or, more generally, an *explanation* for the data we will collect by drawing cards.  In the game, someone has handed us one of the decks (i.e. $E_1$, $E_2$, $E_3$ or $E_4$) but we don't know at all which one it is. The analogy here is that the universe is set up with a set of rules that we are trying to determine.  Thus, deciding on which deck we are holding is analogous to deciding which universe we are actually in, given our observations of the universe.  In other words, providing an *explanation* of the data is really about determining which of the many possible universes we are in.
+Where $E$ is denoting a deck or, more generally, an *explanation* for the data we will collect by drawing cards.  In the game, someone has handed us one of the decks (i.e. $E_1$, $E_2$, $E_3$ or $E_4$) but *we don't know at all which one it is*. The analogy here is that the universe is set up with a set of rules that we are trying to determine.  Thus, deciding on which deck we are holding is analogous to deciding which universe we are actually in, given our observations of the universe.  In other words, providing an *explanation* of the data is really about determining which of the many possible universes we are in.
 
 ![](../images/image-20190402152206104.png){width=400px}
 
-We then draw the top card, observe that it is a $3\spadesuit$, and see if we can reason about which deck is likely to be the one we are holding.  We choose such a small, simple system because it is easy to intuit the answers without the math.  This intuition can provide a scaffold for understanding the mathematics, which can be used in more complex examples where one *doesn't* have a strong intuition.  It is therefore worth going through at least one example in detail.
+We then draw the top card, observe that it is a $3\spadesuit$, and see if we can reason about which deck is likely to be the one we are holding.  I invited the reader to weight the different explanations, approximately, yourself before we do the math.  We choose such a small, simple system because it is easy to intuit the answers without the math.  This intuition can provide a scaffold for understanding the mathematics, which can be used in more complex examples where one *doesn't* have a strong intuition.  It is therefore worth going through at least one example in detail.
 
 To begin, we need to assign the probabilities of the four cases *prior* to the data.  Given total ignorance of which deck was chosen-- we know that there are 4 possibilities but have no idea about anything more about the selection process --  we assign equal probabilities to the four cases[^equal]
 
@@ -224,7 +226,7 @@ P(E_3)&=&1/4 \\
 P(E_4)&=&1/4
 \end{aligned}$$
 
-[^equal]: not all cases will lead to equal probabilities of the outcomes, because we almost always have *some* knowledge to go on.
+[^equal]: not all cases will lead to equal probabilities of the outcomes, because we almost always have *some* knowledge to go on. See the psychic octopus example in [@Blais:2014aa] for a specific case of this.
 
 Note that in this example we know what cards are in each deck -- we know, for example, that there are no spades in $E_3$ -- we just don't know which deck we were given.   Here we describe our intuitions, with the mathematics in parallel below.  Since we drew a $3\spadesuit$, our intuition says that this should rule out $E_3$ altogether.  Further, it says $E_4$ should be more likely than the other remaining two because it contains the observed card, $3\spadesuit$, more than one time -- it is easier to get that particular card from the fourth deck than the others.
 
@@ -237,19 +239,19 @@ P(E_3|3\spadesuit)=&\frac{P(3\spadesuit|E_3)P(E_3)}{P(3\spadesuit)}\\
 P(E_3|3\spadesuit)=&\frac{P(3\spadesuit|E_4)P(E_4)}{P(3\spadesuit)}
 \end{aligned}$$
 
-where we already have
+where we already have the priors, one for each model,
 
 $$\begin{aligned}
 P(E_1)=P(E_2)=P(E_3)=P(E_4)=1/4
 \end{aligned}$$
 
-Further, we have 
+Further, we have the likelihood term,
 
 $$\begin{aligned}
 P(3\spadesuit|E_1) = 1/4
 \end{aligned}$$
 
-because one card out of 4 in the first deck is the $3\spadesuit$.  Likewise, we have
+because one card out of 4 in the first deck is the $3\spadesuit$.  Likewise, we have the other likelikhood terms for the other models,
 
 $$\begin{aligned}
 P(3\spadesuit|E_2) &= 1/4\\
@@ -257,7 +259,7 @@ P(3\spadesuit|E_3) &= 0 \\
 P(3\spadesuit|E_4) &= 2/4 
 \end{aligned}$$
 
-Finally we have[^complicated]
+Finally we have the total probability term,[^complicated]
 
 [^complicated]: The reader might be thinking at this time, "why do we have to do all this?  Seems complicated!"  I address this shortly, so please bear with me.
 
@@ -273,7 +275,7 @@ P(E_3|3\spadesuit)&=\frac{(0)\times (1/4)}{(2/12)} = 0 \\
 P(E_4|3\spadesuit)&=\frac{(2/4)\times (1/4)}{(4/16)} = 1/2 \\
 \end{aligned}$$
 
-which perfectly matches our intuition -- $E3$ is certainly false, and $E_4$ is more likely than the other two.  Notice further that $P(3\spadesuit|E_1)$ is another way of saying "how well is the observation of a $3\spadesuit$ explained by the idea that we're holding the first deck?"  The entire process can then be thought of as updating our initial beliefs with the new evidence.  
+which perfectly matches our intuition -- $E3$ is certainly false, and $E_4$ is more likely than the other two.  Notice further that $P(3\spadesuit|E_1)$ is another way of saying "how well is the observation of a $3\spadesuit$ explained by the idea that we're holding the first deck?"  The entire process of starting with prior beliefs (e.g. $P(E_1)$) and updating them with an observation (e.g. $3\spadesuit$)  yielding a posterior belief (e.g. $P(E_1|3\spadesuit)$) can then be thought of as updating our initial beliefs with the new evidence.  
 
 > *Any process of reasoning, in any field whatsoever, is either consistent with this process of calculation or it is not rational.*
 
@@ -288,21 +290,21 @@ P(3\spadesuit) =& P(3\spadesuit|E_1)P(E_1) + P(3\spadesuit|E_2)P(E_2)+ \\
 =& 4/16
 \end{aligned}$$
 
-Why would one write it in this seemingly over-complex fashion?  Because it makes it easier to say, in words, what this term is doing.  It is the sum of all of the probabilities for how well each explanation accounts for the data scaled by how likely that explanation was before seeing the data.  In other words, proper rational inference requires that you re-weight the strength of your beliefs in an explanation not just by how well that explanation describes your observations, but also by how intrinsically likely that explanation is before your observations and how well all of the *alternatives* perform on those same observations.  
+Why would one write it in this seemingly over-complex fashion?  Because it makes it easier to say, in words, what this term is doing.  It is the sum of all of the probabilities for how well each explanation accounts for the data scaled by how likely that explanation was before seeing the data.  In other words, proper rational inference requires that you re-weight the strength of your beliefs in an explanation not just by how well that explanation describes your observations, but also by how intrinsically likely that explanation is before your observations and *how well all of the alternatives perform on those same observations*.  
 
 ![](../images/bayes1.png){width=400px}
 
 
 
 
-An observation can be very well explained by a particular explanation, but if it can be equivalently explained by other, simpler, explanations, then your belief in that more-complex  explanation may in fact *weaken* with the new observation (i.e. its probability could go down).
+An observation can be very well described by a particular explanation, but if it can be equivalently explained by other, simpler, explanations, then your belief in that more-complex  explanation may in fact become *weaker* with the new observation (i.e. its probability could go down).
 
 ## On simplicity
 
-Ockham's razor, which is the philosophical idea that simpler theories are preferred, is a consequence of Bayes' rule when comparing models of differing complexity [@jefferys1991sharpening].  We can see this by extending the card game example.  We extend it two ways -- we draw another card, and we add a fifth model.  The data now include a draw of a $3\spadesuit$ followed by a $4\spadesuit$.
+Ockham's razor, which is the philosophical idea that simpler theories are preferred, is a consequence of Bayes' rule when comparing models of differing complexity [@Jeffreys1991sharpening].  We can see this by extending the card game example.  We extend it two ways -- we draw another card, and we add a fifth model.  The data now include a draw of a $3\spadesuit$ followed by a $4\spadesuit$.
 
 
-![[Pasted image 20220114105745.png]]{width=400px}
+![](../images/Pasted_image_20220114105745.png){width=400px}
 
 
 Instead of giving the specific cards in the $E_5$ deck, we are simply told
@@ -311,9 +313,9 @@ Instead of giving the specific cards in the $E_5$ deck, we are simply told
 
 	> ($A\spadesuit, 2\spadesuit, 3\spadesuit, 3\spadesuit$), ($A\spadesuit, 3\spadesuit, 3\spadesuit, 4\spadesuit$),($A\spadesuit, 3\spadesuit, 3\spadesuit, 3\spadesuit$),($4\spadesuit, 4\spadesuit, 3\spadesuit, 4\spadesuit$)
 
-This explanation of the game is what is called *plastic*^[In mathematical models, this is often referred to as having an *adjustable parameter*] - a value in the model that is not specified ahead of time, but can be *fit* to the data, and an optimum value found.  We could potentially think like the following. Depending on the data, we may infer a different value for the number of $3\spadesuit$ in this deck.  It may be heavily loaded toward $3\spadesuit$ and $4\spadesuit$, which would make $E_{5}$ explain the data very well; however it may have few or none, and not explain the data well or at all.  Clearly, once you observe a $3\spadesuit$, the "best" value for this deck is to have three of them out of the four cards - making it more likely than the previously best explanation, $E_4$, which only had two out of four.  Once we see the second card, the $4\spadesuit$, the new deck $E_5$ can explain that as well!  In fact, $E_5$ contains $E_4$ as a subset, so in some way we might think that makes $E_5$ explain the data at least as well -- if not better -- than $E_4$.  
+This explanation of the game is what is called *plastic*^[In mathematical models, this is often referred to as having an *adjustable parameter*] - a value in the model that is not specified ahead of time, but can be *fit* to the data, and an optimum value found.  We could potentially think like the following. Depending on the data, we may infer a different value for the number of $3\spadesuit$ in this deck.  It may be heavily loaded toward $3\spadesuit$ and $4\spadesuit$, which would make $E_{5}$ explain the data very well; however it may have few or none, and not explain the data well or at all.  Clearly, once you observe a $3\spadesuit$, the "best" value for this deck is to have three of them out of the four cards - making it more likely than the previously best explanation, $E_4$, which only had two out of four.  Once we see the second card, the $4\spadesuit$, the new deck $E_5$ can explain that as well!  In fact, $E_5$ contains $E_4$ as a subset, so in some way we might think that $E_5$ explains the data at least as well -- if not better -- than $E_4$, no matter what the data..  
 
-However, this process of reasoning violates the laws of probability by not taking our uncertainty resulting in the multiple choices of decks in $E_5$.   For simplicity, let's just consider the two decks in question, $E_4$ and $E_5$, and play the game with them (again, as before, drawing a $3\spadesuit$ from the top and then drawing a second card, the $4\spadesuit$).
+However, this process of reasoning violates the laws of probability by not taking our uncertainty into account due to the multiple choices of decks in $E_5$.   For simplicity, let's just consider the two decks in question, $E_4$ and $E_5$, and play the game with them (again, as before, drawing a $3\spadesuit$ from the top and then drawing a second card, the $4\spadesuit$).
 
 - $E_4$: $A\heartsuit$,$3\spadesuit$, $3\spadesuit$, $4\spadesuit$
 - $E_5:$ the deck can be any one of the decks shown:
@@ -346,7 +348,7 @@ P(E_5|3\spadesuit,4\spadesuit)&\sim P(3\spadesuit, 4\spadesuit|E_5)P(E_5)\\
 &=P(3\spadesuit, 4\spadesuit|E_5)\times (1/2) \\
 \end{aligned}
 $$
-where the term $P(3\spadesuit, 4\spadesuit|E_5)$ is arrived at by breaking it into the four possibilities -- ne for each of the decks.  Each of the possibilities (all equally likely, because we are given no other information) has the form of the number of $3\spadesuit$ divided by 4  times the number of $4\spadesuit$ divided by 3 (remember -- it's the second  card drawn, out of 3 remaining cards) for each deck, times 1/4 because there are 4 total possible decks to consider, for example
+where the term $P(3\spadesuit, 4\spadesuit|E_5)$ is arrived at by breaking it into the four possibilities -- one for each of the decks.  Each of the possibilities (all equally likely, because we are given no other information) has the form of the number of $3\spadesuit$ divided by 4  times the number of $4\spadesuit$ divided by 3 (remember -- it's the second  card drawn, out of 3 remaining cards) for each deck, times 1/4 because there are 4 total possible decks to consider, for example
 $$
 \begin{aligned}
 P(3\spadesuit,4\spadesuit|E_5\text{ with } [A\spadesuit, 2\spadesuit, 3\spadesuit, 3\spadesuit])P(E_5\text{ with } [A\spadesuit, 2\spadesuit, 3\spadesuit, 3\spadesuit]|E_5) =& \underbrace{(2/4)}_{\text{two } 3\spadesuit s} \times \underbrace{(0/3)}_{\text{zero } 4\spadesuit s} \times(1/4) \\
@@ -380,9 +382,9 @@ P(E_4|3\spadesuit, 4\spadesuit)&=&\frac{1/12}{13/96} = 8/13\\
 P(E_5|3\spadesuit, 4\spadesuit)&=&\frac{5/96}{13/96} = 5/13
 \end{aligned}$$
 
-This means that, although $E_5$ contains the *possibility* of a better fit to the data, it is less *probable* because it has a flexible parameter that is unspecified *before* the data.  Even more interesting, is that $E_5$ actually *contains* $E_4$ as a possibility!  In other words, if you have an explanation which is not specific but can adjust to the data only after seeing it, there is a danger in accepting that explanation over one that is specific and doesn't change its prediction after the data.  The proper use of the rules of probability help guard against this danger.  In religious contexts, an example of this happens when addressing the efficacy of prayer.  Someone might reason as follows, "if the prayer works then God chose to act, otherwise God had a reason to withhold action".  This is a poor explanation, because it is not specific and adjusts to the data only after the fact -- only couldn't make a prediction with this model of the world.  
+This means that, although $E_5$ contains the *possibility* of a better fit to the data, it is less *probable* because it has a flexible parameter that is unspecified *before* the data.  Even more interesting, is that $E_5$ actually *contains* $E_4$ as a possibility!  In other words, if you have an explanation which is not specific but can adjust to the data only after seeing it, there is a danger in accepting that explanation over one that is specific and doesn't change its prediction after the data.  The proper use of the rules of probability help guard against this danger.  In religious contexts, an example of this happens when addressing the efficacy of prayer.  Someone might reason as follows, "if the prayer works then God chose to act, otherwise God had a reason to withhold action".  This is a poor explanation, because it is not specific and adjusts to the data only after the fact -- one couldn't make a prediction with this model of the world.  
 
-We can scale this problem up, to include 
+We can scale this problem up, to include the following explanation,
 
 - $E_6$: A collection of every possible 4-card deck drawn from a regular deck of 52 cards, all turned into spades (so there are 4 of every rank).  
 
@@ -406,7 +408,7 @@ Clearly the terms belief, knowledge, and proof are related but it is the framewo
 
 > We say we believe a proposition $A$ when $P(A)>0.5$.  We say we believe *strongly* in a proposition $A$ when $P(A)>0.95$ or some other, somewhat arbitrary, high number.  The strength of a belief is a *scale* measured by the probability assigned to that proposition.
 
-Everything we have covered so far in this book relates to belief.  Notice that someone can have a *false* belief, if the information they are provided is incorrect.  If we want to believe as many true things and as few false things as possible then we should look for ways to test our beliefs and challenge the information we are given.  Belief, as used here, is different from *opinion*.  When we use the word *opinion* we can simply mean *preference* (e.g. I like vanilla more than chocolate) which is not a belief.  However I can also say I have an *opinion* about whether a political candidate is being honest, which is a usage equivalent to *belief* as long as the *opinion* is based on evidence and not just preference.  
+Everything we have covered so far in this book relates to belief.  Notice that someone can have a *false* belief, if the information they are provided is incorrect.  If we want to believe as many true things and as few false things as possible then we should look for ways to test our beliefs and challenge the information we are given.  Belief, as used here, is different from *opinion*.  When we use the word *opinion* we can simply mean *preference* (e.g. I like vanilla more than chocolate) which is not a belief.  However I can also say I have an *opinion* about whether a political candidate is being honest, which is a usage equivalent to *belief* as long as the *opinion* is based on evidence and not just preference.  This is yet another example of the vaguaries of the English language. 
 
 ### Knowledge
 
@@ -414,15 +416,15 @@ What is knowledge?  Plato gave the following definition of knowledge:
 
 > Knowledge is justified true belief. [@fine2003plato]
 
-This is an unsatisfying definition because, it seems, in order to justifiably label anything as *knowledge* with this definition we'd need to be able to independently determine that the statement is true. This presupposes that there is some "outside" knowledge, but we have no access to that.  I believe there is likely to be a truth to be known, but that we can never truly know what it is for certain -- but this is not a problem. It is a red herring to bring up 100% certainty for knowledge, because it is never achievable, and isn't what we practically call knowledge. I prefer a definition inspired by Stephen J Gould:^[In this way, knowledge is a subset of belief.]
+This is an unsatisfying definition because, it seems, in order to label anything as *knowledge* with this definition we'd need to be able to independently determine that the statement is true. This presupposes that there is some "outside" knowledge, but we have no access to that.  I believe there is likely to be an absolute truth, but that we can never truly know what it is for certain .  Howeverm I also believe that this is not such a big problem. It is a red herring to bring up 100% certainty for knowledge, because it is never achievable, and isn't what we practically call knowledge. I prefer a definition inspired by Stephen J Gould:^[In this way, knowledge is a subset of belief.]
 
-> In science, '*fact*' can only mean confirmed to such a degree that it would be perverse to withhold provisional assent. `I suppose that apples might start to rise tomorrow, but the possibility does not merit equal time in physics classrooms.' [@gould1981evolution]
+> *In science, 'fact' can only mean confirmed to such a degree that it would be perverse to withhold provisional assent. `I suppose that apples might start to rise tomorrow, but the possibility does not merit equal time in physics classrooms.'* [@gould1981evolution]
 
 
 
-Where it says "fact," read "knowledge."  Where it says "science" read "life."  The fact, or knowledge, that the Sun rises in the east and sets in the west is not due to a formal *proof* that this is always true, or will continue indefinitely into the future.  It is an admission that the probability is so outrageously high, given the evidence of every other sun rise and sun set observed, and the further confirmation of models of the solar system, that it would be "perverse to withhold provisional assent."  We accept the claim as a practical matter, despite not being 100% certain, because of the overwhelming probabilities.  This we call knowledge.  It is thus never a problem to admit lack of certainty in knowledge, and it can be seen as an obvious diversion if anyone tries to argue in a manner that suggests it's a problem.
+Where it says "fact," read "knowledge."  Where it says "science" read "life."  The fact, or knowledge, that the Sun rises in the east and sets in the west is not due to a formal *proof* that this is always true, or will continue indefinitely into the future.  It is an admission that the probability is so outrageously high, given the evidence of every other sun rise and sun set observed, and the further confirmation of models of the solar system, that it would be "perverse to withhold provisional assent."  We accept the claim as a practical matter, despite not being 100% certain, because of the overwhelming probabilities.  This we call knowledge.  It is thus never a problem to admit we lack certain knowledge, and it can be seen as an obvious diversion if anyone tries to argue in a manner that suggests it's a problem.
 
-Mathematically, we might write it as the probability of proposition "$A$" is very close to certain, or $P(A)>0.9999 \approx 1$ where "$\approx$" means *approximately*.  Notice that we don't need 100% certainty to claim knowledge, and that it is possible for the "knowledge" to be wrong (although, by definition, it is highly unlikely for this to be the case).  
+Mathematically, we might write "knowledge of $A$" as the "probability of proposition $A$ is very close to certain", or equivalently, $P(A)>0.9999 \approx 1$ where "$\approx$" means *approximately*.  Notice that we don't need 100% certainty to claim knowledge, and that it is still possible for our "knowledge" to be wrong (although, by definition, it is highly unlikely for this to be the case).  
 
 We can ask the question, how did we come to this knowledge?  The answer is simply, by applying the rules of probability!  According to Bayes' rule, we update our probabilities given the evidence.  This can lead us to approach, but never equal, probability of 1.  We can approach, but never achieve, complete certainty of any claim.  Rationality only insists that we apply the rules of probability systematically. 
 
@@ -430,11 +432,11 @@ We can ask the question, how did we come to this knowledge?  The answer is simpl
 
 Do *proof* and *evidence* mean the same thing?  No, they don't.  There are two primary processes for rational inference -- *deductive* and *inductive*.  In *deductive* reasoning, one starts with some (given) axioms, and can demonstrate *with certainty* (i.e. prove) a number of theorems (i.e direct consequences) from those axioms.  In *inductive* reasoning, one presents evidence or data which makes certain models either more or less likely -- never to absolute certainty.  Thus, the word "*proof*" should only be used in situations involving *certainty*, derived from axioms with logic.  In this way, *deductive* reasoning is a subset of *inductive* for those cases where the probabilities are *exactly* 1 or *exactly* 0.  *Induction* is just another name for the application of the rules of probability, so we have been doing that from the beginning of the book.  
 
-I realize that I'm being pedantic here because in common speech we use the word "proof" a little more loosely.  We speak about "scientific proof" or "I won't believe this without proof".  However, it is important to be specific about one means here and I will insist though this book that the word "proof" be used only in the more restrictive sense.  Everything else is just probabilities approaching proof.  As a result, we have the following maxim,
+I realize that I'm being pedantic here because in common speech we use the word "proof" a little more loosely.  We speak about "scientific proof" or "I won't believe this without proof".  However, it is important to be specific about what one means here and I will insist through this book that the word "proof" be used only in the more restrictive sense.  Everything else is just probabilities approaching proof.  As a result, we have the following maxim,
 
 > *Proof* does not exist in science, only in math and philosophy.
 
-The only place you can have proof is where you have *axioms* (i.e. unprovable statements), and can then *prove* a number of consequences of those axioms. We can prove, for example, that the sum of the angles of a triangle is 180 degrees, if we start with the Euclidean axioms of geometry. Science doesn't have axioms, and thus there are no proofs - there is only evidence. We sometimes hear the term "proven scientifically," even from people who should know better.[^carrier]
+The only place you can have proof is where you have *axioms* (i.e. unprovable statements which are assumed to be true), and can then *prove* a number of consequences of those axioms. We can prove, for example, that the sum of the angles of a triangle is 180 degrees, if we start with the Euclidean axioms of geometry. Science doesn't have axioms, and thus there are no proofs - there is only evidence. Unfortunately, we sometimes hear the term "proven scientifically," even from people who should know better.[^carrier]
 
 [^carrier]: An example of someone who should know better is Richard Carrier in his ["Is Philosophy Stupid" talk](http://www.youtube.com/watch?v=YLvWz9GQ3PQ)., his [books](http://www.amazon.com/Proving-History-Bayess-Theorem-Historical/dp/1616145595), and his [articles](http://infidels.org/library/modern/richard_carrier/theory.html).
 
@@ -460,7 +462,7 @@ For it to be *reasonable to believe in something*, it must rise to a level of pr
 - life is designed - before the advent of Darwin's theory of natural selection
 - the Sun, and the stars, all go around the Earth - until the maturation of astronomy and physics
 
-In each of these cases, *at the time* there was in fact strong evidence for the (false) claims, and against the counter claims making it reasonable to believe them.  It is no longer reasonable to believe these claims - the process of reason forces one to adjust the probabilities of the hypotheses given new evidence, and to discard those hypotheses that become too improbable.
+In each of these cases, *at the time* there was in fact strong evidence for the (false) claims making it reasonable to believe them.  It is no longer reasonable to believe these claims - the process of reason forces one to adjust the probabilities of the hypotheses given new evidence, and to discard those hypotheses that become too improbable.
 
 ## An example of independence
 

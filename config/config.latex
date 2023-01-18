@@ -125,7 +125,7 @@ $endif$
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 $if(numbersections)$
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{2}
 $else$
 \setcounter{secnumdepth}{0}
 $endif$
@@ -217,6 +217,16 @@ keywordstyle=\color{darkblue},commentstyle=\color{darkgreen},stringstyle=\color{
 
   }
 
+\usepackage[framemethod=TikZ]{mdframed}
+
+\surroundwithmdframed[
+  topline=false,
+  bottomline=false,
+  skipabove=\topsep,
+  skipbelow=\topsep
+]{quote}
+
+
 
 \begin{document}
 \begin{titlepage}
@@ -306,7 +316,7 @@ $include-before$
 $endfor$
 
 \clearpage
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{2}
 
 \pagenumbering{arabic}
 \pagestyle{plain}

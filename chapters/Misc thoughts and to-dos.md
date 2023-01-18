@@ -2,6 +2,16 @@
 * check the steelman link to see if pandas handles it like typora
 
 
+#todo 
+- [ ] grammarly
+- [x] equation numbers?
+- [ ] update url links to bibliographic links
+- [ ] go through the miracles and resurrection episode and put in anything useful
+- [ ] summarize James and Kamil's arguments in [[Chapter 05 - The Case for Jesus#McGrew on the Resurrection]] -- in how should the argument be done
+- [ ] put in the problems in some specific miracle claims
+- [x] replace '' with "
+- [ ] cumulative cases and the magnitude 
+- [ ] fix bibliography for epub
 
 ## Lessons
 

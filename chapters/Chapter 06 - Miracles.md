@@ -1,22 +1,22 @@
 # Miracles
 
-Perhaps the most famous treatment of the concept of miracles comes from Hume's essay "On Miracles" [@Hume:1748aa] available online in [part 1](https://www.bartleby.com/37/3/14.html) and [part 2](https://www.bartleby.com/37/3/15.html).  The critique of this treatment comes from the Stanford Encyclopedia of Philosophy [article on miracles]() [@sep-miracles] which I will refer to as *SEP*.  In the chapter I address this SEP article, and apply the probabilistic thinking that I have been presenting all along.
+Perhaps the most famous treatment of the concept of miracles comes from Hume's essay "On Miracles" [@Hume:1748aa] available online in [part 1](https://www.bartleby.com/37/3/14.html) and [part 2](https://www.bartleby.com/37/3/15.html).  The critique of this treatment comes from the Stanford Encyclopedia of Philosophy [article on miracles](https://plato.stanford.edu/archives/win2014/entries/miracles/) [@sep-miracles] which I will refer to as *SEP*.  In the chapter I address this SEP article, and apply the probabilistic thinking that I have been presenting all along.
 
 ## Concepts and definitions
 
-The *SEP* article begins by discussing one of Hume's definitions of a miracle as "a violation of the laws of nature."  From what I can tell, their main critique is they don't like the connotations of the word "law," a perspective I share -- the word "law" has too many alternate meanings to be the foundation of a well-defined argument.  Their revised definition is the following:
+The *SEP* article begins by discussing one of Hume's definitions of a miracle as "a violation of the laws of nature."  From what I can tell, the main critique is they don't like the connotations of the word "law," a perspective I share -- the word "law" has too many alternate meanings to be the foundation of a well-defined argument.  Their revised definition is the following:
 
-> A miracle is an event that exceeds the productive power of nature
+> *A miracle is an event that exceeds the productive power of nature*
 
 Perhaps this is the scientist in me, and why I am not a philosopher, but I don't see a striking difference between these two definitions in at least how they are used.  So it seems reasonable to adopt this as a good working definition.
 
 *SEP* goes on to clarify a subset of miracle,
 
-> a religiously significant miracle is a detectable miracle that has a supernatural cause.
+> *a religiously significant miracle is a detectable miracle that has a supernatural cause.*
 
 This clarification is to deal with the following problem, and I'd agree with at least the sentiment.
 
-> An insignificant shift in a few grains of sand in the lonesome desert might, if it exceeded the productive powers of nature, qualify as a miracle in some thin sense, but it would manifestly lack religious significance and count not be used as the fulcrum for any interesting argument.
+> *An insignificant shift in a few grains of sand in the lonesome desert might, if it exceeded the productive powers of nature, qualify as a miracle in some thin sense, but it would manifestly lack religious significance and could not be used as the fulcrum for any interesting argument.*
 
 I am not sure how, in practice, one would be able to determine a "supernatural cause," let alone establish how an event could be beyond the "productive power of nature" without committing a fallacy of *argument from ignorance*, but let's leave that for now.
 
@@ -24,14 +24,14 @@ I am not sure how, in practice, one would be able to determine a "supernatural c
 
 This section of *SEP* starts with a quick list of the types of evidence and arguments made for miracles.
 
-> Many arguments for miracles adduce the testimony of sincere and able eyewitnesses as the key piece of evidence on which the force of the argument depends. But other factors are also cited in favor of miracle claims: the existence of commemorative ceremonies from earliest times, for example, or the transformation of the eyewitnesses from fearful cowards into defiant proclaimers of the resurrection, or the conversion of St. Paul, or the growth of the early church under extremely adverse conditions and without any of the normal conditions of success such as wealth, patronage, or the use of force. These considerations are often used jointly in a cumulative argument. It is therefore difficult to isolate a single canonical argument for most miracle claims. The various arguments must be handled on a case-by-case basis.
+> *Many arguments for miracles adduce the testimony of sincere and able eyewitnesses as the key piece of evidence on which the force of the argument depends. But other factors are also cited in favor of miracle claims: the existence of commemorative ceremonies from earliest times, for example, or the transformation of the eyewitnesses from fearful cowards into defiant proclaimers of the resurrection, or the conversion of St. Paul, or the growth of the early church under extremely adverse conditions and without any of the normal conditions of success such as wealth, patronage, or the use of force. These considerations are often used jointly in a cumulative argument. It is therefore difficult to isolate a single canonical argument for most miracle claims. The various arguments must be handled on a case-by-case basis.*
 
 All of these pieces of so-called evidence are the worst kind of evidence, for which there are countless examples of the same, or similar evidence used to shore up the claims of other (presumably false) beliefs.  You can think "Mormonism" or "Alien Abductions" for nearly every point listed.
 
 They then outline two types of inductive arguments:
 
-> 1. the conclusion (in this case that the miracle in question has actually occurred) is probable to some specific degree, or at least more probable than not
-> 2. the conclusion is more probable given the evidence presented than it is considered independently of that evidence
+> 1. *the conclusion (in this case that the miracle in question has actually occurred) is probable to some specific degree, or at least more probable than not
+> 2. the conclusion is more probable given the evidence presented than it is considered independently of that evidence*
 
 Point (1) is just specifying either $P({\rm miracle}|{\rm data})$ directly or establishing only that $P({\rm miracle}|{\rm data})>0.5$.  Point (2) is $P({\rm miracle}|{\rm data})>P({\rm miracle})$.  Point (2) is nearly useless.  For example, you could have
 $$
@@ -42,12 +42,12 @@ P({\rm miracle}|{\rm data})&=0.001
 $$
 and still have a seriously unlikely hypothesis, even given a factor of 100 increase in probability of a miracle given the data!  Thus the *only* thing that matters must be the actual value of $P({\rm miracle}|{\rm data})$.
 
-One such argument for miracles specifies the type of evidence needed to make one confident that one is talking about a miracle.  The article calls this a "criteriological" argument, but all of the arguments dealt with are probabilistic.  What are the criteria, for example?  This one is from Charles Leslie:
+One such argument for miracles specifies the type of evidence needed to make one confident that one is talking about a miracle.  The article calls this a "criteriological" argument, but all of the arguments dealt with are probabilistic.  What are the criteria, for example?  This one is from Charles Leslie[@leslie1792short]:
 
-> 1. That the matters of fact be such, as that men's outward senses, their eyes and ears, may be judges of it.
+> 1. *That the matters of fact be such, as that men's outward senses, their eyes and ears, may be judges of it.
 > 2. That it be done publicly in the face of the world.
 > 3. That not only public monuments be kept up in memory of it, but some outward actions to be performed.
-> 4. That such monuments, and such actions or observances, be instituted, and do commence from the time that the matter of fact was done.
+> 4. That such monuments, and such actions or observances, be instituted, and do commence from the time that the matter of fact was done.*
 
 One can easily site both the golden plates of Joseph Smith and the events surrounding Roswell that satisfy all of these.  Clearly, there is an issue with these "criteria."
 
@@ -66,19 +66,19 @@ $$
 
 The *SEP* article then spins this in a positive way toward miracles:
 
->[I]f independent witnesses can be found, who speak truth more frequently than falsehood, *it is ALWAYS possible to assign a number of independent witnesses, the improbability of the falsehood of whose concurring testimony shall be greater than the improbability of the alleged miracle.* (Babbage 1837: 202, emphasis original; cf. Holder 1998 and Earman 2000)
+>*[I]f independent witnesses can be found, who speak truth more frequently than falsehood, **it is ALWAYS possible to assign a number of independent witnesses, the improbability of the falsehood of whose concurring testimony shall be greater than the improbability of the alleged miracle.** (Babbage 1837: 202, emphasis original; cf. Holder 1998 and Earman 2000)*
 
 However, comparing with Hume, it becomes obvious why this spin fails:
 
-> When anyone tells me, that he saw a dead man restored to life, I immediately consider with myself, whether it be more probable, that this person should either deceive or be deceived, or that the fact, which he relates, should have really happened. I weigh the one miracle against the other; and according to the superiority, which I discover, I pronounce my decision, and always reject the greater miracle. If the falsehood of the testimony would be more miraculous, than the event which he relates; then, and not till then, can he pretend to command my belief or opinion. (Hume)
+> *When anyone tells me, that he saw a dead man restored to life, I immediately consider with myself, whether it be more probable, that this person should either deceive or be deceived, or that the fact, which he relates, should have really happened. I weigh the one miracle against the other; and according to the superiority, which I discover, I pronounce my decision, and always reject the greater miracle. If the falsehood of the testimony would be more miraculous, than the event which he relates; then, and not till then, can he pretend to command my belief or opinion. (Hume)*
 
-The first quote implies that the terms $P(T_1|M)$ and $P(T_1|\sim\!M)$ refer to speaking truth vs falsehoods (i.e. lying), as opposed to speaking correctly vs being mistaken.  In the latter, it is very easy to see why, for certain types of extraordinary events, we would expect fallible observers to have $P(T_1|\sim\!M)>P(T_1|M)$ and further that even *if* witnesses were in general slightly more reliable than not, we can't expect the observations to be *independent* in general.  In the specific case of the (anonymous) Gospel writers, there is strong evidence of *dependence* in the accounts to make this entire calculation (except in its gross qualitative features) irrelevant.
+The first quote implies that the terms $P(T_1|M)$ and $P(T_1|\sim\!M)$ refer to speaking truth vs falsehoods (i.e. lying), as opposed to speaking correctly vs being mistaken.  In the latter, it is very easy to see why, for certain types of extraordinary events, we would expect fallible -- even if honest -- observers to have $P(T_1|\sim\!M)>P(T_1|M)$ and further that even *if* witnesses were in general slightly more reliable than not, we can't expect the observations to be *independent* in general.  In the specific case of the (anonymous) Gospel writers, there is strong evidence of *dependence* in the accounts to make this entire calculation (except in its gross qualitative features) irrelevant.
 
 ## Arguments against miracles
 
 Quoting Hume again,
 
-> The plain consequence is (and it is a general maxim worthy of our attention), "That no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact, which it endeavors to establish: And even in that case, there is a mutual destruction of arguments, and the superior only gives us an assurance suitable to that degree of force, which remains, after deducting the inferior."
+> *The plain consequence is (and it is a general maxim worthy of our attention), "That no testimony is sufficient to establish a miracle, unless the testimony be of such a kind, that its falsehood would be more miraculous, than the fact, which it endeavors to establish: And even in that case, there is a mutual destruction of arguments, and the superior only gives us an assurance suitable to that degree of force, which remains, after deducting the inferior."*
 
 This is correct, and is a direct statement of Bayesian reasoning
 $$
@@ -91,7 +91,7 @@ $$
 
 The *SEP* [article on miracles]() continues to try to map this to a philosophical structure (needlessly, I'd say), with the following "simple version" of the argument:
 
->  A very simple version of the argument, leaving out the comparison to the laws of nature and focusing on the alleged infirmities of testimony, can be laid out deductively (following Whately, in Paley 1859: 33):
+>  *A very simple version of the argument, leaving out the comparison to the laws of nature and focusing on the alleged infirmities of testimony, can be laid out deductively (following Whately, in Paley 1859: 33):
 >
 > 1) Testimony is a kind of evidence very likely to be false.
 > 
@@ -101,7 +101,7 @@ The *SEP* [article on miracles]() continues to try to map this to a philosophica
 >
 > 3) The evidence for the Christian miracles is likely to be false.
 >
->This is, however, much too crude an argument to carry any weight, since it turns on a simple ambiguity between all testimony and some testimony. Whately offers an amusing parody that makes the fallacy obvious: Some books are mere trash; Hume's Works are [some] books; therefore, etc.
+>This is, however, much too crude an argument to carry any weight, since it turns on a simple ambiguity between all testimony and some testimony. Whately offers an amusing parody that makes the fallacy obvious: Some books are mere trash; Hume's Works are [some] books; therefore, etc.*
 
 One reason this fails has to do with the ambiguousness of English vs the math.  For example, even if testimony is typically 99% accurate, that means that the probability of getting an incorrect testimony would be 1% ($P(E|\sim\!\! M)=0.01$).  The odds for a truth of a rare event, say 1 in a million, based on this testimony then comes down to,
 $$
@@ -111,7 +111,7 @@ or a 1 in 10,000 odds *against* the claim.  Here again we see the value in not r
 
 The article continues with,
 
->The presumptive case against the resurrection from universal testimony would be as strong as Hume supposes only if, *per impossible*, all mankind throughout all ages had been watching the tomb of Jesus on the morning of the third day and testified that nothing occurred. Even aside from the problems of time travel, there is not a *single piece* of direct testimonial evidence to Jesus' non-resurrection.
+>*The presumptive case against the resurrection from universal testimony would be as strong as Hume supposes only if, **per impossible**, all mankind throughout all ages had been watching the tomb of Jesus on the morning of the third day and testified that nothing occurred. Even aside from the problems of time travel, there is not a **single piece** of direct testimonial evidence to Jesus' non-resurrection.*
 
 Does anyone seriously think that the case against a claim always (or even usually) takes the form of direct testimony against that claim?  Where is the direct testimony that Zeus *didn't* exist?  
 
@@ -119,21 +119,21 @@ Does anyone seriously think that the case against a claim always (or even usuall
 
 According to the *SEP* article, Hume lists a set of conditions needed to make testimony carry maximum weight:
 
->[T]here is not to be found, in all history, any miracle attested by a sufficient number of men, of such unquestioned good sense, education, and learning, as to secure us against all delusion in themselves; of such undoubted integrity, as to place them beyond all suspicion of any design to deceive others; of such credit and reputation in the eyes of mankind, as to have a great deal to lose in case of their being detected in any falsehood; and at the same time attesting facts, performed in such a public manner, and in so celebrated a part of the world, as to render the detection unavoidable: All which circumstances are requisite to give us a full assurance in the testimony of men. (Hume 1748/2000: 88)
+*>[T]here is not to be found, in all history, any miracle attested by a sufficient number of men, of such unquestioned good sense, education, and learning, as to secure us against all delusion in themselves; of such undoubted integrity, as to place them beyond all suspicion of any design to deceive others; of such credit and reputation in the eyes of mankind, as to have a great deal to lose in case of their being detected in any falsehood; and at the same time attesting facts, performed in such a public manner, and in so celebrated a part of the world, as to render the detection unavoidable: All which circumstances are requisite to give us a full assurance in the testimony of men. (Hume 1748/2000: 88)*
 
 Essentially, he is saying that the methods of science have never confirmed a miracle.  The methods of science help "secure us against all delusion in themselves," remove "suspicion of any design to deceive others," with processes "performed in a public manner" that "render the detection unavoidable."
 
 The SEP article criticizes this by noting that some of these conditions can cut the other way, such as the condition of "credit and reputation,"
 
->It might have been said with some shew of plausibility, that such persons by their knowledge and abilities, their reputation and interest, might have it in their power to countenance and propagate an imposture among the people, and give it some credit in the world. (Leland 1755: 90--91; cf. Beckett 1883: 29--37)
+>*It might have been said with some shew of plausibility, that such persons by their knowledge and abilities, their reputation and interest, might have it in their power to countenance and propagate an imposture among the people, and give it some credit in the world. (Leland 1755: 90--91; cf. Beckett 1883: 29--37)*
 
 This is, essentially, pointing out fallacy of authority - a good critique.  Science, by its processes, attempts to avoid that as well.  Of course, Hume predates modern science, so I think we can forgive him some sloppiness or poor choice of terminology.
 
-Hume continues to suggest that the religious context of the miracle claim makes the telling of the miracle story even more likely.  This would increase the probability of obtaining the testimony even if no miracle happened - $P(E|\sim\!M)$ increases - making the probability of a miracle go down.  The criticism here?  The effect could happen in the other direction:
+Hume continues to suggest that the religious context of the miracle claim makes the *telling* of the miracle story more likely even if the claim is false.  This would increase the probability of obtaining the testimony even if no miracle happened -- $P(E|\sim\!M)$ increases -- making the probability of a miracle go down.  The criticism here?  The effect could happen in the other direction:
 
-> But as George Campbell points out (1762/1839: 48--49), this consideration cuts both ways; the religious nature of the claim may also operate to make it less readily received:
+> *But as George Campbell points out (1762/1839: 48--49), this consideration cuts both ways; the religious nature of the claim may also operate to make it less readily received:*
 > 
->>[T]he prejudice resulting from the religious affection, may just as readily obstruct as promote our faith in a religious miracle. What things in nature are more contrary, than one religion is to another religion? They are just as contrary as light and darkness, truth and error. The affections with which they are contemplated by the same person, are just as opposite as desire and aversion, love and hatred. The same religious zeal which gives the mind of a Christian a propensity to the belief of a miracle in support of Christianity, will inspire him with an aversion from the belief of a miracle in support of Mahometanism. The same principle which will make him acquiesce in evidence less than sufficient in one case, will make him require evidence more than sufficient in the other...
+>>*[T]he prejudice resulting from the religious affection, may just as readily obstruct as promote our faith in a religious miracle. What things in nature are more contrary, than one religion is to another religion? They are just as contrary as light and darkness, truth and error. The affections with which they are contemplated by the same person, are just as opposite as desire and aversion, love and hatred. The same religious zeal which gives the mind of a Christian a propensity to the belief of a miracle in support of Christianity, will inspire him with an aversion from the belief of a miracle in support of Mahometanism. The same principle which will make him acquiesce in evidence less than sufficient in one case, will make him require evidence more than sufficient in the other...*
 
 I disagree quite strongly with this line of thinking.  One of the big problems with pseudoscience is that it promotes poor thinking in other domains.  Someone who believes in miracles will not find it hard to believe that the miracle claims of other religions are at least plausible.  If you believe in unseen agents, then to move from Christianity to New Age to Scientology isn't that large of a stretch.  Often, when ones religion is undermined, the typical response is to switch to another religion!  Thus, they are not as opposite as "light and darkness."  Poor thinking is poor thinking, regardless of the context.
 
@@ -141,21 +141,21 @@ I disagree quite strongly with this line of thinking.  One of the big problems w
 
 Hume brings up miracles in other religions.  In a fit of special pleading, the [article on miracles]() retorts,
 
->All attempts to draw an evidential parallel between the miracles of the New Testament and the miracle stories of later ecclesiastical history are therefore dubious. There are simply more resources for explaining how the ecclesiastical stories, which were promoted to an established and favorably disposed audience, could have arisen and been believed without there being any truth to the reports.
+>*All attempts to draw an evidential parallel between the miracles of the New Testament and the miracle stories of later ecclesiastical history are therefore dubious. There are simply more resources for explaining how the ecclesiastical stories, which were promoted to an established and favorably disposed audience, could have arisen and been believed without there being any truth to the reports.*
 
-The argument is quite simple - if there are known cases of miracle claims where no miracle actually occurred, that increase $P(E|\sim\!M)$, making the probability of a miracle go down given testimony.  It doesn't matter whether you have good reasons to believe there was no miracle for these cases -- it undermines testimony of miracles in general.  Add to that the fact that *less data* should yield *less* certainty not more.
+The argument is quite simple -- if there are known cases of miracle claims where no miracle actually occurred, that increases $P(E|\sim\!M)$, making the probability of a miracle go down given testimony.  It doesn't matter whether you have good reasons to believe there was no miracle for these cases -- it undermines testimony of miracles in general.  Add to that the fact that *less data* should yield *less* certainty not more.
 
 ## In conclusion
 
 So, as far as I can tell, there is no substantive critique to Hume's statements about miracles.  Although he lacks the rigor of the mathematics of probability (through no fault of his own)  his wording is so straightforwardly translated to probabilities that I find it difficult to see what the problem is.  I also find it ironic that the entire SEP article, which has been pro-miracle throughout its contents, ends with this:
 
->For the evidence for a miracle claim, being public and empirical, is never strictly demonstrative, either as to the fact of the event or as to the supernatural cause of the event. It remains possible, though the facts in the case may in principle render it wildly improbable, that the testifier is either a deceiver or himself deceived; and so long as those possibilities exist, there will be logical space for other forms of evidence to bear on the conclusion. Arguments about miracles therefore take their place as one piece--a fascinating piece--in a larger and more important puzzle.
+>*For the evidence for a miracle claim, being public and empirical, is never strictly demonstrative, either as to the fact of the event or as to the supernatural cause of the event. It remains possible, though the facts in the case may in principle render it wildly improbable, that the testifier is either a deceiver or himself deceived; and so long as those possibilities exist, there will be logical space for other forms of evidence to bear on the conclusion. Arguments about miracles therefore take their place as one piece--a fascinating piece--in a larger and more important puzzle.*
 
-This is pretty much exactly what Hume was saying.  Given that there is always a non-zero probability of the testifier either lying or being mistaken, one has to establish the evidence for a miracle strong enough to overcome both the negligibly small prior probability of the miracle and this non-zero probability of the testimony being wrong.  Since mistakes are a common human trait, and distortions are also common on testimony, evidence for miracles according to probability theory, Hume, and all rational thought have always been found lacking.
+This is pretty much exactly what Hume was saying!  Given that there is always a non-zero probability of the testifier either lying or being mistaken, one has to establish the evidence for a miracle strong enough to overcome both the negligibly small prior probability of the miracle and this non-zero probability of the testimony being wrong.  Since mistakes are a common human trait, and distortions are also common on testimony, evidence for miracles according to probability theory, Hume, and all rational thought have always been found lacking.
 
 Of course, if you could demonstrate it otherwise, please show it!  I'd love to believe in miracles.  I just have never seen anything even remotely convincing.  
 
-[post about the misquoting Hume]: http://web.bryant.edu/~bblais/misquoting-hume.html
+[post about the misquoting Hume]: https://bblais.github.io/posts/2015/Feb/21/misquoting-hume/
 [article on miracles]: http://plato.stanford.edu/entries/miracles/
 [Matthew Ferguson's blog]:https://adversusapologetica.wordpress.com/2013/06/29/knocking-out-the-pillars-of-the-minimal-facts-apologetic/
 

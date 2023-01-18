@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test/table.md",
+                "file": "chapters/Chapter 03 - Belief and Evidence.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Misc thoughts and to-dos.md",
+                "file": "chapters/Chapter 00 - Front Matter.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pascal",
+                "query": "web.bryant",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Misc thoughts and to-dos.md",
+                "file": "chapters/Chapter 00 - Front Matter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,17 +125,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "be994c4df0abaefc",
+  "active": "2751364495a592b9",
   "lastOpenFiles": [
-    "test/table.md",
-    "test/chap.md",
-    "chapters/Misc thoughts and to-dos.md",
+    "chapters/Chapter 01 - Introduction.md",
+    "_archive/scriv/Measure Of Faith.md",
     "chapters/Chapter 07 - Faith.md",
-    "test/test_filter.md",
+    "chapters/Chapter 06 - Miracles.md",
     "chapters/Chapter 05 - The Case for Jesus.md",
     "chapters/Chapter 04 - The Case For God.md",
-    "chapters/Simple Applications.md",
-    "_archive/scriv/Measure Of Faith.md",
-    "chapters/Chapter 06 - Miracles.md"
+    "chapters/Chapter 02 - Probability.md",
+    "chapters/Misc thoughts and to-dos.md",
+    "chapters/Chapter 03 - Belief and Evidence.md",
+    "().md"
   ]
 }
