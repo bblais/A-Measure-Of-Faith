@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chapters/Chapter 00 - Front Matter.md",
+                "file": "chapters/Chapter 03 - Belief and Evidence.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,6 +69,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "9ed9f7cd581eb855",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -90,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapters/Chapter 00 - Front Matter.md",
+                "file": "chapters/Chapter 03 - Belief and Evidence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,9 +135,10 @@
   },
   "active": "2751364495a592b9",
   "lastOpenFiles": [
+    "chapters/Chapter 07 - Faith.md",
+    "chapters/Chapter 00 - Front Matter.md",
     "chapters/Chapter 01 - Introduction.md",
     "_archive/scriv/Measure Of Faith.md",
-    "chapters/Chapter 07 - Faith.md",
     "chapters/Chapter 06 - Miracles.md",
     "chapters/Chapter 05 - The Case for Jesus.md",
     "chapters/Chapter 04 - The Case For God.md",
